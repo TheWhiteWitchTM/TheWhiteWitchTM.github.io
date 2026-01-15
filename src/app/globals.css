@@ -122,6 +122,11 @@
   body {
     @apply bg-background text-foreground;
   }
+  .prose h1 {
+    color: theme('colors.red.600');
+    font-weight: 900;
+    font-size: 1rem;
+  }
   .prose p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
