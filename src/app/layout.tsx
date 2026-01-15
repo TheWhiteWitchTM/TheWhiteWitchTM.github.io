@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Github, Youtube, Twitter, Mailbox } from "lucide-react";
 import "./globals.css";
-import SideBar from "@/app/sidebar";
+import AsideRight from "@/app/aside-right";
+import AsideLeft from "@/app/aside-left";
 
 
 export const metadata: Metadata = {
@@ -28,18 +29,17 @@ export default function RootLayout({
 		    quality={85}                            // balance quality vs file size
 	    />
     </div>
-    <div className="grid grid-cols-[auto_1fr_auto_auto] gap-3 p-4">
+    <div className="grid grid-cols-[auto_1fr_auto] gap-3 p-4">
 	    <aside>
-		    <SideBar/>
+		    <AsideLeft/>
 	    </aside>
-	    <main>
-		    {children}
+	    <main className="mx-auto max-w-[700px] px-4 sm:px-6 lg:px-8">
+		    <article className="prose prose-slate lg:prose-lg mx-auto">
+			    {children}
+		    </article>
 	    </main>
-	    <aside className={"flex flex-row gap-3"}>
-		    <Youtube/><Twitter/><Github/><Mailbox/>
-	    </aside>
 	    <aside>
-		    Toggle
+		    <AsideRight/>
 	    </aside>
     </div>
     </body>
