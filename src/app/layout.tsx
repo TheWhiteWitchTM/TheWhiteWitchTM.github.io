@@ -33,7 +33,7 @@ export default function RootLayout({
 	    <aside>
 		    <AsideLeft/>
 	    </aside>
-	    <main className="mx-auto max-w-[700px] px-4 sm:px-6 lg:px-8">
+	    <main className="mx-auto max-w-[400px] px-4 sm:px-6 lg:px-8">
 		    <article className="prose prose-slate lg:prose-lg mx-auto">
 			    {children}
 		    </article>
