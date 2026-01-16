@@ -12,7 +12,6 @@ import {
 import { Button } from '@/components/ui/button';
 
 interface GreeterProps {
-	// No children prop anymore — content is passed as children here
 	children: React.ReactNode;
 }
 
@@ -59,8 +58,7 @@ export default function Greeter({ children }: GreeterProps) {
 
 					<Dialog open={true} onOpenChange={() => {}}>
 						<DialogContent
-							hideCloseButton
-							className="sm:max-w-md border-2 border-primary/40 shadow-2xl backdrop-blur-sm bg-background/95"
+							className="sm:max-w-md border-2 border-primary/40 shadow-2xl backdrop-blur-sm bg-background/95 [&>button]:hidden"
 						>
 							<DialogHeader>
 								<DialogTitle className="text-3xl font-bold">Shall we proceed?</DialogTitle>
