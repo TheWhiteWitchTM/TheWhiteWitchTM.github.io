@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
+import {YouTubeEmbed} from "@next/third-parties/google";
 
 interface YouTubePlayerProps {
 	urlOrId: string;
@@ -60,16 +61,9 @@ export default function YouTubePlayer({
 	return (
 		<div
 			className={`relative w-full overflow-hidden rounded-xl border border-border/50 shadow-lg ${className}`}
-			style={{ aspectRatio: '16 / 9' }}
 		>
-			<iframe
-				className="absolute inset-0 h-full w-full"
-				src={`https://www.youtube-nocookie.com/embed/${videoId}?${params}`}
-				title={title}
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-				allowFullScreen
-				loading="lazy"
-				referrerPolicy="no-referrer-when-downgrade"  // Critical for GitHub Pages/static hosts
+			<YouTubeEmbed
+				videoid={videoId}
 			/>
 		</div>
 	);
