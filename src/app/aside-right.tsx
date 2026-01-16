@@ -3,25 +3,43 @@ import {Github, Mailbox, Twitter, Youtube} from "lucide-react";
 import {ThemeToggle} from "@/witchy/theme-toggle";
 import {Button} from "@/components/ui/button";
 import {Separator} from "@/components/ui/separator";
+import {GhostButton} from "@/witchy/ui/GhostButton";
+import Link from "next/link";
 
 export default function AsideRight() {
 	return (
 		<div className={"flex flex-col gap-2"}>
-				<ThemeToggle/>
-				<Separator/>
-				<Button variant={"ghost"} className={"h-auto p-0"}>
+			<ThemeToggle/>
+			<Separator/>
+			<GhostButton>
+				<Link
+					href={"https://www.youtube.com/@TheWhiteWitchTM"}
+					target={"_blank"}
+				>
 					<Youtube/>
-				</Button>
-			<Button variant={"ghost"} className={"h-auto p-0"}>
-				<Twitter/>
-			</Button>
-				<Button variant={"ghost"} className={"h-auto p-0"}>
-					<Github/>
-				</Button>
+				</Link>
+			</GhostButton>
+				<GhostButton>
+					<Link
+						href={"https://x.com/thewhitewitchtm"}
+						target={"_blank"}>
+					<Twitter/>
+					</Link>
+				</GhostButton>
+				<GhostButton>
+					<Link
+						href={"https://github.com/TheWhiteWitchTM"}
+						target={"_blank"}
+					>
+						<Github/>
+					</Link>
+				</GhostButton>
 				<Separator/>
-				<Button variant={"ghost"} className={"h-auto p-0"}>
-					<Mailbox/>
-				</Button>
+				<GhostButton>
+					<Link href={"mailto://thewhitewitchtm@gmail.com"}>
+						<Mailbox/>
+					</Link>
+				</GhostButton>
 		</div>
 	)
 }

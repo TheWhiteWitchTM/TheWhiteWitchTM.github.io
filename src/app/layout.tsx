@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-	  <html lang="en" suppressHydrationWarning>
-    <body>
+	<html lang="en" suppressHydrationWarning>
+    <body className="min-h-screen li bg-gray-200 dark:bg-gray-700 antialiased">
     <ThemeProvider
       attribute="class"
       defaultTheme="system"
@@ -38,7 +38,7 @@ export default function RootLayout({
 	      <aside>
 		      <AsideLeft/>
 	      </aside>
-	      <main className="mx-auto max-w-[400px] px-4 sm:px-6 lg:px-8">
+	      <main className="mx-auto max-w-[400px] px-4 sm:px-6 lg:px-8 overflow-y-auto">
 		      <article className="prose prose-slate lg:prose-lg mx-auto">
 			      {children}
 		      </article>
