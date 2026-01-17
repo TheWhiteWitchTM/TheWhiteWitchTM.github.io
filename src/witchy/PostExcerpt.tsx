@@ -70,7 +70,7 @@ export function PostExcerpt({
 			{isLong && (
 				<div className="mt-6 flex justify-center min-h-[3rem] items-center">
 					<Button
-						variant={expanded ? "outline" : "default"}   // ← "default" (filled) for Read more = more prominent
+						variant={expanded ? "default" : "default"}   // ← "default" (filled) for Read more = more prominent
 						size="sm"
 						onClick={() => setExpanded(!expanded)}
 						className="gap-1.5 px-5 py-2"   // a bit wider + padding
