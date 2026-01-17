@@ -34,7 +34,7 @@ export default function RootLayout({
       enableSystem
       disableTransitionOnChange>
       <div className="flex w-w-full min-h-screen flex-col">
-	      <Header/>
+				<Header/>
 	      <Greeter>
 	      <div className="flex-grow">
 		      <div className={"grid grid-cols-[auto_1fr_auto]"}>
