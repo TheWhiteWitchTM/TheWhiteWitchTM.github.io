@@ -7,6 +7,7 @@ export interface Metadata {
 	avatar?: string;
 	emoji?: string;
 	tags?: string[];
+	featured: boolean;
 }
 
 export interface Categrory {
@@ -19,3 +20,8 @@ export interface Post {
 	slug: string;
 	metadata: Metadata;
 }
+
+export type PostMeta = {
+	slug: string;
+	metadata: Metadata; // your Metadata interface
+};
