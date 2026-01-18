@@ -132,3 +132,22 @@
     margin-bottom: 0.5em;
   }
 }
+
+@layer utilities {
+  .dock-container {
+    @apply flex flex-col items-center justify-start
+    w-80 min-h-[500px] max-h-[90vh]
+    p-6 pb-10
+    rounded-3xl overflow-hidden
+    border border-white/5
+    ring-1 ring-white/10 ring-inset
+    transition-all duration-300
+    hover:scale-[1.01];
+
+    @apply bg-gradient-to-b from-gray-950/95 to-black/95 backdrop-blur-xl
+    shadow-[0_35px_60px_-15px_rgba(0,0,0,0.9),inset_0_1px_0_rgba(255,255,255,0.05)];
+
+    @apply dark:shadow-[0_50px_100px_-20px_rgba(0,0,0,1),0_30px_60px_-15px_rgba(0,0,0,0.8)]
+    dark:hover:shadow-[0_60px_120px_-25px_rgba(0,0,0,1)];
+  }
+}

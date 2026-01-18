@@ -40,7 +40,9 @@ export default async function () {
 				{posts? posts.map(Post => (
 					<>
 					<div className={"mr-1"}>
-						👉🏼
+						<span className={"text-xl"}>
+							{Post.metadata.emoji ? Post.metadata.emoji : "📖"}
+						</span>
 					</div>
 					<div className={"mb-1"}>
 						<PostExcerpt

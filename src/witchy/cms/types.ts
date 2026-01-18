@@ -4,6 +4,8 @@ export interface Metadata {
 	date: string;           // ← what you wanted to sort by
 	author?: string;
 	cover?: string;
+	avatar?: string;
+	emoji?: string;
 	tags?: string[];
 }
 

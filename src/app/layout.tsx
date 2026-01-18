@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { UnifrakturCook } from 'next/font/google';
 import "./globals.css";
 import {ThemeProvider} from "@/witchy/theme-provider";
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -8,12 +7,6 @@ import AsideLeft from "@/witchy/home/aside-left";
 import {Header} from "@/witchy/home/header";
 import {Footerr} from "@/witchy/home/footerr";
 import Greeter from "@/witchy/home/greeter";
-
-const witchFont = UnifrakturCook({
-	weight: '700',
-	subsets: ['latin'],
-	display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: "🧙‍♀️𝕿𝖍𝖊 𝖂𝖍𝖎𝖙𝖊 𝖂𝖎𝖙𝖈𝖍™✨",
@@ -26,8 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-	  <html lang="en" className={witchFont.className} suppressHydrationWarning>
-    <body className="min-h-screen li bg-gray-200 dark:bg-gray-700 antialiased">
+	  <html lang="en" suppressHydrationWarning>
+    <body className={"min-h-screen antialiased"}>
+
     <ThemeProvider
       attribute="class"
       defaultTheme="system"

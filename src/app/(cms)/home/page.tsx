@@ -40,9 +40,11 @@ export default async function () {
 				{posts? posts.map(Post => (
 					<>
 					<div className={"mr-1"}>
-						🧙‍♀️
+						<span className={"text-xl"}>
+							{Post.metadata.emoji ? Post.metadata.emoji : "🧙‍♀️"}
+						</span>
 					</div>
-					<div className={"mb-1"}>
+					<div className={"m-1"}>
 						<PostExcerpt
 							previewHeight="5rem"                      // ← lower if you want stricter cutoff
 							minContentHeightToShowButton={180}        // ← increase to 220–280 if button still shows on 1-liners
