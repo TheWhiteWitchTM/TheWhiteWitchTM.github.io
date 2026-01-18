@@ -1,0 +1,26 @@
+{
+  "name": "🧙‍♀️ The White Witch™ ✨",
+  "short_name": "White Witch",
+  "description": "Mystical wanderings • White Witchcraft • Spiritual echoes & veiled wisdom",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#0f0c1a",
+  "theme_color": "#b19cd9",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "witchcraft",
+    "spirituality",
+    "esoteric",
+    "lifestyle"
+  ],
+  "prefer_related_applications": false
+}

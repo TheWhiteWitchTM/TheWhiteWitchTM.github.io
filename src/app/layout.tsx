@@ -12,6 +12,7 @@ import PwaRegister from "@/witchy/PwaRegister";
 export const metadata: Metadata = {
   title: "🧙‍♀️𝕿𝖍𝖊 𝖂𝖍𝖎𝖙𝖊 𝖂𝖎𝖙𝖈𝖍™✨",
   description: "🧙‍♀️𝕿𝖍𝖊 𝖂𝖍𝖎𝖙𝖊 𝖂𝖎𝖙𝖈𝖍™✨",
+	manifest: '/manifest.json',
 };
 
 export default function RootLayout({
@@ -49,6 +50,7 @@ export default function RootLayout({
       </div>
     </ThemeProvider>
     <GoogleAnalytics gaId="G-520311503" />
+		<PwaRegister/>
     </body>
     </html>
   );
