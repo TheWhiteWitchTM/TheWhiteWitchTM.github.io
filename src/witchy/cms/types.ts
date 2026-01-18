@@ -7,7 +7,7 @@ export interface Metadata {
 	avatar?: string;
 	emoji?: string;
 	tags?: string[];
-	featured: boolean;
+	featured?: string;
 }
 
 export interface Categrory {

@@ -21,6 +21,14 @@ export default function AsideLeft() {
 					📖Blog
 				</Link>
 					</SimpleTooltip>
+				<SimpleTooltip
+					text={"Witch Rage! The word went mental and insane!"}
+					side={"right"}
+				>
+					<Link href={"/rage"}>
+						🤬Rage!
+					</Link>
+				</SimpleTooltip>
 			</div>
 
 		</div>

@@ -58,7 +58,9 @@ export default function ExpandButton({ slug }: Props) {
 						className="h-10 w-10 rounded-full bg-primary/10 hover:bg-primary/20 text-primary shadow-sm transition-all hover:scale-105"
 						onClick={toggle}
 					>
-						{expanded ? '↑' : '↓'}
+						<span className={"text-4xl"}>
+							{expanded ? '↑' : '↓'}
+						</span>
 					</Button>
 				</TooltipTrigger>
 				<TooltipContent side="right">

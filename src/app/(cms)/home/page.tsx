@@ -20,10 +20,10 @@ export default async function () {
 						shadow-2xl shadow-black/50
 						text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]
 						">
-						<h1 className="text-2xl font-bold">
+						<h1 className="text-md font-bold">
 							🧙‍♀️Welcome to my home!✨
 						</h1>
-						<p className="text-lg">
+						<p className="text-sm">
 							Potions & pastries await 🧙‍♀️☕
 						</p>
 						</div>
