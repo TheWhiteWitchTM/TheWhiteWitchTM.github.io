@@ -1,56 +1,57 @@
-// components/BlogItems.tsx
-import { Star } from 'lucide-react';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
-import { format } from 'date-fns';
-import type { Post } from './types';
+// src/witchy/cms/blog-items.tsx
+import { Star } from 'lucide-react'
+import { format } from 'date-fns'
+import type { Post } from './types' // adjust path to your types
+import ExpandButton from './ExpandButton' // ← the tiny client component below
 
-type Props = { posts: Post[] };
-
-export function BlogItems({ posts }: Props) {
+export function BlogItems({ posts }: { posts: Post[] }) {
 	return (
-		<div className="space-y-6" id="blog-items">
+		<div id="blog-items" className="flex flex-col gap-6">
 			{posts.map((post) => (
-				<Card
+				<article
 					key={post.slug}
 					data-post-slug={post.slug}
-					className="overflow-hidden border shadow-sm hover:shadow-md transition-shadow"
+					className="overflow-hidden border rounded-lg shadow-sm hover:shadow-md transition-shadow bg-card"
+					style={{ display: 'block', order: '9999' }}
 				>
 					<div className="grid grid-cols-[auto_1fr] min-h-[140px]">
-						{/* Left: emoji + star */}
-						<div className="bg-muted/30 px-4 py-5 flex flex-col items-center border-r">
+						{/* Left column – emoji/star + expand button at bottom */}
+						<div className="bg-muted/30 px-4 py-6 flex flex-col items-center border-r w-[80px] sm:w-[100px]">
 							{post.metadata.featured && (
-								<Star className="h-6 w-6 fill-yellow-400 text-yellow-500 mb-3" />
+								<Star className="h-7 w-7 fill-yellow-400 text-yellow-500 mb-4" />
 							)}
-							<span className="text-4xl sm:text-5xl">{post.metadata.emoji || '📝'}</span>
+							<span className="text-5xl sm:text-6xl mb-auto">
+                {post.metadata.emoji || '📜'}
+              </span>
+
+							{/* Client-side expand button (appears only when needed) */}
+							<ExpandButton slug={post.slug} />
 						</div>
 
-						{/* Right: title + Content + read more + date */}
+						{/* Right column – full MDX content with height cap */}
 						<div className="p-5 flex flex-col">
-							<h3 className="text-xl font-semibold mb-3">{post.metadata.title}</h3>
 							<div className="prose prose-neutral prose-sm max-w-none flex-grow">
-								<div className={(post.metadata.description?.length ?? 0) > 350 ? 'max-h-[220px] overflow-hidden relative' : ''}>
+								<div
+									className="relative max-h-[200px] overflow-hidden transition-all duration-300"
+									id={`content-wrapper-${post.slug}`}
+									data-content-wrapper
+								>
 									<post.Content />
-									{ (post.metadata.description?.length ?? 0) > 350 && (
-										<div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent" />
-									)}
+									<div
+										className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-background to-transparent pointer-events-none"
+										id={`fade-${post.slug}`}
+										data-fade
+									/>
 								</div>
 							</div>
-							{ (post.metadata.description?.length ?? 0) > 350 && (
-								<div className="mt-4">
-									<Button variant="outline" size="sm" asChild>
-										<Link href={`/blog/${post.slug}`}>Read full post →</Link>
-									</Button>
-								</div>
-							)}
+
 							<div className="mt-4 text-sm text-muted-foreground">
 								{format(new Date(post.metadata.date), 'MMMM d, yyyy')}
 							</div>
 						</div>
 					</div>
-				</Card>
+				</article>
 			))}
 		</div>
-	);
+	)
 }

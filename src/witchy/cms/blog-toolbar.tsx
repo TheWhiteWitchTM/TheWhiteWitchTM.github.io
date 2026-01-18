@@ -1,50 +1,49 @@
 // components/BlogToolbar.tsx
 'use client';
 
-import { useState, useTransition, useEffect } from 'react';
+import { useTransition, useEffect } from 'react';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { updateVisiblePosts } from './utils'; // we'll add this helper
-import type { PostMeta } from './types';
+import { useBlog } from './blog-context';
+import { updateVisiblePosts } from './utils';
 
-type Props = { initialMeta: PostMeta[] };
+// components/BlogToolbar.tsx
 
-export function BlogToolbar({ initialMeta }: Props) {
-	const [search, setSearch] = useState('');
-	const [sort, setSort] = useState<'featured' | 'newest' | 'oldest'>('featured');
+export function BlogToolbar() {
+	const { search, setSearch, sort, setSort, page, setPage, meta } = useBlog();
 	const [isPending, startTransition] = useTransition();
 
-	const handleUpdate = () => {
+	useEffect(() => {
 		startTransition(() => {
-			// Show loading
-			const loadingEl = document.getElementById('blog-loading');
-			if (loadingEl) loadingEl.classList.remove('hidden');
+			const loading = document.getElementById('blog-loading');
+			if (loading) loading.classList.remove('hidden');
 
-			// Filter + sort + update DOM
-			updateVisiblePosts({ meta: initialMeta, search, sort, page: 1, postsPerPage: 10 }); // adjust postsPerPage
+			updateVisiblePosts({ meta, search, sort, page, postsPerPage: 9 });
 
-			// Hide loading after short delay (or use effect)
-			setTimeout(() => loadingEl?.classList.add('hidden'), 300);
+			setTimeout(() => loading?.classList.add('hidden'), 400);
 		});
-	};
-
-	// Trigger on change
-	useEffect(handleUpdate, [search, sort, initialMeta]);
+	}, [search, sort, page, meta]);
 
 	return (
-		<div className="flex flex-col sm:flex-row gap-4 mb-6">
+		<div className="flex flex-col sm:flex-row gap-4 mb-8">
 			<Input
-				placeholder="Search..."
+				placeholder="Search posts..."
 				value={search}
-				onChange={(e) => setSearch(e.target.value)}
+				onChange={e => {
+					setSearch(e.target.value);
+					setPage(1); // reset to page 1 on search
+				}}
 				className="max-w-md"
 			/>
-			<Select value={sort} onValueChange={(v) => setSort(v as any)}>
-				<SelectTrigger className="w-48">
+			<Select value={sort} onValueChange={v => {
+				setSort(v as any);
+				setPage(1);
+			}}>
+				<SelectTrigger className="w-56">
 					<SelectValue placeholder="Sort by" />
 				</SelectTrigger>
 				<SelectContent>
-					<SelectItem value="featured">Featured first</SelectItem>
+					<SelectItem value="featured">Featured + Newest</SelectItem>
 					<SelectItem value="newest">Newest first</SelectItem>
 					<SelectItem value="oldest">Oldest first</SelectItem>
 				</SelectContent>

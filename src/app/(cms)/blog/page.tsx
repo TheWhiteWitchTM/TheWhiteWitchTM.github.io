@@ -1,6 +1,7 @@
 import {BannerImage} from "@/witchy/ui/banner-image";
 import {getAllPosts} from "./get-all-posts"
 import {Blog} from "@/witchy/cms/blog";
+import BlogClientLogic from "@/witchy/cms/blog-client-logic";
 
 export default async function () {
 	const posts = await getAllPosts();
@@ -28,7 +29,8 @@ export default async function () {
 						</div>
 					</BannerImage.Banner>
 				</BannerImage>
-				<Blog posts={posts}/>
+				<Blog posts={posts} />
+				<BlogClientLogic/>
 			</div>
 		</div>
 	)

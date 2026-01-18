@@ -1,5 +1,5 @@
 // components/utils.ts
-import {PostMeta} from "@/witchy/cms/types";
+import {PostMeta} from "./types";
 
 export function updateVisiblePosts({
 	                                   meta,
