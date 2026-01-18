@@ -7,7 +7,7 @@ import AsideLeft from "@/witchy/home/aside-left";
 import {Header} from "@/witchy/home/header";
 import {Footerr} from "@/witchy/home/footerr";
 import Greeter from "@/witchy/home/greeter";
-import PwaRegister from "@/witchy/waRegister";
+import PwaRegister from "@/witchy/PwaRegister";
 
 export const metadata: Metadata = {
   title: "🧙‍♀️𝕿𝖍𝖊 𝖂𝖍𝖎𝖙𝖊 𝖂𝖎𝖙𝖈𝖍™✨",
