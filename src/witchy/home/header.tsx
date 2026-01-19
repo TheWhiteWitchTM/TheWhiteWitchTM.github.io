@@ -4,7 +4,7 @@ import {ThemeToggle} from "@/witchy/theme-toggle";
 import {FontToggle} from "@/witchy/font-toggle";
 import {UnifrakturCook, Geist} from "next/font/google";
 import {SimpleTooltip} from "@/witchy/ui/SimpleTooltip";
-import {InstallButton} from "@/witchy/nstallButton";
+import {InstallButton} from "@/witchy/I(nstallButton";
 import Link from "next/link";
 
 const witchFont = UnifrakturCook({

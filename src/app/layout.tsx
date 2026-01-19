@@ -21,8 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-	  <html lang="en" suppressHydrationWarning>
-    <body className={"min-h-screen antialiased"}>
+	  <html lang="en"
+	        className="scrollbar scrollbar-thumb-[#B22222] scrollbar-track-[#0f0c1a] scrollbar-thin"
+	        suppressHydrationWarning
+	  >
+    <body className={"min-h-screen antialiased className=\"scrollbar scrollbar-thumb-[#B22222] scrollbar-track-[#0f0c1a] scrollbar-thin"}>
 		<PwaRegister/>
     <ThemeProvider
       attribute="class"

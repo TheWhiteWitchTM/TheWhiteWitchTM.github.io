@@ -20,7 +20,7 @@ export function InstallButton() {
 
 	useEffect(() => {
 		if (isPWAInstalled()) {
-			setIsInstallable(false);
+			setIsInstallable(true);
 			return;
 		}
 
