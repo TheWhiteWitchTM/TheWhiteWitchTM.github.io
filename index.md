@@ -12,51 +12,63 @@ No accounts. No quiet sponsors. Argue with the code.
 
 ---
 
-## Sites
-
-### [The White Witch™](https://thewhitewitchtm.github.io/whitewitch/)
-
-<img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="The White Witch" width="400">
-
-Politics, tools, and the long pages. Facts first.
-
-### [Emoji Games](https://thewhitewitchtm.github.io/emojigames/)
-
-<img src="https://thewhitewitchtm.github.io/emojigames/assets/images/preview.jpg" alt="Emoji Games" width="400">
-
-Old games drawn with emoji. No accounts. The shelf is open.
-
----
-
-## MAGIC
-
-### [MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/)
-
-<img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="MAGIC" width="400">
-
-Lua + BASIC that compiles to JavaScript. Sprites, terminal, games.
-
-### [MAGIC Studio](https://github.com/TheWhiteWitchTM/MAGIC-Studio)
-
-Dark IDE for MAGIC.
-
-### [MAGIC Apprentice](https://github.com/TheWhiteWitchTM/MAGIC-Apprentice)
-
-Simple desk for ages 8–16.
+<table>
+<tr>
+<td width="50%">
+<h3><a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a></h3>
+<a href="https://thewhitewitchtm.github.io/whitewitch/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="360" alt="The White Witch"></a>
+<p>Politics, tools, and the long pages. Facts first.</p>
+</td>
+<td width="50%">
+<h3><a href="https://thewhitewitchtm.github.io/emojigames/">Emoji Games</a></h3>
+<a href="https://thewhitewitchtm.github.io/emojigames/"><img src="https://thewhitewitchtm.github.io/emojigames/assets/images/preview.jpg" width="360" alt="Emoji Games"></a>
+<p>Old games drawn with emoji. No accounts. The shelf is open.</p>
+</td>
+</tr>
+</table>
 
 ---
 
-## Retro
+<table>
+<tr>
+<td width="33%">
+<h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/">MAGIC</a></h3>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="280" alt="MAGIC"></a>
+<p>Lua + BASIC → JavaScript. Sprites, terminal, games.</p>
+</td>
+<td width="33%">
+<h3><a href="https://github.com/TheWhiteWitchTM/MAGIC-Studio">MAGIC Studio</a></h3>
+<a href="https://github.com/TheWhiteWitchTM/MAGIC-Studio"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="280" alt="MAGIC Studio"></a>
+<p>Dark IDE for MAGIC.</p>
+</td>
+<td width="33%">
+<h3><a href="https://github.com/TheWhiteWitchTM/MAGIC-Apprentice">MAGIC Apprentice</a></h3>
+<a href="https://github.com/TheWhiteWitchTM/MAGIC-Apprentice"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="280" alt="MAGIC Apprentice"></a>
+<p>Simple desk for ages 8–16.</p>
+</td>
+</tr>
+</table>
 
-### [RETRO MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/retro/)
+---
 
-<img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="RETRO MAGIC" width="400">
+<table>
+<tr>
+<td width="50%">
+<h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">RETRO MAGIC</a></h3>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="360" alt="RETRO MAGIC"></a>
+<p>Same language. BASIC + assembly for C64, Apple II, TI-99/4A. Emoji become sprites.</p>
+</td>
+<td width="50%">
+<h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">RETRO Studio</a></h3>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="360" alt="RETRO Studio"></a>
+<p>The window for the three machines.</p>
+</td>
+</tr>
+</table>
 
-Same language. BASIC + assembly for C64, Apple II, and TI-99/4A. Emoji become sprites.
+---
 
-### [RETRO Studio](https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/)
+Politics stay on [The White Witch™](https://thewhitewitchtm.github.io/whitewitch/).
 
-The window for the three machines.
-
-### [RETRO-MAGIC](https://github.com/TheWhiteWitchTM/RETRO-MAGIC)
-### [RETRO-Studio](https://github.com/TheWhiteWitchTM/RETRO-Studio)
+✉️ [thewhitewitchtm@google.com](mailto:thewhitewitchtm@google.com) · [GitHub](https://github.com/TheWhiteWitchTM) · [X](https://x.com/TheWhiteWitchTM) · [YouTube](https://youtube.com/@TheWhiteWitchTM) · [Bluesky](https://bsky.app/profile/thewhitewitchtm.sociallydead.me)
+```
