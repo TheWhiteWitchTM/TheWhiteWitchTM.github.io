@@ -141,6 +141,50 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
+.directory {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin: 0.4rem 0 2.6rem;
+}
+
+.markdown-body h2 a {
+  color: #ffffff !important;
+  border-bottom: none !important;
+}
+
+.markdown-body h2 a:hover {
+  color: #e8d5ff !important;
+}
+
+.markdown-body a.directory-card {
+  display: block;
+  line-height: 0;
+  border-bottom: none !important;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.15s ease;
+}
+
+.markdown-body a.directory-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+}
+
+.markdown-body a.directory-card:hover {
+  border-bottom: none !important;
+  box-shadow: 0 0 0 2px #c9a6ff, 0 8px 28px rgba(0, 0, 0, 0.55);
+}
+
+.markdown-body a.directory-card:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #0a0a0a, 0 0 0 4px #c9a6ff;
+}
+
 .repo-row {
   display: flex;
   flex-direction: column;

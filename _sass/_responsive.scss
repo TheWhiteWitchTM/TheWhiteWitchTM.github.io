@@ -31,8 +31,10 @@
 
   .markdown-body pre,
   .markdown-body img,
+  .markdown-body .directory,
   .markdown-body .repo-row,
-  .markdown-body a.repo-link {
+  .markdown-body a.repo-link,
+  .markdown-body a.directory-card {
     max-width: 100%;
   }
 
