@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}" prefix="og: http://ogp.me/ns#">
+  <head>
+    {% include head-custom.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+
+    <main class="page-frame">
+      {% unless page.hide_sides %}
+      <div class="side-image left">
+        <img src="{{ '/assets/images/mira.jpg' | relative_url }}" alt="Mira">
+      </div>
+      {% endunless %}
+
+      <div class="content-area home-content markdown-body">
+        {{ content }}
+
+        {% if page.collection %}
+          {% include post-actions.html %}
+        {% endif %}
+      </div>
+
+      {% unless page.hide_sides %}
+      <div class="side-image right">
+        <img src="{{ '/assets/images/witch.jpg' | relative_url }}" alt="Witch">
+      </div>
+      {% endunless %}
+    </main>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include post-scripts.html %}
+  </body>
+</html>

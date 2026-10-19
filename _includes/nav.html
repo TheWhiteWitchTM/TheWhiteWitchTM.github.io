@@ -1,0 +1,85 @@
+<header class="site-header">
+  <nav class="site-nav">
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">Menu</button>
+    <ul>
+      {% for item in site.data.nav.items %}
+        {% if item.dropdown %}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">{{ item.title }}</a>
+            <ul class="dropdown-menu">
+              {% for sub in item.dropdown %}
+                {% if sub.separator %}
+                  <li class="dropdown-separator"></li>
+                {% else %}
+                  {% assign count = 0 %}
+                  {% assign newest = nil %}
+
+                  {% if sub.url contains '/highlights/' %}
+                    {% assign highlights = "" | split: "" %}
+                    {% for collection in site.collections %}
+                      {% for post in collection.docs %}
+                        {% if post.highlights %}
+                          {% assign highlights = highlights | push: post %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                    {% assign count = highlights.size %}
+                    {% if count > 0 %}
+                      {% assign newest = highlights | sort: "date" | reverse | first %}
+                    {% endif %}
+                  {% elsif sub.url contains '/blog/' %}
+                    {% assign count = site.blog.size %}
+                    {% if count > 0 %}
+                      {% assign newest = site.blog | sort: 'date' | reverse | first %}
+                    {% endif %}
+                  {% elsif sub.url contains '/articles/' %}
+                    {% assign count = site.articles.size %}
+                    {% if count > 0 %}
+                      {% assign newest = site.articles | sort: 'date' | reverse | first %}
+                    {% endif %}
+                  {% elsif sub.url contains '/videos/' %}
+                    {% assign count = site.videos.size %}
+                    {% if count > 0 %}
+                      {% assign newest = site.videos | sort: 'date' | reverse | first %}
+                    {% endif %}
+                  {% elsif sub.url contains '/shorts/' %}
+                    {% assign count = site.shorts.size %}
+                    {% if count > 0 %}
+                      {% assign newest = site.shorts | sort: 'date' | reverse | first %}
+                    {% endif %}
+                  {% endif %}
+
+                  {% assign is_new = false %}
+                  {% if newest and newest.date %}
+                    {% assign now_sec = 'now' | date: '%s' %}
+                    {% assign post_sec = newest.date | date: '%s' %}
+                    {% assign days = now_sec | minus: post_sec | divided_by: 86400 %}
+                    {% if days <= 3 %}{% assign is_new = true %}{% endif %}
+                  {% endif %}
+
+                  <li>
+                    {% if sub.url contains '://' %}
+                      <a href="{{ sub.url }}" target="_blank" rel="noopener noreferrer">{{ sub.title }}</a>
+                    {% else %}
+                      <a href="{{ sub.url | relative_url }}">
+                        {{ sub.title }}{% if count > 0 %} ({{ count }}){% endif %}{% if is_new %} New{% endif %}
+                      </a>
+                    {% endif %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li>
+            {% if item.url contains '://' %}
+              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+            {% else %}
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

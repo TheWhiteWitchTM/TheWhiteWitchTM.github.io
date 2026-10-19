@@ -1,0 +1,19 @@
+<script>
+  const banner = document.querySelector('.site-banner');
+  const sides = document.querySelectorAll('.side-image');
+
+  if (banner && sides.length) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        sides.forEach(side => {
+          side.classList.toggle('hidden', entry.isIntersecting);
+        });
+      });
+    }, { 
+      threshold: 0,
+      rootMargin: "0px 0px -180px 0px"
+    });
+
+    observer.observe(banner);
+  }
+</script>

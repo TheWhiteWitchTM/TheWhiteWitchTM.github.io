@@ -1,0 +1,39 @@
+{
+  "items": [
+    { "title": "🏠 Home", "url": "/" },
+    {
+      "title": "🕹️ Emoji Games",
+      "dropdown": [
+        { "title": "🕹️ On this page", "url": "/#emoji-games" },
+        { "separator": true },
+        { "title": "📂 All games", "url": "https://thewhitewitchtm.github.io/emojigames/games/" },
+        { "title": "🚀 Galaxy Hunt", "url": "https://thewhitewitchtm.github.io/emojigames/games/galaxy-hunt/" },
+        { "title": "🐂 The Oregon Trail", "url": "https://thewhitewitchtm.github.io/emojigames/games/oregon-trail/" },
+        { "title": "🗡️ Hack", "url": "https://thewhitewitchtm.github.io/emojigames/games/hack/" }
+      ]
+    },
+    {
+      "title": "🪄 MAGIC",
+      "dropdown": [
+        { "title": "🪄 On this page", "url": "/#magic" },
+        { "separator": true },
+        { "title": "✨ MAGIC Overview", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/overview/" },
+        { "title": "🪄 MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/" },
+        { "title": "🖥️ MAGIC Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/studio/" },
+        { "title": "📘 MAGIC Apprentice", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/" },
+        { "separator": true },
+        { "title": "📖 Language site", "url": "https://thewhitewitchtm.github.io/MAGIC/" }
+      ]
+    },
+    {
+      "title": "🕹️ RETRO MAGIC",
+      "dropdown": [
+        { "title": "🕹️ On this page", "url": "/#retro-magic" },
+        { "separator": true },
+        { "title": "🕹️ RETRO MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/" },
+        { "title": "🖥️ RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" }
+      ]
+    },
+    { "title": "🧙‍♀️ The White Witch", "url": "https://thewhitewitchtm.github.io/whitewitch/" }
+  ]
+}

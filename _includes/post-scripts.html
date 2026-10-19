@@ -1,0 +1,80 @@
+<script>
+document.querySelectorAll('.post-item').forEach(item => {
+  const title = item.querySelector('.toggle-title');
+  const emoji = item.querySelector('.toggle-emoji');
+  const expandBtn = item.querySelector('.expand-btn');
+  const excerpt = item.querySelector('.excerpt');
+  const full = item.querySelector('.full-content');
+  const url = item.dataset.url;
+
+  if (!title || !expandBtn) return;
+
+  const collapse = () => {
+    full.setAttribute('hidden', '');
+    if (excerpt) excerpt.classList.remove('hidden');
+    expandBtn.innerHTML = '▼ Show more';
+    if (emoji) emoji.textContent = '▼';
+  };
+
+  const expand = async () => {
+    if (!full.dataset.loaded) {
+      expandBtn.textContent = 'Loading…';
+      try {
+        console.log('Fetching:', url);
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('HTTP ' + res.status + ' for ' + url);
+        const html = await res.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+
+        let content = doc.querySelector('.content-area') || doc.querySelector('main') || doc.querySelector('.markdown-body');
+        if (!content) content = doc.body;
+        if (!content) throw new Error('No content element found');
+
+        // Remove back button more carefully
+        const backs = content.querySelectorAll('a[href="javascript:history.back()"], a[href*="←"], .button-row');
+        backs.forEach(el => {
+          const row = el.closest('.button-row') || el.closest('p');
+          if (row && row !== content) row.remove();
+          else if (el !== content) el.remove();
+        });
+
+        const giscus = content.querySelector('.giscus-container');
+        if (giscus) giscus.remove();
+
+        full.innerHTML = content.innerHTML;
+        full.dataset.loaded = 'true';
+      } catch (e) {
+        console.error('Expand failed:', url, e);
+        full.innerHTML = '<p>Could not load post. (' + e.message + ')</p>';
+      }
+    }
+    full.removeAttribute('hidden');
+    if (excerpt) excerpt.classList.add('hidden');
+    expandBtn.innerHTML = '▲ Show less';
+    if (emoji) emoji.textContent = '▲';
+  };
+
+  const toggleExpand = () => {
+    if (full.hasAttribute('hidden')) expand();
+    else collapse();
+  };
+
+  title.addEventListener('click', toggleExpand);
+  expandBtn.addEventListener('click', toggleExpand);
+});
+
+document.querySelectorAll('.share-btn').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    const url = btn.dataset.url;
+    try {
+      await navigator.clipboard.writeText(url);
+      const original = btn.innerHTML;
+      btn.innerHTML = '✅ Copied';
+      setTimeout(() => { btn.innerHTML = original; }, 1500);
+    } catch (e) {
+      btn.innerHTML = '❌ Failed';
+      setTimeout(() => { btn.innerHTML = '📋 Share'; }, 1500);
+    }
+  });
+});
+</script>

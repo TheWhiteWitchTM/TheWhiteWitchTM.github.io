@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}" prefix="og: http://ogp.me/ns#">
+  <head>
+    {% include head-custom.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+
+    <!-- Banner outside the constrained column -->
+    <img src="https://pbs.twimg.com/media/HUNMWkbWUAE7b5d.jpg" alt="The White Witch banner" class="site-banner">
+
+    <div class="page-frame">
+      <div class="side-image left">
+        <img src="{{ '/assets/images/mira.jpg' | relative_url }}" alt="Mira">
+      </div>
+
+      <main class="home-content markdown-body">
+        {{ content }}
+      </main>
+
+      <div class="side-image right">
+        <img src="{{ '/assets/images/witch.jpg' | relative_url }}" alt="Witch">
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include home-scripts.html %}
+    {% include post-scripts.html %}
+  </body>
+</html>

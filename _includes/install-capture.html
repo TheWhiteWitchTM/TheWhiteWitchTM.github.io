@@ -1,0 +1,19 @@
+<script>
+  // Capture early. Chrome can fire this before the rest of the page scripts run.
+  (function () {
+    window.__wwInstallPrompt = null;
+    try {
+      var ua = navigator.userAgent || '';
+      var ios = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      var firefox = /firefox/i.test(ua) && !/seamonkey/i.test(ua);
+      if ((firefox && !ios) || localStorage.getItem('ww-install-dismissed') === '1') {
+        document.documentElement.classList.add('ww-install-off');
+      }
+    } catch (err) {}
+    window.addEventListener('beforeinstallprompt', function (event) {
+      event.preventDefault();
+      window.__wwInstallPrompt = event;
+      window.dispatchEvent(new Event('ww-installable'));
+    });
+  })();
+</script>
