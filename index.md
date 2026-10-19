@@ -33,17 +33,17 @@ No accounts. No quiet sponsors. Argue with the code.
 <tr>
 <td width="33%">
 <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/">MAGIC</a></h3>
-<a href="https://thewhitewitchtm.github.io/whitewitch/magic/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="280" alt="MAGIC"></a>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/magic.jpg" width="280" alt="MAGIC"></a>
 <p>Lua + BASIC → JavaScript. Sprites, terminal, games.</p>
 </td>
 <td width="33%">
-<h3><a href="https://github.com/TheWhiteWitchTM/MAGIC-Studio">MAGIC Studio</a></h3>
-<a href="https://github.com/TheWhiteWitchTM/MAGIC-Studio"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="280" alt="MAGIC Studio"></a>
+<h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/">MAGIC Studio</a></h3>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/studio.jpg" width="280" alt="MAGIC Studio"></a>
 <p>Dark IDE for MAGIC.</p>
 </td>
 <td width="33%">
-<h3><a href="https://github.com/TheWhiteWitchTM/MAGIC-Apprentice">MAGIC Apprentice</a></h3>
-<a href="https://github.com/TheWhiteWitchTM/MAGIC-Apprentice"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="280" alt="MAGIC Apprentice"></a>
+<h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/">MAGIC Apprentice</a></h3>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/apprentice.jpg" width="280" alt="MAGIC Apprentice"></a>
 <p>Simple desk for ages 8–16.</p>
 </td>
 </tr>
@@ -55,12 +55,12 @@ No accounts. No quiet sponsors. Argue with the code.
 <tr>
 <td width="50%">
 <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">RETRO MAGIC</a></h3>
-<a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="360" alt="RETRO MAGIC"></a>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-magic.jpg" width="360" alt="RETRO MAGIC"></a>
 <p>Same language. BASIC + assembly for C64, Apple II, TI-99/4A. Emoji become sprites.</p>
 </td>
 <td width="50%">
 <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">RETRO Studio</a></h3>
-<a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" width="360" alt="RETRO Studio"></a>
+<a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-studio.jpg" width="360" alt="RETRO Studio"></a>
 <p>The window for the three machines.</p>
 </td>
 </tr>
