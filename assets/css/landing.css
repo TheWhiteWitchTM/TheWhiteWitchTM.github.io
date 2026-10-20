@@ -282,9 +282,11 @@
 }
 
 .markdown-body .card-handle {
-  font-size: 0.92rem;
-  letter-spacing: 0;
-  overflow-wrap: anywhere;
+  min-width: 0;
+  font-size: clamp(0.78rem, 0.72rem + 0.35vw, 0.92rem);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  overflow-wrap: normal;
 }
 
 .markdown-body .banner-bsky {
@@ -328,6 +330,12 @@
     inset 0 1px 0 rgba(255, 255, 255, 0.05),
     0 18px 40px rgba(10, 60, 140, 0.45),
     0 0 0 1px rgba(110, 190, 255, 0.5);
+}
+
+.markdown-body .sky-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 1.05rem;
 }
 
 .markdown-body a.feature {
@@ -394,6 +402,7 @@
   color: #c5d4ea;
   font-size: 0.98rem;
   line-height: 1.5;
+  text-wrap: pretty;
 }
 
 .markdown-body .feature-go {
@@ -405,6 +414,58 @@
 
 .markdown-body a.feature:hover .feature-go {
   color: #d7ecff;
+}
+
+.markdown-body a.feature-corporate {
+  background: #071018;
+  border-color: #3a3424;
+}
+
+.markdown-body a.feature-corporate img {
+  background: #0c3f86;
+}
+
+.markdown-body a.feature-corporate .feature-copy {
+  background:
+    radial-gradient(420px 200px at 100% 0%, rgba(228, 197, 106, 0.16), transparent 62%),
+    #071018;
+  border-left-color: rgba(228, 197, 106, 0.28);
+}
+
+.markdown-body a.feature-corporate .feature-copy .kicker {
+  color: #e4c56a;
+}
+
+.markdown-body a.feature-corporate:hover {
+  border-color: #e4c56a;
+  box-shadow:
+    0 20px 44px rgba(24, 18, 4, 0.5),
+    0 0 0 1px rgba(228, 197, 106, 0.42);
+}
+
+.markdown-body a.feature-corporate:focus-visible {
+  outline-color: #e4c56a;
+}
+
+.markdown-body a.feature-corporate:hover .feature-go {
+  color: #f3e2b0;
+}
+
+.markdown-body .plate {
+  margin: 1.5rem auto 0;
+  max-width: 920px;
+}
+
+.markdown-body .plate img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0;
+  border-radius: 16px;
+  background: #0c3f86;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 16px 36px rgba(4, 16, 40, 0.45);
 }
 
 .markdown-body .close-note {
@@ -442,6 +503,10 @@
   .markdown-body .feature-copy {
     border-left: 0;
     border-top: 1px solid rgba(130, 180, 255, 0.22);
+  }
+
+  .markdown-body a.feature-corporate .feature-copy {
+    border-top-color: rgba(228, 197, 106, 0.28);
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The White Witch™
-description: Emoji games. A language. Then the old machines. And LibreSky, a Bluesky client.
+description: Emoji games. A language. Then the old machines. LibreSky, a Bluesky client, and LibreSky Corporate, coming soon.
 ---
 
 <header class="hero">
@@ -72,7 +72,7 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
         <span class="banner-sub">The other sky.</span>
       </span>
       <span class="card-body">
-        <span class="card-title card-handle">@thewhitewitchtm.sociallydead.me <span class="card-go" aria-hidden="true">↗</span></span>
+        <span class="card-title card-handle">@thewhitewitchtm<wbr>.sociallydead.me <span class="card-go" aria-hidden="true">↗</span></span>
       </span>
     </a>
   </div>
@@ -81,13 +81,22 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
 <p class="beat">Bluesky has an official app. I wrote my own.</p>
 
 <section class="band" id="libresky">
-  <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
-    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client." width="1200" height="630">
-    <span class="feature-copy">
-      <span class="feature-text">Home, search, chat, bookmarks, and profiles. Your account, in this browser. The password stays with Bluesky.</span>
-      <span class="feature-go">Open →</span>
-    </span>
-  </a>
+  <div class="sky-pair">
+    <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
+      <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client." width="1200" height="630">
+      <span class="feature-copy">
+        <span class="feature-text">Home, Discover, search, chat, and calls. Your account, in this browser. The password stays with Bluesky.</span>
+        <span class="feature-go">Open →</span>
+      </span>
+    </a>
+    <a class="feature feature-corporate" id="libresky-corporate" href="{{ '/corporate/' | relative_url }}">
+      <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Self-hosted services, small enough for a Pi. Coming soon." width="1200" height="630">
+      <span class="feature-copy">
+        <span class="feature-text">The services stay on a machine you own. This one does not use Bluesky. A Pi can host it.</span>
+        <span class="feature-go">Coming soon →</span>
+      </span>
+    </a>
+  </div>
 </section>
 
 <p class="beat">The games needed a language. This is that language.</p>
