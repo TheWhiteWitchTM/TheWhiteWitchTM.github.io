@@ -82,12 +82,10 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
 
 <section class="band" id="libresky">
   <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
-    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="" width="1200" height="630">
+    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client." width="1200" height="630">
     <span class="feature-copy">
-      <span class="kicker">LibreSky</span>
-      <h2 class="feature-title">A Bluesky client</h2>
       <span class="feature-text">Home, search, chat, bookmarks, and profiles. Your account, in this browser. The password stays with Bluesky.</span>
-      <span class="feature-go">Open LibreSky →</span>
+      <span class="feature-go">Open →</span>
     </span>
   </a>
 </section>
