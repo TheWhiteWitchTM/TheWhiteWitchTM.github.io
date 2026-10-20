@@ -1,69 +1,154 @@
 ---
 layout: default
 title: The White Witch™
-description: Emoji games. A language. Then the old machines.
+description: Emoji games. A language. Then the old machines. And LibreSky, a Bluesky client.
 ---
 
-**Emoji games. A language. Then the old machines.**
+<header class="hero">
+  <p class="hero-kicker">The White Witch™</p>
+  <h1>Emoji games.<br>A language.<br>Then the old machines.</h1>
+  <p class="hero-lead">No accounts. No quiet sponsors. Argue with the code.</p>
+</header>
 
-No accounts. No quiet sponsors. Argue with the code.
-
----
-
-## Sites
-
-<div class="row">
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a></h3>
-    <a href="https://thewhitewitchtm.github.io/whitewitch/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="The White Witch"></a>
-    <p>Politics, tools, and the long pages. Facts first.</p>
+<section class="band" id="sites">
+  <div class="band-head">
+    <p class="kicker">Sites</p>
+    <h2>Two doors</h2>
+    <p>Politics and the long pages on one. Games on the other. Both are open.</p>
   </div>
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/emojigames/">Emoji Games</a></h3>
-    <a href="https://thewhitewitchtm.github.io/emojigames/"><img src="https://thewhitewitchtm.github.io/emojigames/assets/images/preview.jpg" alt="Emoji Games"></a>
-    <p>Old games drawn with emoji. No accounts. The shelf is open.</p>
+  <div class="shelf shelf-2">
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">The White Witch™ <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Politics, tools, and the long pages. Facts first.</span>
+      </span>
+    </a>
+    <a class="card" id="emoji-games" href="https://thewhitewitchtm.github.io/emojigames/">
+      <img src="https://thewhitewitchtm.github.io/emojigames/assets/images/preview.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">Emoji Games <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Old games drawn with emoji. No accounts. The shelf is open.</span>
+      </span>
+    </a>
   </div>
-</div>
+</section>
 
----
+<p class="beat">The work is on those two. I also keep three doors open.</p>
 
-## 🪄 MAGIC
-
-<div class="row">
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/">MAGIC</a></h3>
-    <a href="https://thewhitewitchtm.github.io/whitewitch/magic/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/magic.jpg" alt="MAGIC"></a>
-    <p>Lua + BASIC → JavaScript. Sprites, terminal, games.</p>
+<section class="band" id="elsewhere">
+  <div class="band-head">
+    <p class="kicker">Elsewhere</p>
+    <h2>YouTube, X, and Bluesky</h2>
+    <p>Same name on each. Pick the one you already open.</p>
   </div>
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/">MAGIC Studio</a></h3>
-    <a href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/studio.jpg" alt="MAGIC Studio"></a>
-    <p>Dark IDE for MAGIC.</p>
+  <div class="shelf shelf-3">
+    <a class="card presence yt" href="https://youtube.com/@TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
+      <span class="banner banner-yt">
+        <svg class="banner-icon" viewBox="0 0 68 48" aria-hidden="true">
+          <rect width="68" height="48" rx="12" fill="#ff2a3c"/>
+          <path d="M28 14.5v19l18-9.5z" fill="#fff"/>
+        </svg>
+        <span class="banner-word">YouTube</span>
+        <span class="banner-sub">Longer, and with a face.</span>
+      </span>
+      <span class="card-body">
+        <span class="card-title">@TheWhiteWitchTM <span class="card-go" aria-hidden="true">↗</span></span>
+      </span>
+    </a>
+    <a class="card presence x" href="https://x.com/TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
+      <span class="banner banner-x">
+        <span class="banner-xmark" aria-hidden="true">X</span>
+        <span class="banner-word">X</span>
+        <span class="banner-sub">Shorter, and in public.</span>
+      </span>
+      <span class="card-body">
+        <span class="card-title">@TheWhiteWitchTM <span class="card-go" aria-hidden="true">↗</span></span>
+      </span>
+    </a>
+    <a class="card presence bsky" href="https://bsky.app/profile/thewhitewitchtm.sociallydead.me" target="_blank" rel="noopener noreferrer">
+      <span class="banner banner-bsky">
+        <span class="banner-word">Bluesky</span>
+        <span class="banner-sub">The other sky.</span>
+      </span>
+      <span class="card-body">
+        <span class="card-title card-handle">@thewhitewitchtm.sociallydead.me <span class="card-go" aria-hidden="true">↗</span></span>
+      </span>
+    </a>
   </div>
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/">MAGIC Apprentice</a></h3>
-    <a href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/apprentice.jpg" alt="MAGIC Apprentice"></a>
-    <p>Simple desk for ages 8–16.</p>
+</section>
+
+<p class="beat">Bluesky has an official app. I wrote my own.</p>
+
+<section class="band" id="libresky">
+  <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
+    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="" width="1200" height="630">
+    <span class="feature-copy">
+      <span class="kicker">LibreSky</span>
+      <h2 class="feature-title">A Bluesky client</h2>
+      <span class="feature-text">Home, search, chat, bookmarks, and profiles. Your account, in this browser. The password stays with Bluesky.</span>
+      <span class="feature-go">Open LibreSky →</span>
+    </span>
+  </a>
+</section>
+
+<p class="beat">The games needed a language. This is that language.</p>
+
+<section class="band" id="magic">
+  <div class="band-head">
+    <p class="kicker">Magic</p>
+    <h2>Three desks</h2>
+    <p>Lua and BASIC, compiled to JavaScript. Sprites, a terminal, games. Sit down at the one that fits.</p>
   </div>
-</div>
-
----
-
-## 🕹️ Retro
-
-<div class="row">
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">RETRO MAGIC</a></h3>
-    <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-magic.jpg" alt="RETRO MAGIC"></a>
-    <p>Same language. BASIC + assembly for C64, Apple II, TI-99/4A. Emoji become sprites.</p>
+  <div class="shelf shelf-3">
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/magic.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">MAGIC <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Lua + BASIC → JavaScript. Sprites, terminal, games.</span>
+      </span>
+    </a>
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/studio.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">MAGIC Studio <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Dark IDE for MAGIC.</span>
+      </span>
+    </a>
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/apprentice.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">MAGIC Apprentice <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Simple desk for ages 8–16.</span>
+      </span>
+    </a>
   </div>
-  <div class="card">
-    <h3><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">RETRO Studio</a></h3>
-    <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/"><img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-studio.jpg" alt="RETRO Studio"></a>
-    <p>The window for the three machines.</p>
+</section>
+
+<p class="beat">Then the same idea, pointed at the old machines.</p>
+
+<section class="band" id="retro-magic">
+  <div class="band-head">
+    <p class="kicker">Retro</p>
+    <h2>C64, Apple II, TI-99/4A</h2>
+    <p>BASIC and assembly. Emoji become sprites. Two ways in.</p>
   </div>
-</div>
+  <div class="shelf shelf-2">
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-magic.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">RETRO MAGIC <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Same language. BASIC and assembly for the C64, the Apple II, and the TI-99/4A.</span>
+      </span>
+    </a>
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-studio.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">RETRO Studio <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">The window for the three machines.</span>
+      </span>
+    </a>
+  </div>
+</section>
 
----
-
-Politics stay on [The White Witch™](https://thewhitewitchtm.github.io/whitewitch/).
+<p class="close-note">Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>.</p>
