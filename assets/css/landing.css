@@ -397,6 +397,13 @@
   color: #8ec4ff;
 }
 
+.markdown-body .feature-name {
+  color: #fff;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
 .markdown-body .feature-text {
   margin: 0.15rem 0 0;
   color: #c5d4ea;

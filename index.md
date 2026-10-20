@@ -1,7 +1,7 @@
 ---
 layout: default
-title: The White Witch™ — LibreSky, emoji games, and MAGIC
-description: LibreSky is a free Bluesky client with edit, AI, voice, video, and chat. Emoji games, the MAGIC language, and RETRO MAGIC for the C64, Apple II, and TI-99/4A.
+title: The White Witch™ — LibreSky, LibreSky Corporate coming soon, emoji games, and MAGIC
+description: LibreSky is a free Bluesky client with edit, AI, voice, video, and chat. LibreSky Corporate is the self-hosted edition, coming soon. Emoji games, the MAGIC language, and RETRO MAGIC for the C64, Apple II, and TI-99/4A.
 keywords: The White Witch, LibreSky, Bluesky client, emoji games, MAGIC, RETRO MAGIC, voice call, video call
 ---
 
@@ -84,15 +84,19 @@ keywords: The White Witch, LibreSky, Bluesky client, emoji games, MAGIC, RETRO M
 <section class="band" id="libresky">
   <div class="sky-pair">
     <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
-      <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. Highlighted features: Edit, AI, Voice, Video, and Chat." width="1200" height="630">
+      <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client. Edit, AI, Voice, Video, and Chat." width="1200" height="630">
       <span class="feature-copy">
+        <span class="kicker">Bluesky client</span>
+        <span class="feature-name">LibreSky</span>
         <span class="feature-text">Edit, AI, voice, video, and chat. Home, Discover, and search sit beside them. Your account, in this browser. The password stays with Bluesky.</span>
         <span class="feature-go">Open →</span>
       </span>
     </a>
     <a class="feature feature-corporate" id="libresky-corporate" href="{{ '/corporate/' | relative_url }}">
-      <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Highlighted features: self-hosted, your Pi, your services. Coming soon." width="1200" height="630">
+      <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate, coming soon. Self-hosted, your Pi, and your services." width="1200" height="630">
       <span class="feature-copy">
+        <span class="kicker">Coming soon</span>
+        <span class="feature-name">LibreSky Corporate</span>
         <span class="feature-text">The services stay on a machine you own. This one does not use Bluesky. A Pi can host it.</span>
         <span class="feature-go">Coming soon →</span>
       </span>

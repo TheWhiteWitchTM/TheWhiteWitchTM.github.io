@@ -17,7 +17,7 @@ image_height: 630
 </header>
 
 <figure class="plate">
-  <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Highlighted features: self-hosted, your Pi, your services. Coming soon." width="1200" height="630">
+  <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate, coming soon. Self-hosted, your Pi, and your services." width="1200" height="630">
 </figure>
 
 <section class="band">
