@@ -40,21 +40,21 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
   <h2>Elsewhere</h2>
   <div class="row">
     <a class="card" href="https://youtube.com/@TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
-      <span class="card-mark yt">YouTube</span>
+      <img src="{{ '/assets/images/youtube.jpg' | relative_url }}" alt="" width="1200" height="630">
       <span class="card-body">
         <span class="card-title">@TheWhiteWitchTM <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">Longer, and with a face.</span>
       </span>
     </a>
     <a class="card" href="https://x.com/TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
-      <span class="card-mark x">X</span>
+      <img src="{{ '/assets/images/x.jpg' | relative_url }}" alt="" width="1200" height="630">
       <span class="card-body">
         <span class="card-title">@TheWhiteWitchTM <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">Shorter, and in public.</span>
       </span>
     </a>
     <a class="card" href="https://bsky.app/profile/thewhitewitchtm.sociallydead.me" target="_blank" rel="noopener noreferrer">
-      <span class="card-mark bsky">Bluesky</span>
+      <img src="{{ '/assets/images/bsky.jpg' | relative_url }}" alt="" width="1200" height="630">
       <span class="card-body">
         <span class="card-title"><span class="card-name">@thewhitewitchtm.<wbr>sociallydead.me</span> <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">The other sky.</span>
