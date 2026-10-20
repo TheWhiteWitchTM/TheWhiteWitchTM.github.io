@@ -5,18 +5,13 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
 ---
 
 <header class="hero">
-  <p class="hero-kicker">The White Witch™</p>
   <h1>Emoji games.<br>A language.<br>Then the old machines.</h1>
   <p class="hero-lead">No accounts. No quiet sponsors. Argue with the code.</p>
 </header>
 
 <section class="band" id="sites">
-  <div class="band-head">
-    <p class="kicker">Sites</p>
-    <h2>Two doors</h2>
-    <p>Politics and the long pages on one. Games on the other. Both are open.</p>
-  </div>
-  <div class="shelf shelf-2">
+  <h2>Sites</h2>
+  <div class="row">
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/">
       <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="" width="1200" height="630">
       <span class="card-body">
@@ -31,76 +26,46 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
         <span class="card-copy">Old games drawn with emoji. No accounts. The shelf is open.</span>
       </span>
     </a>
+    <a class="card" href="https://thewhitewitchtm.github.io/LibreSky/">
+      <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">LibreSky <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">A Bluesky client. Your account, in this browser.</span>
+      </span>
+    </a>
   </div>
 </section>
-
-<p class="beat">The work is on those two. I also keep three doors open.</p>
 
 <section class="band" id="elsewhere">
-  <div class="band-head">
-    <p class="kicker">Elsewhere</p>
-    <h2>YouTube, X, and Bluesky</h2>
-    <p>Same name on each. Pick the one you already open.</p>
-  </div>
-  <div class="shelf shelf-3">
-    <a class="card presence yt" href="https://youtube.com/@TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
-      <span class="banner banner-yt">
-        <svg class="banner-icon" viewBox="0 0 68 48" aria-hidden="true">
-          <rect width="68" height="48" rx="12" fill="#ff2a3c"/>
-          <path d="M28 14.5v19l18-9.5z" fill="#fff"/>
-        </svg>
-        <span class="banner-word">YouTube</span>
-        <span class="banner-sub">Longer, and with a face.</span>
-      </span>
+  <h2>Elsewhere</h2>
+  <div class="row">
+    <a class="card" href="https://youtube.com/@TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
+      <span class="card-mark yt">YouTube</span>
       <span class="card-body">
         <span class="card-title">@TheWhiteWitchTM <span class="card-go" aria-hidden="true">↗</span></span>
+        <span class="card-copy">Longer, and with a face.</span>
       </span>
     </a>
-    <a class="card presence x" href="https://x.com/TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
-      <span class="banner banner-x">
-        <span class="banner-xmark" aria-hidden="true">X</span>
-        <span class="banner-word">X</span>
-        <span class="banner-sub">Shorter, and in public.</span>
-      </span>
+    <a class="card" href="https://x.com/TheWhiteWitchTM" target="_blank" rel="noopener noreferrer">
+      <span class="card-mark x">X</span>
       <span class="card-body">
         <span class="card-title">@TheWhiteWitchTM <span class="card-go" aria-hidden="true">↗</span></span>
+        <span class="card-copy">Shorter, and in public.</span>
       </span>
     </a>
-    <a class="card presence bsky" href="https://bsky.app/profile/thewhitewitchtm.sociallydead.me" target="_blank" rel="noopener noreferrer">
-      <span class="banner banner-bsky">
-        <span class="banner-word">Bluesky</span>
-        <span class="banner-sub">The other sky.</span>
-      </span>
+    <a class="card" href="https://bsky.app/profile/thewhitewitchtm.sociallydead.me" target="_blank" rel="noopener noreferrer">
+      <span class="card-mark bsky">Bluesky</span>
       <span class="card-body">
-        <span class="card-title card-handle">@thewhitewitchtm.sociallydead.me <span class="card-go" aria-hidden="true">↗</span></span>
+        <span class="card-title"><span class="card-name">@thewhitewitchtm.<wbr>sociallydead.me</span> <span class="card-go" aria-hidden="true">↗</span></span>
+        <span class="card-copy">The other sky.</span>
       </span>
     </a>
   </div>
 </section>
-
-<p class="beat">Bluesky has an official app. I wrote my own.</p>
-
-<section class="band" id="libresky">
-  <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
-    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="" width="1200" height="630">
-    <span class="feature-copy">
-      <span class="kicker">LibreSky</span>
-      <h2 class="feature-title">A Bluesky client</h2>
-      <span class="feature-text">Home, search, chat, bookmarks, and profiles. Your account, in this browser. The password stays with Bluesky.</span>
-      <span class="feature-go">Open LibreSky →</span>
-    </span>
-  </a>
-</section>
-
-<p class="beat">The games needed a language. This is that language.</p>
 
 <section class="band" id="magic">
-  <div class="band-head">
-    <p class="kicker">Magic</p>
-    <h2>Three desks</h2>
-    <p>Lua and BASIC, compiled to JavaScript. Sprites, a terminal, games. Sit down at the one that fits.</p>
-  </div>
-  <div class="shelf shelf-3">
+  <h2>Magic</h2>
+  <div class="row">
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/">
       <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/magic.jpg" alt="" width="1200" height="630">
       <span class="card-body">
@@ -125,20 +90,14 @@ description: Emoji games. A language. Then the old machines. And LibreSky, a Blu
   </div>
 </section>
 
-<p class="beat">Then the same idea, pointed at the old machines.</p>
-
 <section class="band" id="retro-magic">
-  <div class="band-head">
-    <p class="kicker">Retro</p>
-    <h2>C64, Apple II, TI-99/4A</h2>
-    <p>BASIC and assembly. Emoji become sprites. Two ways in.</p>
-  </div>
-  <div class="shelf shelf-2">
+  <h2>Retro</h2>
+  <div class="row">
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">
       <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-magic.jpg" alt="" width="1200" height="630">
       <span class="card-body">
         <span class="card-title">RETRO MAGIC <span class="card-go" aria-hidden="true">→</span></span>
-        <span class="card-copy">Same language. BASIC and assembly for the C64, the Apple II, and the TI-99/4A.</span>
+        <span class="card-copy">BASIC and assembly for the C64, the Apple II, and the TI-99/4A.</span>
       </span>
     </a>
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">
