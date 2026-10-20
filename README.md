@@ -19,7 +19,7 @@
 <h2 align="center">🌤️ LibreSky</h2>
 
 <p align="center">
-  A Bluesky client for the browser. Home, Discover, search, chat, and calls.<br>
+  A Bluesky client for the browser. Edit, AI, voice, video, and chat.<br>
   <a href="https://thewhitewitchtm.github.io/LibreSky/">LibreSky</a> ·
   <a href="https://thewhitewitchtm.github.io/corporate/">LibreSky Corporate</a>, coming soon ·
   <a href="https://github.com/TheWhiteWitchTM/LibreSky">Repo</a>

@@ -1,0 +1,25 @@
+# The White Witch™
+
+> LibreSky, a free Bluesky client with edit, AI, voice, video, and chat. Emoji games. The MAGIC language. RETRO MAGIC for the C64, the Apple II, and the TI-99/4A.
+
+No accounts on this site. The work is linked below.
+
+## LibreSky
+
+- [LibreSky](https://thewhitewitchtm.github.io/LibreSky/): Bluesky client in the browser. Edit, AI, voice, video, and chat.
+- [LibreSky Corporate](https://thewhitewitchtm.github.io/corporate/): self-hosted services, small enough for a Pi. Coming soon.
+- [LibreSky source](https://github.com/TheWhiteWitchTM/LibreSky)
+
+## Games and languages
+
+- [Emoji Games](https://thewhitewitchtm.github.io/emojigames/)
+- [MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/)
+- [RETRO MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/retro/)
+- [The White Witch, long pages](https://thewhitewitchtm.github.io/whitewitch/)
+
+## Elsewhere
+
+- [GitHub](https://github.com/TheWhiteWitchTM)
+- [X](https://x.com/TheWhiteWitchTM)
+- [YouTube](https://youtube.com/@TheWhiteWitchTM)
+- [Bluesky](https://bsky.app/profile/thewhitewitchtm.sociallydead.me)

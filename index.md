@@ -1,7 +1,8 @@
 ---
 layout: default
-title: The White Witch™
-description: Emoji games. A language. Then the old machines. LibreSky, a Bluesky client, and LibreSky Corporate, coming soon.
+title: The White Witch™ — LibreSky, emoji games, and MAGIC
+description: LibreSky is a free Bluesky client with edit, AI, voice, video, and chat. Emoji games, the MAGIC language, and RETRO MAGIC for the C64, Apple II, and TI-99/4A.
+keywords: The White Witch, LibreSky, Bluesky client, emoji games, MAGIC, RETRO MAGIC, voice call, video call
 ---
 
 <header class="hero">
@@ -83,14 +84,14 @@ description: Emoji games. A language. Then the old machines. LibreSky, a Bluesky
 <section class="band" id="libresky">
   <div class="sky-pair">
     <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
-      <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client." width="1200" height="630">
+      <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. Highlighted features: Edit, AI, Voice, Video, and Chat." width="1200" height="630">
       <span class="feature-copy">
-        <span class="feature-text">Home, Discover, search, chat, and calls. Your account, in this browser. The password stays with Bluesky.</span>
+        <span class="feature-text">Edit, AI, voice, video, and chat. Home, Discover, and search sit beside them. Your account, in this browser. The password stays with Bluesky.</span>
         <span class="feature-go">Open →</span>
       </span>
     </a>
     <a class="feature feature-corporate" id="libresky-corporate" href="{{ '/corporate/' | relative_url }}">
-      <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Self-hosted services, small enough for a Pi. Coming soon." width="1200" height="630">
+      <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Highlighted features: self-hosted, your Pi, your services. Coming soon." width="1200" height="630">
       <span class="feature-copy">
         <span class="feature-text">The services stay on a machine you own. This one does not use Bluesky. A Pi can host it.</span>
         <span class="feature-go">Coming soon →</span>

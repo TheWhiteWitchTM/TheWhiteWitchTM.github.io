@@ -1,10 +1,13 @@
 ---
 layout: default
-title: LibreSky Corporate
-description: LibreSky Corporate is the edition you host yourself. It does not use Bluesky. The client is small enough for a Pi. Coming soon.
+title: LibreSky Corporate — self-hosted, small enough for a Pi
+description: LibreSky Corporate is the edition you host yourself. Self-hosted services, your Pi, your hardware. It does not use Bluesky. Coming soon.
+keywords: LibreSky Corporate, self-hosted, Raspberry Pi, your services, coming soon
 permalink: /corporate/
 hide_banner: true
 image: /assets/images/libresky-corporate.png
+image_width: 1200
+image_height: 630
 ---
 
 <header class="hero">
@@ -14,7 +17,7 @@ image: /assets/images/libresky-corporate.png
 </header>
 
 <figure class="plate">
-  <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Self-hosted services, small enough for a Pi. Coming soon." width="1200" height="630">
+  <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate. Highlighted features: self-hosted, your Pi, your services. Coming soon." width="1200" height="630">
 </figure>
 
 <section class="band">
@@ -29,7 +32,7 @@ image: /assets/images/libresky-corporate.png
 
 <section class="band">
   <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
-    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client." width="1200" height="630">
+    <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. Highlighted features: Edit, AI, Voice, Video, and Chat." width="1200" height="630">
     <span class="feature-copy">
       <span class="feature-text">Home, Discover, search, chat, and calls. Your account, in this browser. The password stays with Bluesky.</span>
       <span class="feature-go">Open →</span>

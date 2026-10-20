@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thewhitewitchtm.github.io/TheWhiteWitchTM/sitemap.xml
+# https://thewhitewitchtm.github.io/llms.txt
+Sitemap: https://thewhitewitchtm.github.io/sitemap.xml
