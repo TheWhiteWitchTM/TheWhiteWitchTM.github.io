@@ -3,7 +3,7 @@ layout: default
 title: LibreSky by The White Witch™
 hide_banner: true
 description: Mira builds LibreSky, a free Bluesky client in the browser. Edit, chat, voice, video, and AI. The password stays with Bluesky. Contract work welcome.
-keywords: LibreSky, Bluesky client, The White Witch, Mira
+keywords: LibreSky, Bluesky client, The White Witch, Mira, Mira's World
 image: /assets/images/libresky.png
 image_width: 1200
 image_height: 630
@@ -52,15 +52,22 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
 <section class="band" id="sites">
   <div class="band-head">
     <p class="kicker">Sites</p>
-    <h2>Two more doors</h2>
-    <p>The long pages, and the games. Politics stay on the first one.</p>
+    <h2>Three more doors</h2>
+    <p>The long pages, the lab, and the games. Politics stay on the first one.</p>
   </div>
-  <div class="shelf shelf-2">
+  <div class="shelf shelf-3">
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/">
       <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/og.jpg" alt="" width="1200" height="630">
       <span class="card-body">
         <span class="card-title">The White Witch™ <span class="card-go" aria-hidden="true">→</span></span>
         <span class="card-copy">Politics, tools, and the long pages. Facts first.</span>
+      </span>
+    </a>
+    <a class="card card-mira" id="miras-world" href="https://thewhitewitchtm.github.io/mira/">
+      <img src="{{ '/assets/images/mira.jpg' | relative_url }}" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">Mira's World™ <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Tools, projects, and the dev blog. The lab is open.</span>
       </span>
     </a>
     <a class="card" id="emoji-games" href="https://thewhitewitchtm.github.io/emojigames/">
@@ -170,4 +177,4 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
   </div>
 </section>
 
-<p class="close-note">Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>. The witch on X, Bluesky, and Mira's World can be loud. This page is the card.</p>
+<p class="close-note">Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card.</p>

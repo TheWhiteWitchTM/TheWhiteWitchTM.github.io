@@ -243,6 +243,10 @@
   outline-offset: 3px;
 }
 
+.markdown-body a.card.card-mira img {
+  object-position: center 42%;
+}
+
 .markdown-body a.card img {
   width: 100%;
   height: auto;

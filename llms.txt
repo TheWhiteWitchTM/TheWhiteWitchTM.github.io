@@ -1,6 +1,6 @@
 # The White Witch™
 
-> Mira builds LibreSky, a free Bluesky client with edit, AI, voice, video, and chat. LibreSky Corporate, the self-hosted edition, is coming soon. Contract work: thewhitewitchtm@google.com. Emoji games, MAGIC, and RETRO MAGIC sit beside the client.
+> Mira builds LibreSky, a free Bluesky client with edit, AI, voice, video, and chat. LibreSky Corporate, the self-hosted edition, is coming soon. Contract work: thewhitewitchtm@google.com. Mira's World, emoji games, MAGIC, and RETRO MAGIC sit beside the client.
 
 No accounts on this site. The work is linked below.
 
@@ -10,12 +10,13 @@ No accounts on this site. The work is linked below.
 - [LibreSky Corporate](https://thewhitewitchtm.github.io/corporate/): self-hosted services, small enough for a Pi. Coming soon.
 - [LibreSky source](https://github.com/TheWhiteWitchTM/LibreSky)
 
-## Games and languages
+## Sites
 
+- [The White Witch, long pages](https://thewhitewitchtm.github.io/whitewitch/): politics, tools, and the long pages. Facts first.
+- [Mira's World](https://thewhitewitchtm.github.io/mira/): tools, projects, tutorials, and the dev blog.
 - [Emoji Games](https://thewhitewitchtm.github.io/emojigames/)
 - [MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/)
 - [RETRO MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/retro/)
-- [The White Witch, long pages](https://thewhitewitchtm.github.io/whitewitch/)
 
 ## Elsewhere
 
