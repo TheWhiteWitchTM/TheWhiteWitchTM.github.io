@@ -28,6 +28,15 @@ image_height: 630
   </div>
 </section>
 
+<section class="band">
+  <ol class="dial" aria-label="What Corporate keeps">
+    <li><strong>Your machine</strong><span>The services stay where you put them.</span></li>
+    <li><strong>No Bluesky</strong><span>This edition does not call Bluesky.</span></li>
+    <li><strong>A Pi</strong><span>Small enough for a desk or a quiet corner.</span></li>
+    <li><strong>Coming soon</strong><span>The public client is open today.</span></li>
+  </ol>
+</section>
+
 <p class="beat">The public sky is open today.</p>
 
 <section class="band">

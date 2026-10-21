@@ -1,6 +1,6 @@
 # The White Witch™
 
-> LibreSky, a free Bluesky client with edit, AI, voice, video, and chat. LibreSky Corporate, the self-hosted edition, is coming soon. Emoji games. The MAGIC language. RETRO MAGIC for the C64, the Apple II, and the TI-99/4A.
+> Mira builds LibreSky, a free Bluesky client with edit, AI, voice, video, and chat. LibreSky Corporate, the self-hosted edition, is coming soon. Contract work: thewhitewitchtm@google.com. Emoji games, MAGIC, and RETRO MAGIC sit beside the client.
 
 No accounts on this site. The work is linked below.
 

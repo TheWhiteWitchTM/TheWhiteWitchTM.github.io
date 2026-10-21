@@ -5,9 +5,9 @@
 <h1 align="center">🧙‍♀️ The White Witch™</h1>
 
 <p align="center">
-  <strong>Emoji games. A language. Then the old machines.</strong><br>
-  No accounts. No quiet sponsors.<br>
-  Argue with the code, not the caption.
+  <strong>LibreSky is the work. Edit, AI, voice, video, and chat.</strong><br>
+  Mira, freelance, after Borland and SAP.<br>
+  <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>
 </p>
 
 <p align="center">

@@ -13,7 +13,7 @@ permalink: /manifest.webmanifest
   "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
   "lang": "en",
-  "categories": ["games", "entertainment"],
+  "categories": ["productivity", "social"],
   "icons": [
     {
       "src": {{ '/assets/icons/icon-192.png' | relative_url | jsonify }},
