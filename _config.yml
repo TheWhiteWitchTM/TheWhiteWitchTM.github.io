@@ -9,6 +9,32 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Mira's World is a Next.js export in /mira. Jekyll drops every name that
+# starts with "_" or ".", including /mira/_next, unless it is listed here.
+include:
+  - _next
+  - _not-found
+  - _buildManifest.js
+  - _clientMiddlewareManifest.js
+  - _ssgManifest.js
+  - __next.__PAGE__.txt
+  - __next._full.txt
+  - __next._index.txt
+  - __next._not-found.__PAGE__.txt
+  - __next._tree.txt
+  - __next.blog.$c$slug.__PAGE__.txt
+  - __next.blog.__PAGE__.txt
+  - __next.projects.emoji-ui.__PAGE__.txt
+  - __next.projects.next-blog.__PAGE__.txt
+  - __next.projects.next-static.__PAGE__.txt
+  - __next.tools.__PAGE__.txt
+  - __next.tools.emoji.__PAGE__.txt
+  - __next.tools.flags.__PAGE__.txt
+  - __next.tools.image-magic.__PAGE__.txt
+  - __next.tools.webfont.__PAGE__.txt
+  - __next.tutorials.markdown.__PAGE__.txt
+  - __next.tutorials.tailwind.__PAGE__.txt
+
 feed:
   path: /feed.xml
   posts_limit: 20

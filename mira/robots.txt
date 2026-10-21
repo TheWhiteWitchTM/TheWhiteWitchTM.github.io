@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://thewhitewitchtm.github.io/mira
+Sitemap: https://thewhitewitchtm.github.io/mira/sitemap.xml

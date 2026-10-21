@@ -1,0 +1,37 @@
+2:"/mira/_next/static/chunks/0umf92h1sb77c.js"
+3:"/mira/_next/static/chunks/3t426mnxn6-ry.js"
+4:"/mira/_next/static/chunks/0i-ei5w-x5_y0.js"
+5:"/mira/_next/static/chunks/3310ljx6td31z.js"
+6:"/mira/_next/static/chunks/1141x4j8xtirj.js"
+7:"/mira/_next/static/chunks/0vatgnvf2_ubx.js"
+8:"LoadingBoundaryProvider"
+9:I[39756,["$2","$3","$4","$5","$6","$7"],"$8"]
+a:"$Sreact.fragment"
+b:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+c:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+13:"$Sreact.suspense"
+14:"/mira/_next/static/chunks/00vx3ib_16j9i.js"
+15:"/mira/_next/static/chunks/2giimo36qtb0c.js"
+16:I[72584,["$2","$3","$4","$5","$6","$7","$14","$15"],"Feed"]
+17:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+1a:"ViewportBoundary"
+1b:I[97367,["$2","$3","$4","$5","$6","$7"],"$1a"]
+1c:"MetadataBoundary"
+1d:I[97367,["$2","$3","$4","$5","$6","$7"],"$1c"]
+1e:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+e:X
+e:C
+f:X
+12:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$a","c",{"children":[["$","div",null,{"className":"mx-auto w-full py-4 px-4 sm:px-6 lg:px-8 max-w-2xl min-h-[calc(100vh-var(--header-height,0px)-var(--footer-height,0px)-2rem)]","children":["$","div",null,{"className":"prose dark:prose-invert","children":[["$","h2",null,{"children":["🐸","emoji-ui🤣"]}],["$","$13","emoji-ui",{"fallback":"Loading---","children":["$","$L16","emoji-ui",{"category":"emoji-ui"}]}]]}]}],[["$","script","script-0",{"src":"/mira/_next/static/chunks/00vx3ib_16j9i.js","async":true}],["$","script","script-1",{"src":"/mira/_next/static/chunks/2giimo36qtb0c.js","async":true}]],["$","$L17",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]]}],"p":"$@19","v":null,"s":"$f"}}]]
+10:[["children",{"s":{"n":"slug","t":"c","k":"emoji-ui","s":[]},"h":65636,"d":{"r":["$","$L9",null,{"loading":["$undefined",[],null],"children":["$","$a","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}]}],"p":"$@11","v":"$e","s":"$f"},"c":"$Q12"}]]
+1:[["children",{"s":"blog","h":131148,"d":{"r":["$","$L9",null,{"loading":["$undefined",[],null],"children":["$","$a","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}]}],"p":"$@d","v":"$e","s":"$f"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":131100,"c":"$Q1"},"h":{"r":["$","$a","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"emoji-ui🤣 | Mira's World"}],["$","meta","1",{"name":"description","content":"✨This is really just me goofing off! I gpt an alter ego 🧙‍♀️𝕿𝖍𝖊 𝖂𝖍𝖎𝖙𝖊 𝖂𝖎𝖙𝖈𝖍™✨ and this keeps her happy!"}],["$","meta","2",{"name":"application-name","content":"Mira's World"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/mira"}],["$","meta","4",{"name":"author","content":"Mira"}],["$","link","5",{"rel":"manifest","href":"/mira/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Mira's World,The White Witch,Mira,open source,dev blog,Next.js,static site,GitHub Pages,TypeScript,React"}],["$","meta","7",{"name":"creator","content":"Mira"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"category","content":"technology"}],["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/mira/blog/emoji-ui/"}],["$","meta","12",{"property":"og:title","content":"emoji-ui🤣"}],["$","meta","13",{"property":"og:description","content":"✨This is really just me goofing off! I gpt an alter ego 🧙‍♀️𝕿𝖍𝖊 𝖂𝖍𝖎𝖙𝖊 𝖂𝖎𝖙𝖈𝖍™✨ and this keeps her happy!"}],["$","meta","14",{"property":"og:url","content":"https://thewhitewitchtm.github.io/mira/blog/emoji-ui/"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:site","content":"@TheWhiteWitchTM"}],["$","meta","18",{"name":"twitter:creator","content":"@TheWhiteWitchTM"}],["$","meta","19",{"name":"twitter:title","content":"Mira's World – projects, tools, and a dev blog"}],["$","meta","20",{"name":"twitter:description","content":"Open-source projects, browser tools, tutorials, and a dev blog by Mira, The White Witch. The pages are static."}],["$","meta","21",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/mira/banner.jpg"}],["$","link","22",{"rel":"icon","href":"/mira/icon.svg","type":"image/svg+xml"}],["$","link","23",{"rel":"icon","href":"/mira/favicon.ico"}],["$","link","24",{"rel":"apple-touch-icon","href":"/mira/apple-touch-icon.png"}],["$","$L1e","25",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1f","v":null,"s":"$f"}},"a":"$@20","u":"$@21","b":"GczFuxNQZQUPD9FdcJQZ5"}
+18:null
+21:true
+f:300
+f:C
+20:0
+11:"$undefined"
+d:"$undefined"
+1f:"$undefined"
+19:"$undefined"

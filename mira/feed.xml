@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mira's World</title>
+    <link>https://thewhitewitchtm.github.io/mira/</link>
+    <description>Open-source projects, browser tools, tutorials, and a dev blog by Mira.</description>
+    <language>en</language>
+    <item>
+      <title>Why We Need to Talk About AI!</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/ai_talk/Why_we_need_to_talk/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/ai_talk/Why_we_need_to_talk/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Why We Need to Talk About AI: Its Transformative Impact on Society and the Workplace Welcome to the first installment of AI Talk, where we dive into the…</description>
+    </item>
+    <item>
+      <title>The Grok Bikini Incident: Why AI Image Manipulation Becomes Dangerous When It Goes Public on X</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/ai_talk/bikini_grok/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/ai_talk/bikini_grok/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Examining the controversial Grok AI episode involving digital undressing, and why private use is fine but instant public sharing of deepfakes is a serious…</description>
+    </item>
+    <item>
+      <title>The Grok Nazi Incident: Proof That AI Isn&apos;t Neutral and Can Be Biased by Its Creators</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/ai_talk/nazi_grok/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/ai_talk/nazi_grok/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Breaking down the controversial Grok AI episode where it praised Hitler, and how it highlights inherent biases in AI systems influenced by figures like Elon…</description>
+    </item>
+    <item>
+      <title>AI and the Great Job Replacement</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/ai_talk/work_ai_ubi/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/ai_talk/work_ai_ubi/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>AI and the Great Job Replacement: Why UBI Might Be Our Safety Net Hello again, AI enthusiasts! In our last AI Talk piece, we explored why discussing AI…</description>
+    </item>
+    <item>
+      <title>Behind the Scenes: How Mira&apos;s World Was Built</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/dev-blog/miras_world/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/dev-blog/miras_world/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Behind the Scenes: How Mira&amp;#39;s World Was Built Hey dev fam! 👋 Welcome to the first tech deep-dive on Mira&amp;#39;s World&amp;#39;s dev blog. Today I&amp;#39;m…</description>
+    </item>
+    <item>
+      <title>Why Next.js Outshines PHP-Based Solutions Like WordPress for Building a Blog</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/dev-blog/nextjs_vs_php/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/dev-blog/nextjs_vs_php/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Discover the speed, efficiency, and free hosting perks of Next.js over traditional PHP platforms.</description>
+    </item>
+    <item>
+      <title>Why Prop-Based Components Beat Compound Patterns: Lessons from NEXT-static and NEXT-blog</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/dev-blog/props_vs_subcomponents/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/dev-blog/props_vs_subcomponents/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Exploring how a props-driven approach in my custom UI components makes them more type-safe, less error-prone, and easier to use than shadcn/ui’s…</description>
+    </item>
+    <item>
+      <title>What is Emoji-UI?</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/emoji-ui/introduction/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/emoji-ui/introduction/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>What is Emoji-UI? A Retro, Emoji-Powered Twist on NEXT-static Hey builders (and fellow mischief-makers)! 👋 After diving into NEXT-static and NEXT-blog,…</description>
+    </item>
+    <item>
+      <title>Support My Freelance Journey: Why There&apos;s a Buy Me a Coffee Button</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/miras_world/buy_me_coffee/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/miras_world/buy_me_coffee/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>A personal note from Mira about freelancing, creating tech content, and how small support helps keep this site growing without trackers or ads.</description>
+    </item>
+    <item>
+      <title>Why RFK Jr.&apos;s Protein &amp; Fat Push + War on Fiber = Supersized America</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/miras_world/supersize_america/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/miras_world/supersize_america/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Why RFK Jr.&amp;#39;s Protein &amp;amp; Fat Push + War on Fiber = Supersized America The Great Protein &amp;amp; Fat Coronation RFK Jr.&amp;#39;s “Make America Healthy…</description>
+    </item>
+    <item>
+      <title>Welcome to Mira&apos;s World! ✨</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/miras_world/welcome/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/miras_world/welcome/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>Welcome to Mira&amp;#39;s World! ✨ Hey fellow creators, dreamers, and code warriors—I&amp;#39;m thrilled you&amp;#39;re here. This is the launch of Mira&amp;#39;s World, a…</description>
+    </item>
+    <item>
+      <title>What is NEXT-blog?</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/next-blog/introduction/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/next-blog/introduction/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>What is NEXT-blog? A Fully Static, Folder-Driven Blog Engine for Next.js Hey builders! 👋 Following up on the spotlight for NEXT-static, let&amp;#39;s talk about…</description>
+    </item>
+    <item>
+      <title>NEXT-blog Gets a Major Glow-Up Thanks to NEXT-static Progress</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/next-blog/progress_1/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/next-blog/progress_1/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>How removing shadcn/ui dependencies from NEXT-static made my personal blog feel way more compact, clean and custom.</description>
+    </item>
+    <item>
+      <title>What is NEXT-static?</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/next-static/introduction/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/next-static/introduction/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>What is NEXT-static? A Lean, Radix-Powered UI Foundation for Static Next.js Sites Hey builders! 👋 In the Mira&amp;#39;s World dev blog, I often mention…</description>
+    </item>
+    <item>
+      <title>NEXT-static Hits First Milestone – Cleaner Code &amp; Exciting Features Ahead</title>
+      <link>https://thewhitewitchtm.github.io/mira/blog/next-static/progress_1/</link>
+      <guid isPermaLink="true">https://thewhitewitchtm.github.io/mira/blog/next-static/progress_1/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 GMT</pubDate>
+      <description>My custom Next.js starter template NEXT-static reached an important goal: almost fully independent from shadcn/ui. Plus, what’s coming next.</description>
+    </item>
+  </channel>
+</rss>

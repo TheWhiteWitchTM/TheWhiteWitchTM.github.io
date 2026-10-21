@@ -1,0 +1,8 @@
+:HL["/mira/_next/static/chunks/0zm6w75x5gh6r.css","style"]
+:HL["/mira/_next/static/chunks/1vpf00r2wh_d-.css","style"]
+:HL["/mira/_next/static/media/GeistMono_Variable.p.0iy569vnmknd-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/mira/_next/static/media/Geist_Variable-s.p.03oqkqkevsckn.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":"next-blog","h":96,"c":"$Q3"}]]
+1:[["children",{"s":"projects","h":64,"c":"$Q2"}]]
+0:{"b":"GczFuxNQZQUPD9FdcJQZ5","t":{"t":{"s":"","h":20,"c":"$Q1"}}}
