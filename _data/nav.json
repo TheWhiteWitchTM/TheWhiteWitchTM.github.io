@@ -31,7 +31,9 @@
         { "title": "🕹️ On this page", "url": "/#retro-magic" },
         { "separator": true },
         { "title": "🕹️ RETRO MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/" },
-        { "title": "🖥️ RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" }
+        { "title": "🖥️ RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" },
+        { "title": "🛠️ RETRO Toolchain", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/" },
+        { "title": "🗄️ RETRO Center", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/" }
       ]
     },
     { "title": "🧙‍♀️ The White Witch", "url": "https://thewhitewitchtm.github.io/whitewitch/" },

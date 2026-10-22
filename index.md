@@ -163,10 +163,10 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
 <section class="band" id="retro-magic">
   <div class="band-head">
     <p class="kicker">Retro</p>
-    <h2>C64, Apple II, TI-99/4A</h2>
-    <p>The same language, pointed at the old machines. BASIC and assembly. Two ways in.</p>
+    <h2>C64, Apple II, TI-99, Amiga, ST</h2>
+    <p>A language, a window, a C64 toolchain, and a shelf that powers the emulator on.</p>
   </div>
-  <div class="shelf shelf-2">
+  <div class="shelf shelf-4">
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">
       <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-magic.jpg" alt="" width="1200" height="630">
       <span class="card-body">
@@ -179,6 +179,20 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
       <span class="card-body">
         <span class="card-title">RETRO Studio <span class="card-go" aria-hidden="true">→</span></span>
         <span class="card-copy">The window for the three machines.</span>
+      </span>
+    </a>
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-toolchain.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">RETRO Toolchain <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">6510 assembler. C, Pascal, and BASIC, out as a PRG.</span>
+      </span>
+    </a>
+    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-center.jpg" alt="" width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">RETRO Center <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Power on the machine, or drop a disk you own.</span>
       </span>
     </a>
   </div>

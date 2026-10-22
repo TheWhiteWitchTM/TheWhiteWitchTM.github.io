@@ -48,13 +48,14 @@
   <a href="https://github.com/TheWhiteWitchTM/MAGIC">Repo</a>
 </p>
 
-<h2 align="center">🕹️ RETRO MAGIC</h2>
+<h2 align="center">🕹️ RETRO</h2>
 
 <p align="center">
-  The same kind of script. BASIC and assembly for the C64, the Apple II, and the TI-99/4A.<br>
+  BASIC and assembly for the C64, the Apple II, and the TI-99/4A. A C64 toolchain. A shelf for five machines.<br>
   <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">RETRO MAGIC</a> ·
   <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">RETRO Studio</a> ·
-  <a href="https://github.com/TheWhiteWitchTM/RETRO-MAGIC">Repo</a>
+  <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/">RETRO Toolchain</a> ·
+  <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/">RETRO Center</a>
 </p>
 
 <h2 align="center">📰 FAUX NEWS</h2>
