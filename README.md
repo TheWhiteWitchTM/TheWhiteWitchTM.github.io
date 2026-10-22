@@ -57,10 +57,18 @@
   <a href="https://github.com/TheWhiteWitchTM/RETRO-MAGIC">Repo</a>
 </p>
 
+<h2 align="center">📰 FAUX NEWS</h2>
+
+<p align="center">
+  Satire. The right-wing wires, with a joke filed beside the headline they ran.<br>
+  <a href="https://thewhitewitchtm.github.io/FauxNews-/">FAUX NEWS</a> ·
+  <a href="https://github.com/TheWhiteWitchTM/FauxNews-">Repo</a>
+</p>
+
 ---
 
 <p align="center">
-  Politics and the long pages stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>.<br>
+  FAUX NEWS is satire. Politics and the long pages stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>.<br>
   ✉️ <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>
 </p>
 

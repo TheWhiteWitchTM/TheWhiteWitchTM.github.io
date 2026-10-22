@@ -543,6 +543,52 @@
   color: #f3e2b0;
 }
 
+.markdown-body a.feature-faux {
+  background: #14110e;
+  border-color: #3a3228;
+}
+
+.markdown-body a.feature-faux img {
+  background: #f3ecdf;
+}
+
+.markdown-body a.feature-faux .feature-copy {
+  background:
+    radial-gradient(420px 200px at 100% 0%, rgba(225, 6, 0, 0.16), transparent 62%),
+    #14110e;
+  border-left-color: rgba(225, 6, 0, 0.35);
+}
+
+.markdown-body a.feature-faux .feature-copy .kicker {
+  color: #ff5a4a;
+}
+
+.markdown-body a.feature-faux:hover {
+  border-color: #e10600;
+  box-shadow:
+    0 20px 44px rgba(40, 8, 4, 0.5),
+    0 0 0 1px rgba(225, 6, 0, 0.4);
+}
+
+.markdown-body a.feature-faux:focus-visible {
+  outline-color: #e10600;
+}
+
+.markdown-body a.feature-faux:hover .feature-go {
+  color: #ffd2cc;
+}
+
+.markdown-body .announce.porch {
+  background:
+    radial-gradient(480px 90px at 0% 0%, rgba(225, 6, 0, 0.16), transparent 62%),
+    #120e18;
+  border-color: #3a2a2a;
+}
+
+.markdown-body .announce.porch time {
+  color: #ff6b6b;
+}
+
 .markdown-body .plate {
   margin: 1.5rem auto 0;
   max-width: 920px;
@@ -639,6 +685,10 @@
 
   .markdown-body a.feature-corporate .feature-copy {
     border-top-color: rgba(228, 197, 106, 0.28);
+  }
+
+  .markdown-body a.feature-faux .feature-copy {
+    border-top-color: rgba(225, 6, 0, 0.35);
   }
 }
 

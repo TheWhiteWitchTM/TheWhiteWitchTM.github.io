@@ -3,7 +3,7 @@ layout: default
 title: LibreSky by The White Witch™
 hide_banner: true
 description: Mira builds LibreSky, a free Bluesky client in the browser. Edit, chat, voice, video, and AI. The password stays with Bluesky. Contract work welcome.
-keywords: LibreSky, Bluesky client, The White Witch, Mira, Mira's World
+keywords: LibreSky, Bluesky client, The White Witch, Mira, Mira's World, FAUX NEWS
 image: /assets/images/libresky.png
 image_width: 1200
 image_height: 630
@@ -14,6 +14,13 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
   <time datetime="2026-10-21">21 Oct 2026</time>
   <span>LibreSky is in public alpha. Desktop builds for Linux, Windows, and Mac are on the download page. Corporate, the edition you host yourself, is still in progress.</span>
 </aside>
+
+<!-- porch:start -->
+<aside class="announce porch" id="porch">
+  <time datetime="2026-10-22">22 Oct 2026</time>
+  <span>FAUX NEWS is on the shelf. Satire from the right-wing wires. The headline they ran stays on the card.</span>
+</aside>
+<!-- porch:end -->
 
 <header class="hero">
   <p class="hero-kicker">Mira · The White Witch™</p>
@@ -177,4 +184,21 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
   </div>
 </section>
 
-<p class="close-note">Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card.</p>
+<section class="band" id="faux-news">
+  <div class="band-head">
+    <p class="kicker">Satire</p>
+    <h2>FAUX NEWS</h2>
+    <p>A parody front page. FauxGrok reads the right-wing wires about once an hour and files a joke next to the headline they ran.</p>
+  </div>
+  <a class="feature feature-faux" href="https://thewhitewitchtm.github.io/FauxNews-/">
+    <img src="{{ '/assets/images/faux-news.png' | relative_url }}" alt="FAUX NEWS. Satire from the right-wing wires." width="1200" height="630">
+    <span class="feature-copy">
+      <span class="kicker">Parody</span>
+      <span class="feature-name">FAUX NEWS</span>
+      <span class="feature-text">Fox, Breitbart, Newsmax, OANN, and the rest of that shelf. Their headline stays attached. The rest is a joke.</span>
+      <span class="feature-go">Open the desk →</span>
+    </span>
+  </a>
+</section>
+
+<p class="close-note">FAUX NEWS is satire. Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card.</p>
