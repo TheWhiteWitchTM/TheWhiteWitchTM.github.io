@@ -35,14 +35,6 @@
       ]
     },
     { "title": "🧙‍♀️ The White Witch", "url": "https://thewhitewitchtm.github.io/whitewitch/" },
-    { "title": "☕ Mira's World", "url": "https://thewhitewitchtm.github.io/mira/" },
-    {
-      "title": "📰 FAUX NEWS",
-      "dropdown": [
-        { "title": "📰 On this page", "url": "/#faux-news" },
-        { "separator": true },
-        { "title": "🗞️ Open the desk", "url": "https://thewhitewitchtm.github.io/FauxNews-/" }
-      ]
-    }
+    { "title": "☕ Mira's World", "url": "https://thewhitewitchtm.github.io/mira/" }
   ]
 }
