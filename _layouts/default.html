@@ -71,8 +71,8 @@
         "@id": {{ "/" | absolute_url | append: "#person" | jsonify }},
         "name": "The White Witch",
         "alternateName": "Mira",
-        "jobTitle": "Freelance software developer",
-        "description": "Builds LibreSky, a Bluesky client. Takes contract work.",
+        "jobTitle": "Software developer",
+        "description": "Builds LibreSky, Vesper, and RETRO Center. Games, a language, and a joke of a news desk sit beside them.",
         "url": {{ "/" | absolute_url | jsonify }},
         "email": "thewhitewitchtm@google.com",
         "sameAs": [
@@ -110,13 +110,12 @@
             "position": 2,
             "item": {
               "@type": "SoftwareApplication",
-              "name": "LibreSky Corporate",
-              "url": {{ "/corporate/" | absolute_url | jsonify }},
-              "applicationCategory": "SocialNetworkingApplication",
+              "name": "Vesper",
+              "url": "https://github.com/TheWhiteWitchTM/vesper",
+              "applicationCategory": "MultimediaApplication",
               "operatingSystem": "Linux",
-              "description": "Self-hosted LibreSky. Your services, small enough for a Pi. Coming soon.",
-              "featureList": ["Self-hosted", "Your Pi", "Your services"],
-              "image": {{ "/assets/images/libresky-corporate.png" | absolute_url | jsonify }}
+              "description": "Music and video for the quiet hours. A dark player that runs from its own folder.",
+              "image": {{ "/assets/images/vesper.jpg" | absolute_url | jsonify }}
             }
           },
           {
@@ -285,7 +284,6 @@
       font-size: 0.95rem;
       white-space: nowrap;
     }
-    .nav-links a.corp { color: #e4c56a; }
     .nav-links a:hover { color: #fff; }
     .site-banner-wrap {
       display: flex;
@@ -336,7 +334,7 @@
       text-decoration: none;
     }
     .footer-links a:hover { color: #e8d5ff; }
-    @media (max-width: 720px) {
+    @media (max-width: 860px) {
       .nav-links { display: none; }
     }
     @media (max-width: 520px) {

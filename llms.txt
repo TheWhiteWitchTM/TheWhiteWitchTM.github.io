@@ -1,14 +1,18 @@
 # The White Witch™
 
-> Mira builds LibreSky, a free Bluesky client with edit, AI, voice, video, and chat. LibreSky Corporate, the self-hosted edition, is coming soon. Contract work: thewhitewitchtm@google.com. Mira's World, emoji games, MAGIC, and RETRO MAGIC sit beside the client.
+> Mira builds LibreSky, Vesper, and RETRO Center. LibreSky is a Bluesky client. Vesper plays music and video. RETRO Center powers on the old machines. Emoji games, MAGIC, and FAUX NEWS sit beside them. Mail: thewhitewitchtm@google.com.
 
 No accounts on this site. The work is linked below.
 
 ## LibreSky
 
 - [LibreSky](https://thewhitewitchtm.github.io/LibreSky/): Bluesky client in the browser. Edit, AI, voice, video, and chat.
-- [LibreSky Corporate](https://thewhitewitchtm.github.io/corporate/): self-hosted services, small enough for a Pi. Coming soon.
 - [LibreSky source](https://github.com/TheWhiteWitchTM/LibreSky)
+
+## On the desk
+
+- [Vesper](https://github.com/TheWhiteWitchTM/vesper): music and video for the quiet hours. Runs from its own folder.
+- [RETRO Center](https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/): a shelf for the C64, the Apple II, the TI-99/4A, the Amiga, and the Atari ST.
 
 ## Sites
 

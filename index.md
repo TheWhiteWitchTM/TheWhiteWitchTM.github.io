@@ -1,9 +1,9 @@
 ---
 layout: default
-title: LibreSky by The White Witch™
+title: The White Witch™
 hide_banner: true
-description: Mira builds LibreSky, a free Bluesky client in the browser. Edit, chat, voice, video, and AI. The password stays with Bluesky. Contract work welcome.
-keywords: LibreSky, Bluesky client, The White Witch, Mira, Mira's World, FAUX NEWS
+description: Mira builds LibreSky, Vesper, and RETRO Center. A Bluesky client, a player for the quiet hours, and a shelf that powers on the old machines.
+keywords: LibreSky, Vesper, RETRO Center, Bluesky client, The White Witch, Mira, emoji games, MAGIC, FAUX NEWS
 image: /assets/images/libresky.png
 image_width: 1200
 image_height: 630
@@ -11,8 +11,8 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
 ---
 
 <aside class="announce">
-  <time datetime="2026-10-21">21 Oct 2026</time>
-  <span>LibreSky is in public alpha. Desktop builds for Linux, Windows, and Mac are on the download page. Corporate, the edition you host yourself, is still in progress.</span>
+  <time datetime="2026-10-23">23 Oct 2026</time>
+  <span>Vesper plays the music and the movies. RETRO Center powers on the old machines. Both run from their own folders. LibreSky is still the Bluesky client, in public alpha.</span>
 </aside>
 
 <!-- porch:start -->
@@ -24,13 +24,13 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
 
 <header class="hero">
   <p class="hero-kicker">Mira · The White Witch™</p>
-  <h1>I build LibreSky.</h1>
-  <p class="hero-lead">Freelance, after years with Borland and SAP. LibreSky is a Bluesky client in the browser. Edit a post, chat, and start a voice or video call. Ask @ai in the same window. Sign-in happens on Bluesky, so the password never lands here.</p>
+  <h1>I build the stuff I use.</h1>
+  <p class="hero-lead">LibreSky talks to Bluesky. Vesper plays the quiet hours. RETRO Center boots a C64, an Apple II, a TI-99, an Amiga, or an ST. Around those sit emoji games, a language called MAGIC, and FAUX NEWS, which is kidding.</p>
   <p class="hero-actions">
     <a class="btn" href="https://thewhitewitchtm.github.io/LibreSky/">Open LibreSky</a>
     <a class="btn btn-line" href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>
   </p>
-  <p class="hero-note">Contract work. Source on <a href="https://github.com/TheWhiteWitchTM/LibreSky">GitHub</a>.</p>
+  <p class="hero-note">The repos are on <a href="https://github.com/TheWhiteWitchTM">GitHub</a>. The mail button works if you want the witch who wrote them.</p>
 </header>
 
 <section class="band" id="libresky">
@@ -44,13 +44,28 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
         <span class="feature-go">Open LibreSky →</span>
       </span>
     </a>
-    <a class="feature feature-corporate" id="libresky-corporate" href="{{ '/corporate/' | relative_url }}">
-      <img src="{{ '/assets/images/libresky-corporate.png' | relative_url }}" alt="LibreSky Corporate, coming soon. Self-hosted, your Pi, and your services." width="1200" height="630">
-      <span class="feature-copy">
-        <span class="kicker">Coming soon</span>
-        <span class="feature-name">LibreSky Corporate</span>
-        <span class="feature-text">The services stay on a machine you own. This one does not use Bluesky. A Pi can host it.</span>
-        <span class="feature-go">See Corporate →</span>
+  </div>
+</section>
+
+<section class="band" id="desk">
+  <div class="band-head">
+    <p class="kicker">On the desk</p>
+    <h2>Vesper and RETRO Center</h2>
+    <p>Two windows for this machine. One plays the files. One powers on the old computers. Both start from a folder, whether Qt is installed or not.</p>
+  </div>
+  <div class="shelf shelf-2">
+    <a class="card" id="vesper" href="https://github.com/TheWhiteWitchTM/vesper">
+      <img src="{{ '/assets/images/vesper.jpg' | relative_url }}" alt="Vesper. Music and video for the quiet hours." width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">Vesper <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Music and video. Albums, a queue, and the film you paused. Drop a folder on the window.</span>
+      </span>
+    </a>
+    <a class="card" id="retro-center" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/">
+      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-center.jpg" alt="RETRO Center. Five machines, one shelf." width="1200" height="630">
+      <span class="card-body">
+        <span class="card-title">RETRO Center <span class="card-go" aria-hidden="true">→</span></span>
+        <span class="card-copy">Five machines, one shelf. Power on, or drop a disk you own. The classics are cards, not someone else's games.</span>
       </span>
     </a>
   </div>
@@ -164,9 +179,9 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
   <div class="band-head">
     <p class="kicker">Retro</p>
     <h2>C64, Apple II, TI-99, Amiga, ST</h2>
-    <p>A language, a window, a C64 toolchain, and a shelf that powers the emulator on.</p>
+    <p>A language, a window, and a C64 toolchain. The shelf that powers the machines on is <a href="#retro-center">RETRO Center</a>, up with Vesper.</p>
   </div>
-  <div class="shelf shelf-4">
+  <div class="shelf shelf-3">
     <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">
       <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-magic.jpg" alt="" width="1200" height="630">
       <span class="card-body">
@@ -186,13 +201,6 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
       <span class="card-body">
         <span class="card-title">RETRO Toolchain <span class="card-go" aria-hidden="true">→</span></span>
         <span class="card-copy">6510 assembler. C, Pascal, and BASIC, out as a PRG.</span>
-      </span>
-    </a>
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/">
-      <img src="https://thewhitewitchtm.github.io/whitewitch/assets/images/retro-center.jpg" alt="" width="1200" height="630">
-      <span class="card-body">
-        <span class="card-title">RETRO Center <span class="card-go" aria-hidden="true">→</span></span>
-        <span class="card-copy">Power on the machine, or drop a disk you own.</span>
       </span>
     </a>
   </div>
@@ -215,4 +223,4 @@ image_alt: LibreSky, a Bluesky client. Edit, AI, voice, video, and chat.
   </a>
 </section>
 
-<p class="close-note">FAUX NEWS is satire. Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card.</p>
+<p class="close-note">FAUX NEWS is satire. Politics stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card, jokes included.</p>

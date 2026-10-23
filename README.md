@@ -5,8 +5,8 @@
 <h1 align="center">🧙‍♀️ The White Witch™</h1>
 
 <p align="center">
-  <strong>LibreSky is the work. Edit, AI, voice, video, and chat.</strong><br>
-  Mira, freelance, after Borland and SAP.<br>
+  <strong>LibreSky, Vesper, and RETRO Center.</strong><br>
+  A Bluesky client, a player, and a shelf of old machines.<br>
   <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>
 </p>
 
@@ -21,8 +21,14 @@
 <p align="center">
   A Bluesky client for the browser. Edit, AI, voice, video, and chat.<br>
   <a href="https://thewhitewitchtm.github.io/LibreSky/">LibreSky</a> ·
-  <a href="https://thewhitewitchtm.github.io/corporate/">LibreSky Corporate</a>, coming soon ·
   <a href="https://github.com/TheWhiteWitchTM/LibreSky">Repo</a>
+</p>
+
+<h2 align="center">🌙 Vesper</h2>
+
+<p align="center">
+  Music and video for the quiet hours. Albums, a queue, and the film you paused.<br>
+  <a href="https://github.com/TheWhiteWitchTM/vesper">Repo</a>
 </p>
 
 <h2 align="center">🕹️ Emoji Games</h2>
