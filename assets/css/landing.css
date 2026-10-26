@@ -690,7 +690,8 @@
   max-width: 920px;
 }
 
-.markdown-body .plate img {
+.markdown-body .plate img,
+.markdown-body .plate svg {
   width: 100%;
   height: auto;
   display: block;

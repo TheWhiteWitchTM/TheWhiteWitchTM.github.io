@@ -1,6 +1,6 @@
 # The White Witch™
 
-> Client work sits on the showcase. Three doors lead: The White Witch, Mira's World, and Emoji Games. LibreSky is second, in two editions, with SociallyDead beside them. MAGIC and RETRO MAGIC each have a shelf. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux. Mail: thewhitewitchtm@google.com.
+> Three doors lead: The White Witch, Mira's World, and Emoji Games. LibreSky is second, in two editions, with SociallyDead beside them. MAGIC and RETRO MAGIC each have a shelf. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux. Client work sits on the showcase at the end of the landing page. Mail: thewhitewitchtm@google.com.
 
 No accounts on this site. The work is linked below.
 
@@ -59,3 +59,4 @@ The same language, pointed at the C64, the Apple II, and the TI-99/4A.
 - [X](https://x.com/TheWhiteWitchTM)
 - [YouTube](https://youtube.com/@TheWhiteWitchTM)
 - [Bluesky](https://bsky.app/profile/thewhitewitchtm.sociallydead.me)
+- [Support Ukraine](https://thewhitewitchtm.github.io/ukraine/): UNITED24, Come Back Alive, and the Prytula Foundation. The flag in the header, just before Buy me a coffee, opens the same page. This site does not see the payment.

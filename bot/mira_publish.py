@@ -178,6 +178,23 @@ def front_matter(text: str) -> tuple[dict, str]:
     return meta, body
 
 
+def spend_held(slot: str = "blog") -> str:
+    import importlib.util
+
+    path = Path("/home/andreas/Projects/bots/credits.py")
+    weight = "spare" if slot == "article" else "light"
+    name = slot if slot in {"blog", "article"} else "blog"
+    try:
+        spec = importlib.util.spec_from_file_location("hearth_credits", path)
+        if spec is None or spec.loader is None:
+            raise ImportError(str(path))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod.allow(weight, name)
+    except Exception:
+        return "Credits did not answer. Model jobs are held."
+
+
 def screen(text: str) -> None:
     if bsky.THREAT_RE.search(text) or bsky.SLUR_RE.search(text):
         raise SystemExit("Draft failed the safety check.")
@@ -190,7 +207,10 @@ def balance_spent(detail: str) -> bool:
     return "402" in detail or "usage balance" in low or "payment required" in low
 
 
-def ask_grok(prompt: str) -> str:
+def ask_grok(prompt: str, slot: str = "blog") -> str:
+    held = spend_held(slot)
+    if held:
+        raise RuntimeError(held)
     # Tools stay off. With them on, a long prompt spends its one turn calling
     # a tool and comes back empty. cwd is /tmp so the session is not this repo.
     # grok-4.7 Fast bills double. High effort is the default and the expensive part.
@@ -237,15 +257,15 @@ def ask_grok(prompt: str) -> str:
     return text
 
 
-def complete(prompt: str) -> str:
+def complete(prompt: str, slot: str = "blog") -> str:
     last = "no attempt"
     for attempt in (1, 2):
         try:
-            text = ask_grok(prompt)
+            text = ask_grok(prompt, slot)
         except RuntimeError as exc:
             last = str(exc)
             mira_log(f"grok attempt {attempt} failed: {last[-240:]}")
-            if balance_spent(last):
+            if balance_spent(last) or "Model jobs are held." in last or "jobs wait" in last or "take turns" in last:
                 break
             continue
         if text:
@@ -618,7 +638,7 @@ def run_blog(now: datetime, state: dict, force: bool, dry_run: bool) -> int:
     if decision == "skip":
         mira_log("skip blog: this day rolled a skip")
         return 0
-    draft = complete(blog_prompt(now))
+    draft = complete(blog_prompt(now), "blog")
     try:
         path, info, text = build_markdown("blog", draft, now)
     except (ValueError, SystemExit) as exc:
@@ -649,7 +669,7 @@ def run_article(now: datetime, state: dict, force: bool, dry_run: bool) -> int:
     notes = news_notes()
     if notes.count("\n") < 2:
         raise SystemExit("Not enough headlines to write from. Article not published.")
-    draft = complete(article_prompt(now, notes))
+    draft = complete(article_prompt(now, notes), "article")
     path, info, text = build_markdown("article", draft, now)
     url = public_url(path)
     image = STATE_DIR / "images" / f"mira-{path.stem}.jpg"

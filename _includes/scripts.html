@@ -4,32 +4,62 @@
 <script>
   const navToggle = document.querySelector('.nav-toggle');
   const navMenu = document.querySelector('.site-nav > ul');
+  const uaMark = document.getElementById('ua-mark');
+  const uaMenu = document.getElementById('ua-menu');
+  const uaWrap = uaMark ? uaMark.parentElement : null;
 
-  // Dropdown toggles
+  function setUkraine(open) {
+    if (!uaWrap || !uaMark || !uaMenu) return;
+    uaWrap.classList.toggle('is-open', open);
+    uaMark.setAttribute('aria-expanded', open ? 'true' : 'false');
+    uaMenu.setAttribute('aria-hidden', open ? 'false' : 'true');
+  }
+
   document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
     toggle.addEventListener('click', function(e) {
       e.preventDefault();
       const menu = this.nextElementSibling;
       const isOpen = menu.classList.contains('open');
       document.querySelectorAll('.dropdown-menu.open').forEach(m => m.classList.remove('open'));
+      setUkraine(false);
       if (!isOpen) menu.classList.add('open');
     });
   });
+
+  if (uaMark) {
+    uaMark.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const open = uaWrap.classList.contains('is-open');
+      document.querySelectorAll('.dropdown-menu.open').forEach(m => m.classList.remove('open'));
+      if (navMenu) {
+        navMenu.classList.remove('open');
+        if (navToggle) navToggle.setAttribute('aria-expanded', 'false');
+      }
+      setUkraine(!open);
+    });
+  }
 
   document.addEventListener('click', function(e) {
     if (!e.target.closest('.dropdown')) {
       document.querySelectorAll('.dropdown-menu.open').forEach(m => m.classList.remove('open'));
     }
-    if (navToggle && navMenu && !e.target.closest('.site-nav')) {
+    if (!e.target.closest('.ua-wrap')) setUkraine(false);
+    if (navToggle && navMenu && !e.target.closest('.site-nav') && !e.target.closest('.nav-toggle')) {
       navMenu.classList.remove('open');
       navToggle.setAttribute('aria-expanded', 'false');
     }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') setUkraine(false);
   });
 
   if (navToggle && navMenu) {
     navToggle.addEventListener('click', () => {
       const isOpen = navMenu.classList.toggle('open');
       navToggle.setAttribute('aria-expanded', isOpen);
+      if (isOpen) setUkraine(false);
     });
   }
 </script>

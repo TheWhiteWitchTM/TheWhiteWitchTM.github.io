@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The White Witch™ — LibreSky, MAGIC, RETRO, and Emoji Games
-description: Client work for Andreas, then LibreSky in two editions, SociallyDead, MAGIC, and RETRO MAGIC. Mira's World and Emoji Games. Qt apps by The White Witch.
+description: Three doors, then LibreSky in two editions, SociallyDead, MAGIC, and RETRO MAGIC. Mira's World and Emoji Games. Qt apps by The White Witch. Client work for Andreas is the showcase at the end.
 keywords: The White Witch, Mira, Mira's World, Andreas, freelance, Mainz, LibreSky, LibreSky Corporate, SociallyDead, MAGIC, MAGIC Studio, MAGIC Apprentice, RETRO MAGIC, RETRO Studio, RETRO Toolchain, RETRO Center, Emoji Games, Blogy, MAGIC Dock, Cinder, Vesper, FAUX NEWS, Bluesky client, C64, Apple II, TI-99/4A
 image: /assets/images/banner.jpg
 image_width: 1168
@@ -11,7 +11,7 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
 
 <aside class="announce">
   <time datetime="2026-10-26">26 Oct 2026</time>
-  <span>Client work is on the <a href="#showcase">showcase</a>. A freelance site for Andreas, in German and English. The Qt apps stay on the desk.</span>
+  <span>Client work is the <a href="#showcase">showcase</a> at the end of this page. A freelance site for Andreas, in German and English. The Qt apps stay on the desk.</span>
 </aside>
 
 <header class="hero">
@@ -23,25 +23,8 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
     <a class="btn btn-line" href="https://thewhitewitchtm.github.io/whitewitch/" target="_blank" rel="noopener noreferrer">The White Witch™</a>
     <a class="btn" href="https://thewhitewitchtm.github.io/LibreSky/" target="_blank" rel="noopener noreferrer">Open LibreSky</a>
   </p>
-  <p class="hero-note">The menu up top and the footer below carry the rest. Mail is <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>.</p>
+  <p class="hero-note">The menu up top and the footer below carry the rest. Paid work is the <a href="#showcase">showcase</a> at the end. Mail is <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>.</p>
 </header>
-
-<section class="band" id="showcase">
-  <div class="band-head">
-    <p class="kicker">Showcase</p>
-    <h2>Work that pays</h2>
-    <p>Client sites. The shelves below are mine. This one is built for someone else, and it is how I get paid.</p>
-  </div>
-  <a class="feature feature-work" id="andreas" href="{{ '/andreas/' | relative_url }}">
-    <img src="{{ '/andreas/og.jpg' | relative_url }}" alt="Andreas. Freelance software. Java, C++, C#, and Visual Basic. Mainz, Rheinland-Pfalz, Hessen." width="1200" height="630">
-    <span class="feature-copy">
-      <span class="kicker">Client</span>
-      <span class="feature-name">Andreas</span>
-      <span class="feature-text">A freelance site for Andreas in Mainz. Java, C++, C#, and Visual Basic. German and English. Remote, and on site in Rheinland-Pfalz and Hessen. He is who I work for.</span>
-      <span class="feature-go">Open the site ↗</span>
-    </span>
-  </a>
-</section>
 
 <section class="band" id="doors">
   <div class="band-head">
@@ -237,3 +220,20 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
 </section>
 
 <p class="close-note">FAUX NEWS is satire. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card.</p>
+
+<section class="band" id="showcase">
+  <div class="band-head">
+    <p class="kicker">Showcase</p>
+    <h2>Work that pays</h2>
+    <p>Client sites. The shelves above are mine. This one is built for someone else, and it is how I get paid.</p>
+  </div>
+  <a class="feature feature-work" id="andreas" href="{{ '/andreas/' | relative_url }}">
+    <img src="{{ '/andreas/og.jpg' | relative_url }}" alt="Andreas. Freelance software. Java, C++, C#, and Visual Basic. Mainz, Rheinland-Pfalz, Hessen." width="1200" height="630">
+    <span class="feature-copy">
+      <span class="kicker">Client</span>
+      <span class="feature-name">Andreas</span>
+      <span class="feature-text">A freelance site for Andreas in Mainz. Java, C++, C#, and Visual Basic. German and English. Remote, and on site in Rheinland-Pfalz and Hessen. He is who I work for.</span>
+      <span class="feature-go">Open the site ↗</span>
+    </span>
+  </a>
+</section>

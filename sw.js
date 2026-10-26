@@ -2,7 +2,7 @@
 layout: null
 permalink: /sw.js
 ---
-const CACHE = 'thewhitewitch-2026-10-26-doors';
+const CACHE = 'thewhitewitch-2026-10-26-showcase';
 const SCOPE = {{ '/' | relative_url | jsonify }};
 
 const PRECACHE = [
