@@ -19,8 +19,21 @@ include:
   - __next._not-found.__PAGE__.txt
   - __next._tree.txt
   - __next.about.__PAGE__.txt
+  - __next.ai.$d$slug.__PAGE__.txt
+  - __next.ai.__PAGE__.txt
   - __next.blog.$d$slug.__PAGE__.txt
   - __next.blog.__PAGE__.txt
+  - __next.cards.__PAGE__.txt
+  - __next.datenschutz.__PAGE__.txt
+  - __next.en.__PAGE__.txt
+  - __next.en.about.__PAGE__.txt
+  - __next.en.contact.__PAGE__.txt
+  - __next.en.impressum.__PAGE__.txt
+  - __next.en.privacy.__PAGE__.txt
+  - __next.en.services.__PAGE__.txt
+  - __next.impressum.__PAGE__.txt
+  - __next.kontakt.__PAGE__.txt
+  - __next.leistungen.__PAGE__.txt
   - __next.projects.__PAGE__.txt
   - __next.tools.__PAGE__.txt
   - __next.tools.calling-card.__PAGE__.txt
@@ -32,6 +45,7 @@ include:
   - __next.tools.webfont.__PAGE__.txt
   - __next.tutorials.$d$slug.__PAGE__.txt
   - __next.tutorials.__PAGE__.txt
+  - __next.ueber.__PAGE__.txt
   - _buildManifest.js
   - _clientMiddlewareManifest.js
   - _next

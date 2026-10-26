@@ -1,7 +1,8 @@
-:HL["/mira/_next/static/chunks/224r-ber0bw7w.css","style"]
+:HL["/mira/_next/static/chunks/0bhatuklun_b0.css","style"]
+:HL["/mira/avatar.jpg","image"]
 :HL["/mira/witch.jpg","image"]
 :HL["/mira/mira.jpg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"why-the-card-is-next","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"Q8QTeT6CX04U9metnK0Zr","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"ilHsTKmNukD1ECWrn5psJ","t":{"t":{"s":"","h":16,"c":"$Q1"}}}

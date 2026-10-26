@@ -1,13 +1,21 @@
 # Mira's World
 
-> Professional lab of Mira, The White Witch. Freelance consultant in AI, C#, and TypeScript. Browser tools, tutorials, and a dev blog. Static Next.js on GitHub Pages.
+> Professional lab of Mira, The White Witch. Freelance consultant in AI, C++, and TypeScript. Browser tools, tutorials, and a dev blog. Static Next.js on GitHub Pages.
 
 ## Here
 
 - [Mira's World](https://thewhitewitchtm.github.io/mira/): Home
-- [About](https://thewhitewitchtm.github.io/mira/about/): Bio and hire
-- [Projects](https://thewhitewitchtm.github.io/mira/projects/): Desk of shipped work
 - [Blog](https://thewhitewitchtm.github.io/mira/blog/)
+- [AI](https://thewhitewitchtm.github.io/mira/ai/): History, the modern stack, Grok, prompts
+- [History of AI](https://thewhitewitchtm.github.io/mira/ai/history/)
+- [Modern AI](https://thewhitewitchtm.github.io/mira/ai/modern/)
+- [Grok](https://thewhitewitchtm.github.io/mira/ai/grok/)
+- [Grok Build](https://thewhitewitchtm.github.io/mira/ai/grok-build/)
+- [Grok Bot](https://thewhitewitchtm.github.io/mira/ai/grok-bot/)
+- [Grok Imagine](https://thewhitewitchtm.github.io/mira/ai/grok-imagine/)
+- [A good prompt](https://thewhitewitchtm.github.io/mira/ai/a-good-prompt/)
+- [Cards](https://thewhitewitchtm.github.io/mira/cards/)
+- [Projects](https://thewhitewitchtm.github.io/mira/projects/): Desk of shipped work
 - [Tools](https://thewhitewitchtm.github.io/mira/tools/)
 - [Unfurl](https://thewhitewitchtm.github.io/mira/tools/unfurl/)
 - [Calling Card](https://thewhitewitchtm.github.io/mira/tools/calling-card/)
@@ -16,6 +24,7 @@
 - [Markdown](https://thewhitewitchtm.github.io/mira/tutorials/markdown/)
 - [Tailwind 4](https://thewhitewitchtm.github.io/mira/tutorials/tailwind/)
 - [TypeScript](https://thewhitewitchtm.github.io/mira/tutorials/typescript/)
+- [About](https://thewhitewitchtm.github.io/mira/about/): Bio and hire
 - [RSS](https://thewhitewitchtm.github.io/mira/feed.xml)
 
 ## The desk

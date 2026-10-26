@@ -21,6 +21,16 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/cards/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://thewhitewitchtm.github.io/mira/tools/</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
@@ -124,5 +134,47 @@
 <loc>https://thewhitewitchtm.github.io/mira/tutorials/typescript/</loc>
 <changefreq>yearly</changefreq>
 <priority>0.6</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/a-good-prompt/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/grok-bot/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/grok-build/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/grok-imagine/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/grok/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/history/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/mira/ai/modern/</loc>
+<lastmod>Mon Oct 26 2026 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
 </url>
 </urlset>
