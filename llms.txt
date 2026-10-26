@@ -1,8 +1,14 @@
 # The White Witch™
 
-> Three doors lead: The White Witch, Mira's World, and Emoji Games. LibreSky is second, in two editions, with SociallyDead beside them. MAGIC and RETRO MAGIC each have a shelf. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux. Mail: thewhitewitchtm@google.com.
+> Client work sits on the showcase. Three doors lead: The White Witch, Mira's World, and Emoji Games. LibreSky is second, in two editions, with SociallyDead beside them. MAGIC and RETRO MAGIC each have a shelf. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux. Mail: thewhitewitchtm@google.com.
 
 No accounts on this site. The work is linked below.
+
+## Showcase
+
+Paid work. The other shelves are Mira's. This one is a client.
+
+- [Andreas](https://thewhitewitchtm.github.io/andreas/): a freelance site for Andreas in Mainz. Java, C++, C#, and Visual Basic. German and English. Remote, and on site in Rheinland-Pfalz and Hessen.
 
 ## Doors
 

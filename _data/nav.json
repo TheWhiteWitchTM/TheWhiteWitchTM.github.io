@@ -2,6 +2,12 @@
   "items": [
     { "title": "Home", "url": "/" },
     {
+      "title": "Showcase",
+      "dropdown": [
+        { "title": "Andreas", "url": "/andreas/" }
+      ]
+    },
+    {
       "title": "Doors",
       "dropdown": [
         { "title": "The White Witch™", "url": "https://thewhitewitchtm.github.io/whitewitch/" },
