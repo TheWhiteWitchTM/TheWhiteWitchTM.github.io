@@ -1,0 +1,6 @@
+:HL["/mira/_next/static/chunks/224r-ber0bw7w.css","style"]
+:HL["/mira/witch.jpg","image"]
+:HL["/mira/mira.jpg","image"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"about","h":64,"c":"$Q2"}]]
+0:{"b":"Q8QTeT6CX04U9metnK0Zr","t":{"t":{"s":"","h":16,"c":"$Q1"}}}

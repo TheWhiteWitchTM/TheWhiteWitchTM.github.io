@@ -1,23 +1,28 @@
 # Mira's World
 
-> Projects, browser tools, tutorials, and a dev blog by Mira, The White Witch. The pages are static.
+> Professional lab of Mira, The White Witch. Freelance consultant in AI, C#, and TypeScript. Browser tools, tutorials, and a dev blog. Static Next.js on GitHub Pages.
 
 ## Here
 
-- [Mira's World](https://thewhitewitchtm.github.io/mira/)
+- [Mira's World](https://thewhitewitchtm.github.io/mira/): Home
+- [About](https://thewhitewitchtm.github.io/mira/about/): Bio and hire
+- [Projects](https://thewhitewitchtm.github.io/mira/projects/): Desk of shipped work
 - [Blog](https://thewhitewitchtm.github.io/mira/blog/)
 - [Tools](https://thewhitewitchtm.github.io/mira/tools/)
-- [Emoji UI](https://thewhitewitchtm.github.io/mira/projects/emoji-ui/)
-- [NEXT-blog](https://thewhitewitchtm.github.io/mira/projects/next-blog/)
-- [NEXT-static](https://thewhitewitchtm.github.io/mira/projects/next-static/)
-- [Feed](https://thewhitewitchtm.github.io/mira/feed.xml)
+- [Unfurl](https://thewhitewitchtm.github.io/mira/tools/unfurl/)
+- [Calling Card](https://thewhitewitchtm.github.io/mira/tools/calling-card/)
+- [Post Meter](https://thewhitewitchtm.github.io/mira/tools/post-meter/)
+- [Tutorials](https://thewhitewitchtm.github.io/mira/tutorials/)
+- [Markdown](https://thewhitewitchtm.github.io/mira/tutorials/markdown/)
+- [Tailwind 4](https://thewhitewitchtm.github.io/mira/tutorials/tailwind/)
+- [TypeScript](https://thewhitewitchtm.github.io/mira/tutorials/typescript/)
+- [RSS](https://thewhitewitchtm.github.io/mira/feed.xml)
 
-## Elsewhere
+## The desk
 
 - [The card](https://thewhitewitchtm.github.io/)
 - [The White Witch](https://thewhitewitchtm.github.io/whitewitch/)
-- [MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/)
-- [RETRO MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/retro/)
+- [GitHub](https://github.com/TheWhiteWitchTM)
+- [LibreSky](https://thewhitewitchtm.github.io/LibreSky/)
 - [Emoji Games](https://thewhitewitchtm.github.io/emojigames/)
-- [SociallyDead](https://thewhitewitchtm.github.io/sociallydead/)
-- [GitHub](https://github.com/TheWhiteWitchTM/mira)
+- [All projects](https://github.com/TheWhiteWitchTM?tab=repositories)
