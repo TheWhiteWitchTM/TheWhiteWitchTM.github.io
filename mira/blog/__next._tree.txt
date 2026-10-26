@@ -4,4 +4,4 @@
 :HL["/mira/_next/static/media/Geist_Variable-s.p.03oqkqkevsckn.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"blog","h":68,"c":"$Q2"}]]
-0:{"b":"GczFuxNQZQUPD9FdcJQZ5","t":{"t":{"s":"","h":28,"c":"$Q1"}}}
+0:{"b":"ijY1pHc0YDKWpq_0l9HU9","t":{"t":{"s":"","h":28,"c":"$Q1"}}}

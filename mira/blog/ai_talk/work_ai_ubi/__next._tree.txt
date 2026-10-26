@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"c","k":"ai_talk/work_ai_ubi","s":[]},"h":65636,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":131148,"c":"$Q2"}]]
-0:{"b":"GczFuxNQZQUPD9FdcJQZ5","t":{"t":{"s":"","h":131100,"c":"$Q1"}}}
+0:{"b":"ijY1pHc0YDKWpq_0l9HU9","t":{"t":{"s":"","h":131100,"c":"$Q1"}}}

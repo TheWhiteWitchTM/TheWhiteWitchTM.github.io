@@ -75,7 +75,7 @@
         "name": "The White Witch",
         "alternateName": "Mira",
         "jobTitle": "Software developer",
-        "description": "Builds LibreSky, in two editions, and native Qt apps. Blogy, MAGIC Dock, Cinder, and Vesper sit on the desk. MAGIC Dock runs on Linux.",
+        "description": "Builds LibreSky, in two editions, SociallyDead, MAGIC, and RETRO MAGIC. Mira's World and Emoji Games sit beside the native Qt apps. Blogy, MAGIC Dock, Cinder, and Vesper are on the desk. MAGIC Dock runs on Linux.",
         "url": {{ "/" | absolute_url | jsonify }},
         "email": "thewhitewitchtm@google.com",
         "sameAs": [
@@ -85,7 +85,11 @@
           "https://bsky.app/profile/thewhitewitchtm.sociallydead.me",
           "https://thewhitewitchtm.github.io/whitewitch/",
           "https://thewhitewitchtm.github.io/mira/",
-          "https://thewhitewitchtm.github.io/LibreSky/"
+          "https://thewhitewitchtm.github.io/emojigames/",
+          "https://thewhitewitchtm.github.io/sociallydead/",
+          "https://thewhitewitchtm.github.io/LibreSky/",
+          "https://thewhitewitchtm.github.io/whitewitch/magic/",
+          "https://thewhitewitchtm.github.io/whitewitch/magic/retro/"
         ]
       }{% if page.url == "/" %},
       {
@@ -112,13 +116,19 @@
             }
           },
           { "@type": "ListItem", "position": 5, "name": "LibreSky Corporate", "url": {{ "/corporate/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 6, "name": "Blogy", "url": {{ "/blogy/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 7, "name": "MAGIC Dock", "url": {{ "/magic-dock/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 8, "name": "Cinder", "url": {{ "/cinder/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 9, "name": "Vesper", "url": {{ "/vesper/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 10, "name": "RETRO Center", "url": {{ "/retro-center/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 11, "name": "MAGIC", "url": {{ "/magic/" | absolute_url | jsonify }} },
-          { "@type": "ListItem", "position": 12, "name": "FAUX NEWS", "url": {{ "/faux-news/" | absolute_url | jsonify }} }
+          { "@type": "ListItem", "position": 6, "name": "SociallyDead", "url": "https://thewhitewitchtm.github.io/sociallydead/" },
+          { "@type": "ListItem", "position": 7, "name": "Blogy", "url": {{ "/blogy/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 8, "name": "MAGIC Dock", "url": {{ "/magic-dock/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 9, "name": "Cinder", "url": {{ "/cinder/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 10, "name": "Vesper", "url": {{ "/vesper/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 11, "name": "MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/" },
+          { "@type": "ListItem", "position": 12, "name": "MAGIC Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/studio/" },
+          { "@type": "ListItem", "position": 13, "name": "MAGIC Apprentice", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/" },
+          { "@type": "ListItem", "position": 14, "name": "RETRO MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/" },
+          { "@type": "ListItem", "position": 15, "name": "RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" },
+          { "@type": "ListItem", "position": 16, "name": "RETRO Toolchain", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/" },
+          { "@type": "ListItem", "position": 17, "name": "RETRO Center", "url": {{ "/retro-center/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 18, "name": "FAUX NEWS", "url": {{ "/faux-news/" | absolute_url | jsonify }} }
         ]
       }{% elsif page.schema_type == "WebSite" %},
       {
@@ -197,6 +207,7 @@
     }
     .site-title {
       min-width: 0;
+      margin-left: 0.85rem;
       color: #fff;
       text-decoration: none;
       font-weight: 700;
@@ -209,6 +220,7 @@
     .site-title:hover { color: var(--accent); }
     .coffee {
       flex: none;
+      margin-left: auto;
       color: var(--accent) !important;
       text-decoration: none;
       font-weight: 600;
@@ -222,7 +234,7 @@
     .coffee:hover { background: #c9a6ff22; }
     .site-nav {
       position: relative;
-      margin-left: auto;
+      flex: none;
       display: flex;
       align-items: center;
       min-width: 0;
@@ -303,9 +315,9 @@
     .nav-toggle:hover { color: #c9a6ff; border-color: #c9a6ff; }
     .footer-cols {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
       gap: 0.8rem 1.5rem;
-      max-width: 880px;
+      max-width: 1100px;
       margin: 0 auto 0.95rem;
       text-align: left;
     }
@@ -374,7 +386,7 @@
       text-decoration: none;
     }
     .footer-links a:hover { color: #e8d5ff; }
-    @media (max-width: 980px) {
+    @media (max-width: 1080px) {
       .nav-toggle { display: inline-flex; }
       .nav-inner,
       .site-nav { position: static; }
@@ -382,8 +394,8 @@
         display: none;
         position: absolute;
         top: calc(100% + 0.35rem);
-        right: 0.75rem;
-        left: auto;
+        left: 0.75rem;
+        right: auto;
         width: min(18rem, calc(100vw - 1.5rem));
         flex-direction: column;
         align-items: stretch;

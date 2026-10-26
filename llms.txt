@@ -1,6 +1,6 @@
 # The White Witch™
 
-> Three doors lead: The White Witch, Mira's World, and Emoji Games. LibreSky is second, in two editions. The public client opens in the browser. LibreSky Corporate is the one you host. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux. Mail: thewhitewitchtm@google.com.
+> Three doors lead: The White Witch, Mira's World, and Emoji Games. LibreSky is second, in two editions, with SociallyDead beside them. MAGIC and RETRO MAGIC each have a shelf. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux. Mail: thewhitewitchtm@google.com.
 
 No accounts on this site. The work is linked below.
 
@@ -14,7 +14,27 @@ No accounts on this site. The work is linked below.
 
 - [LibreSky](https://thewhitewitchtm.github.io/LibreSky/): Bluesky client in the browser. Edit, AI, voice, video, and chat. Opens directly.
 - [LibreSky source](https://github.com/TheWhiteWitchTM/LibreSky)
-- [LibreSky Corporate](https://thewhitewitchtm.github.io/corporate/): the edition you host. Small enough for a Pi. Coming soon.
+- [LibreSky Corporate](https://thewhitewitchtm.github.io/corporate/): the edition you host. Small enough for a Pi. Coming soon. The banner says LibreSky Corporate.
+- [SociallyDead](https://thewhitewitchtm.github.io/sociallydead/): a directory of social media. Websites, YouTube, X, and Bluesky.
+
+## MAGIC
+
+Lua and BASIC, compiled to JavaScript. The emoji games needed a language. This is that language.
+
+- [MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/)
+- [MAGIC Studio](https://thewhitewitchtm.github.io/whitewitch/magic/studio/)
+- [MAGIC Apprentice](https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/)
+- [Card on this site](https://thewhitewitchtm.github.io/magic/)
+- [Source](https://github.com/TheWhiteWitchTM/MAGIC)
+
+## RETRO MAGIC
+
+The same language, pointed at the C64, the Apple II, and the TI-99/4A.
+
+- [RETRO MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/retro/)
+- [RETRO Studio](https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/)
+- [RETRO Toolchain](https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/)
+- [RETRO Center](https://thewhitewitchtm.github.io/retro-center/): a shelf for the C64, the Apple II, the TI-99/4A, the Amiga, and the Atari ST.
 
 ## Native Qt
 
@@ -22,11 +42,9 @@ No accounts on this site. The work is linked below.
 - [MAGIC Dock](https://thewhitewitchtm.github.io/magic-dock/): a dock for Pop!_OS COSMIC. Linux only. Stacks.
 - [Cinder](https://thewhitewitchtm.github.io/cinder/): an editor for bash and sh.
 - [Vesper](https://thewhitewitchtm.github.io/vesper/): music and video for the quiet hours.
-- [RETRO Center](https://thewhitewitchtm.github.io/retro-center/): a shelf for the C64, the Apple II, the TI-99/4A, the Amiga, and the Atari ST.
 
 ## Also
 
-- [MAGIC](https://thewhitewitchtm.github.io/magic/): Lua and BASIC, compiled to JavaScript. Studio, Apprentice, and RETRO MAGIC are linked from that page.
 - [FAUX NEWS](https://thewhitewitchtm.github.io/faux-news/): satire. The right-wing wires, with a joke filed beside the headline they ran. The desk itself is [here](https://thewhitewitchtm.github.io/FauxNews-/).
 
 ## Elsewhere

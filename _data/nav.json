@@ -13,7 +13,9 @@
       "title": "LibreSky",
       "dropdown": [
         { "title": "Open LibreSky", "url": "https://thewhitewitchtm.github.io/LibreSky/" },
-        { "title": "LibreSky Corporate", "url": "/corporate/" }
+        { "title": "LibreSky Corporate", "url": "/corporate/" },
+        { "separator": true },
+        { "title": "SociallyDead", "url": "https://thewhitewitchtm.github.io/sociallydead/" }
       ]
     },
     {
@@ -22,15 +24,31 @@
         { "title": "Blogy", "url": "/blogy/" },
         { "title": "MAGIC Dock", "url": "/magic-dock/" },
         { "title": "Cinder", "url": "/cinder/" },
-        { "title": "Vesper", "url": "/vesper/" },
+        { "title": "Vesper", "url": "/vesper/" }
+      ]
+    },
+    {
+      "title": "MAGIC",
+      "dropdown": [
+        { "title": "MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/" },
+        { "title": "MAGIC Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/studio/" },
+        { "title": "MAGIC Apprentice", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/" },
         { "separator": true },
+        { "title": "On this site", "url": "/magic/" }
+      ]
+    },
+    {
+      "title": "RETRO",
+      "dropdown": [
+        { "title": "RETRO MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/" },
+        { "title": "RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" },
+        { "title": "RETRO Toolchain", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/" },
         { "title": "RETRO Center", "url": "/retro-center/" }
       ]
     },
     {
       "title": "More",
       "dropdown": [
-        { "title": "MAGIC", "url": "/magic/" },
         { "title": "FAUX NEWS", "url": "/faux-news/" },
         { "separator": true },
         { "title": "GitHub", "url": "https://github.com/TheWhiteWitchTM" }

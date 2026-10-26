@@ -1,0 +1,23 @@
+# Mira's World
+
+> Projects, browser tools, tutorials, and a dev blog by Mira, The White Witch. The pages are static.
+
+## Here
+
+- [Mira's World](https://thewhitewitchtm.github.io/mira/)
+- [Blog](https://thewhitewitchtm.github.io/mira/blog/)
+- [Tools](https://thewhitewitchtm.github.io/mira/tools/)
+- [Emoji UI](https://thewhitewitchtm.github.io/mira/projects/emoji-ui/)
+- [NEXT-blog](https://thewhitewitchtm.github.io/mira/projects/next-blog/)
+- [NEXT-static](https://thewhitewitchtm.github.io/mira/projects/next-static/)
+- [Feed](https://thewhitewitchtm.github.io/mira/feed.xml)
+
+## Elsewhere
+
+- [The card](https://thewhitewitchtm.github.io/)
+- [The White Witch](https://thewhitewitchtm.github.io/whitewitch/)
+- [MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/)
+- [RETRO MAGIC](https://thewhitewitchtm.github.io/whitewitch/magic/retro/)
+- [Emoji Games](https://thewhitewitchtm.github.io/emojigames/)
+- [SociallyDead](https://thewhitewitchtm.github.io/sociallydead/)
+- [GitHub](https://github.com/TheWhiteWitchTM/mira)

@@ -215,7 +215,8 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.markdown-body .shelf-apps {
+.markdown-body .shelf-apps,
+.markdown-body .shelf-4up {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
@@ -435,7 +436,7 @@
 
 .markdown-body .sky-pair {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.05rem;
 }
 
@@ -568,6 +569,41 @@
   color: #f3e2b0;
 }
 
+.markdown-body a.feature-social {
+  background: #140c10;
+  border-color: #4a2430;
+}
+
+.markdown-body a.feature-social img {
+  background: #2a1218;
+}
+
+.markdown-body a.feature-social .feature-copy {
+  background:
+    radial-gradient(420px 200px at 100% 0%, rgba(180, 40, 60, 0.18), transparent 62%),
+    #140c10;
+  border-left-color: rgba(196, 70, 90, 0.35);
+}
+
+.markdown-body a.feature-social .feature-copy .kicker {
+  color: #e07080;
+}
+
+.markdown-body a.feature-social:hover {
+  border-color: #e07080;
+  box-shadow:
+    0 20px 44px rgba(40, 8, 16, 0.5),
+    0 0 0 1px rgba(196, 70, 90, 0.4);
+}
+
+.markdown-body a.feature-social:focus-visible {
+  outline-color: #e07080;
+}
+
+.markdown-body a.feature-social:hover .feature-go {
+  color: #ffd0d6;
+}
+
 .markdown-body a.feature-faux {
   background: #14110e;
   border-color: #3a3228;
@@ -682,7 +718,8 @@
 }
 
 @media (max-width: 1100px) {
-  .markdown-body .shelf-apps {
+  .markdown-body .shelf-apps,
+  .markdown-body .shelf-4up {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -692,6 +729,7 @@
   .markdown-body .shelf-2,
   .markdown-body .shelf-4,
   .markdown-body .shelf-apps,
+  .markdown-body .shelf-4up,
   .markdown-body .sky-pair,
   .markdown-body .dial {
     grid-template-columns: 1fr;
@@ -719,6 +757,10 @@
 
   .markdown-body a.feature-corporate .feature-copy {
     border-top-color: rgba(228, 197, 106, 0.28);
+  }
+
+  .markdown-body a.feature-social .feature-copy {
+    border-top-color: rgba(196, 70, 90, 0.35);
   }
 
   .markdown-body a.feature-faux .feature-copy {
