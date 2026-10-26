@@ -1,0 +1,63 @@
+1:"$Sreact.fragment"
+3:"/andreas/_next/static/chunks/0umf92h1sb77c.js"
+4:"/andreas/_next/static/chunks/1e48qiku8i0w6.js"
+5:"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js"
+6:I[40253,["$3","$4","$5"],"Shell"]
+7:I[39756,["$3","$4","$5"],"default"]
+8:I[37457,["$3","$4","$5"],"default"]
+9:I[22016,["$3","$4","$5"],""]
+17:"ViewportBoundary"
+18:I[97367,["$3","$4","$5"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$3","$4","$5"],"$19"]
+1b:"$Sreact.suspense"
+:HL["/andreas/_next/static/chunks/26ei8nxbpeg8l.css","style"]
+2:T55e,{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thewhitewitchtm.github.io/andreas/#website","name":"Andreas","url":"https://thewhitewitchtm.github.io/andreas/","inLanguage":["de","en"],"publisher":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"}},{"@type":"Person","@id":"https://thewhitewitchtm.github.io/andreas/#andreas","name":"Andreas","jobTitle":"Freelance software developer","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/andreas.jpg","address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"knowsLanguage":["de","en"],"knowsAbout":["Java","C++","C#","Visual Basic",".NET"]},{"@type":"ProfessionalService","@id":"https://thewhitewitchtm.github.io/andreas/#service","name":"Andreas — freelance software","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/og.jpg","founder":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"},"address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"areaServed":["Rheinland-Pfalz","Hessen","Germany","Worldwide"],"availableLanguage":["German","English"],"serviceType":["Java development","C++ development","C# development","Visual Basic development"]}]}b:X
+e:X
+e:C
+11:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","article",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"Privacy"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Privacy"}],[["$","p","This website is static. There is no account, no contact form, no analytics, and no cookies. The language lives in the address, not in a value stored on the device.",{"className":"max-w-prose","children":"This website is static. There is no account, no contact form, no analytics, and no cookies. The language lives in the address, not in a value stored on the device."}],["$","p","When the site is opened, the host, GitHub Pages, processes the usual connection data. That includes IP address, time, and the address that was requested. GitHub’s privacy statement applies.",{"className":"max-w-prose","children":"When the site is opened, the host, GitHub Pages, processes the usual connection data. That includes IP address, time, and the address that was requested. GitHub’s privacy statement applies."}],"$L12"],"$L13","$L14"]}],null,"$L15"]}],"p":"$@16","v":null,"s":"$b"}}]]
+f:[["children",{"s":"privacy","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@10","v":"$e","s":"$b"},"c":"$Q11"}]]
+c:[["children",{"s":"en","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/andreas/_next/static/chunks/26ei8nxbpeg8l.css","precedence":"next"}],["$","script","script-0",{"src":"/andreas/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/andreas/_next/static/chunks/1e48qiku8i0w6.js","async":true}],["$","script","script-2",{"src":"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js","async":true}]],["$","html",null,{"lang":"de","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-ink text-paper antialiased","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.lang=/\\/en(\\/|$)/.test(location.pathname)?\"en\":\"de\""}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],[]]}]}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Privacy"}],["$","meta","1",{"name":"description","content":"Privacy notes. Static website, no cookies, no analytics. Hosted on GitHub Pages."}],["$","meta","2",{"name":"application-name","content":"Andreas"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/andreas"}],["$","meta","4",{"name":"author","content":"Andreas"}],["$","link","5",{"rel":"manifest","href":"/andreas/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Andreas,Freiberufler,freelance software,Java,C++,C#,Visual Basic,VB.NET,Mainz,Rheinland-Pfalz,Hessen,Germany"}],["$","meta","7",{"name":"creator","content":"Andreas"}],["$","meta","8",{"name":"publisher","content":"Andreas"}],["$","meta","9",{"name":"robots","content":"noindex, nofollow"}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35"]}]}],null]}],null]}],"p":"$@36","v":null,"s":"$b"}},"a":"$@37","u":"$@38","b":"ZKC1lmv8Z_fs9JKLe0pEF"}
+39:I[97367,["$3","$4","$5"],"OutletBoundary"]
+3b:I[27201,["$3","$4","$5"],"IconMark"]
+12:["$","p","No fonts are loaded from another server. The page uses the fonts on the device.",{"className":"max-w-prose","children":"No fonts are loaded from another server. The page uses the fonts on the device."}]
+13:["$","p",null,{"children":["$","a",null,{"href":"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement","target":"_blank","rel":"noopener noreferrer","className":"text-accent hover:text-accent-2","children":"GitHub privacy statement"}]}]
+14:["$","p",null,{"className":"max-w-prose","children":["Andreas, Mainz, is responsible for the content. Name, address, and contact are in the"," ",["$","$L9",null,{"href":"/en/impressum/","className":"text-accent hover:text-accent-2","children":"legal notice"}],"."]}]
+15:["$","$L39",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@3a"}]}]
+1c:["$","meta","10",{"name":"category","content":"technology"}]
+1d:["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/andreas/en/privacy/"}]
+1e:["$","link","12",{"rel":"alternate","hrefLang":"de","href":"https://thewhitewitchtm.github.io/andreas/datenschutz/"}]
+1f:["$","link","13",{"rel":"alternate","hrefLang":"en","href":"https://thewhitewitchtm.github.io/andreas/en/privacy/"}]
+20:["$","link","14",{"rel":"alternate","hrefLang":"x-default","href":"https://thewhitewitchtm.github.io/andreas/datenschutz/"}]
+21:["$","meta","15",{"property":"og:title","content":"Privacy"}]
+22:["$","meta","16",{"property":"og:description","content":"Privacy notes. Static website, no cookies, no analytics. Hosted on GitHub Pages."}]
+23:["$","meta","17",{"property":"og:url","content":"https://thewhitewitchtm.github.io/andreas/en/privacy/"}]
+24:["$","meta","18",{"property":"og:site_name","content":"Andreas"}]
+25:["$","meta","19",{"property":"og:locale","content":"en_US"}]
+26:["$","meta","20",{"property":"og:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+27:["$","meta","21",{"property":"og:image:width","content":"1200"}]
+28:["$","meta","22",{"property":"og:image:height","content":"630"}]
+29:["$","meta","23",{"property":"og:image:alt","content":"Andreas. Java, C++, C#, and Visual Basic. Mainz, Rhineland-Palatinate, Hessen."}]
+2a:["$","meta","24",{"property":"og:locale:alternate","content":"de_DE"}]
+2b:["$","meta","25",{"property":"og:type","content":"website"}]
+2c:["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}]
+2d:["$","meta","27",{"name":"twitter:title","content":"Privacy"}]
+2e:["$","meta","28",{"name":"twitter:description","content":"Privacy notes. Static website, no cookies, no analytics. Hosted on GitHub Pages."}]
+2f:["$","meta","29",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+30:["$","link","30",{"rel":"icon","href":"/andreas/favicon.ico","sizes":"32x32"}]
+31:["$","link","31",{"rel":"icon","href":"/andreas/icon.svg","type":"image/svg+xml"}]
+32:["$","link","32",{"rel":"icon","href":"/andreas/icon-192x192.png","sizes":"192x192","type":"image/png"}]
+33:["$","link","33",{"rel":"icon","href":"/andreas/icon-512x512.png","sizes":"512x512","type":"image/png"}]
+34:["$","link","34",{"rel":"apple-touch-icon","href":"/andreas/apple-touch-icon.png"}]
+35:["$","$L3b","35",{}]
+b:300
+3a:null
+38:true
+b:C
+37:0
+10:"$undefined"
+d:"$undefined"
+a:"$undefined"
+36:"$undefined"
+16:"$undefined"

@@ -1,0 +1,64 @@
+1:"$Sreact.fragment"
+3:"/andreas/_next/static/chunks/0umf92h1sb77c.js"
+4:"/andreas/_next/static/chunks/1e48qiku8i0w6.js"
+5:"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js"
+6:I[40253,["$3","$4","$5"],"Shell"]
+7:I[39756,["$3","$4","$5"],"default"]
+8:I[37457,["$3","$4","$5"],"default"]
+9:I[22016,["$3","$4","$5"],""]
+17:"ViewportBoundary"
+18:I[97367,["$3","$4","$5"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$3","$4","$5"],"$19"]
+1b:"$Sreact.suspense"
+:HL["/andreas/_next/static/chunks/26ei8nxbpeg8l.css","style"]
+2:T55e,{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thewhitewitchtm.github.io/andreas/#website","name":"Andreas","url":"https://thewhitewitchtm.github.io/andreas/","inLanguage":["de","en"],"publisher":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"}},{"@type":"Person","@id":"https://thewhitewitchtm.github.io/andreas/#andreas","name":"Andreas","jobTitle":"Freelance software developer","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/andreas.jpg","address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"knowsLanguage":["de","en"],"knowsAbout":["Java","C++","C#","Visual Basic",".NET"]},{"@type":"ProfessionalService","@id":"https://thewhitewitchtm.github.io/andreas/#service","name":"Andreas — freelance software","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/og.jpg","founder":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"},"address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"areaServed":["Rheinland-Pfalz","Hessen","Germany","Worldwide"],"availableLanguage":["German","English"],"serviceType":["Java development","C++ development","C# development","Visual Basic development"]}]}b:X
+e:X
+e:C
+11:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","article",null,{"className":"space-y-6","children":[["$","header",null,{"children":[["$","p",null,{"className":"kicker","children":"Legal notice"}],["$","h1",null,{"className":"mt-1 text-4xl font-semibold tracking-tight text-white","children":"Legal notice"}],["$","p",null,{"className":"mt-3 text-muted","children":"Information under section 5 of the German Digital Services Act (DDG)."}]]}],["$","dl",null,{"className":"space-y-4","children":[["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Name"}],["$","dd",null,{"className":"mt-1","children":"Andreas"}]]}],["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Work"}],["$","dd",null,{"className":"mt-1","children":"Freelance software development"}]]}],["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Place"}],"$L12"]}],null,null,null,"$L13"]}],"$L14"]}],null,"$L15"]}],"p":"$@16","v":null,"s":"$b"}}]]
+f:[["children",{"s":"impressum","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@10","v":"$e","s":"$b"},"c":"$Q11"}]]
+c:[["children",{"s":"en","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/andreas/_next/static/chunks/26ei8nxbpeg8l.css","precedence":"next"}],["$","script","script-0",{"src":"/andreas/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/andreas/_next/static/chunks/1e48qiku8i0w6.js","async":true}],["$","script","script-2",{"src":"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js","async":true}]],["$","html",null,{"lang":"de","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-ink text-paper antialiased","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.lang=/\\/en(\\/|$)/.test(location.pathname)?\"en\":\"de\""}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],[]]}]}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Legal notice"}],["$","meta","1",{"name":"description","content":"Provider identification for the website of Andreas, freelance software from Mainz."}],["$","meta","2",{"name":"application-name","content":"Andreas"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/andreas"}],["$","meta","4",{"name":"author","content":"Andreas"}],["$","link","5",{"rel":"manifest","href":"/andreas/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Andreas,Freiberufler,freelance software,Java,C++,C#,Visual Basic,VB.NET,Mainz,Rheinland-Pfalz,Hessen,Germany"}],["$","meta","7",{"name":"creator","content":"Andreas"}],["$","meta","8",{"name":"publisher","content":"Andreas"}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36"]}]}],null]}],null]}],"p":"$@37","v":null,"s":"$b"}},"a":"$@38","u":"$@39","b":"ZKC1lmv8Z_fs9JKLe0pEF"}
+3a:I[97367,["$3","$4","$5"],"OutletBoundary"]
+3c:I[27201,["$3","$4","$5"],"IconMark"]
+12:["$","dd",null,{"className":"mt-1","children":"Mainz, Rhineland-Palatinate, Germany"}]
+13:["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Responsible for the content"}],["$","dd",null,{"className":"mt-1","children":["Andreas",", ","Mainz"]}]]}]
+14:["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted space-y-2","children":[["$","p",null,{"children":"A complete legal notice still needs:"}],["$","ul",null,{"className":"list-disc space-y-1 pl-5","children":[["$","li","the full name",{"children":"the full name"}],["$","li","a service address with street and postal code",{"children":"a service address with street and postal code"}],["$","li","a fast electronic contact, email or phone",{"children":"a fast electronic contact, email or phone"}]]}],["$","p",null,{"children":"This is a preview. The full name, street address, and direct contact go on his own domain. A VAT ID will be listed then, if there is one."}]]}]}]
+15:["$","$L3a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@3b"}]}]
+1c:["$","meta","9",{"name":"robots","content":"noindex, nofollow"}]
+1d:["$","meta","10",{"name":"category","content":"technology"}]
+1e:["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/andreas/en/impressum/"}]
+1f:["$","link","12",{"rel":"alternate","hrefLang":"de","href":"https://thewhitewitchtm.github.io/andreas/impressum/"}]
+20:["$","link","13",{"rel":"alternate","hrefLang":"en","href":"https://thewhitewitchtm.github.io/andreas/en/impressum/"}]
+21:["$","link","14",{"rel":"alternate","hrefLang":"x-default","href":"https://thewhitewitchtm.github.io/andreas/impressum/"}]
+22:["$","meta","15",{"property":"og:title","content":"Legal notice"}]
+23:["$","meta","16",{"property":"og:description","content":"Provider identification for the website of Andreas, freelance software from Mainz."}]
+24:["$","meta","17",{"property":"og:url","content":"https://thewhitewitchtm.github.io/andreas/en/impressum/"}]
+25:["$","meta","18",{"property":"og:site_name","content":"Andreas"}]
+26:["$","meta","19",{"property":"og:locale","content":"en_US"}]
+27:["$","meta","20",{"property":"og:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+28:["$","meta","21",{"property":"og:image:width","content":"1200"}]
+29:["$","meta","22",{"property":"og:image:height","content":"630"}]
+2a:["$","meta","23",{"property":"og:image:alt","content":"Andreas. Java, C++, C#, and Visual Basic. Mainz, Rhineland-Palatinate, Hessen."}]
+2b:["$","meta","24",{"property":"og:locale:alternate","content":"de_DE"}]
+2c:["$","meta","25",{"property":"og:type","content":"website"}]
+2d:["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}]
+2e:["$","meta","27",{"name":"twitter:title","content":"Legal notice"}]
+2f:["$","meta","28",{"name":"twitter:description","content":"Provider identification for the website of Andreas, freelance software from Mainz."}]
+30:["$","meta","29",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+31:["$","link","30",{"rel":"icon","href":"/andreas/favicon.ico","sizes":"32x32"}]
+32:["$","link","31",{"rel":"icon","href":"/andreas/icon.svg","type":"image/svg+xml"}]
+33:["$","link","32",{"rel":"icon","href":"/andreas/icon-192x192.png","sizes":"192x192","type":"image/png"}]
+34:["$","link","33",{"rel":"icon","href":"/andreas/icon-512x512.png","sizes":"512x512","type":"image/png"}]
+35:["$","link","34",{"rel":"apple-touch-icon","href":"/andreas/apple-touch-icon.png"}]
+36:["$","$L3c","35",{}]
+b:300
+3b:null
+39:true
+b:C
+38:0
+10:"$undefined"
+d:"$undefined"
+a:"$undefined"
+37:"$undefined"
+16:"$undefined"

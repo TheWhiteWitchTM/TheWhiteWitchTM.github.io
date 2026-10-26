@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+3:"/andreas/_next/static/chunks/0umf92h1sb77c.js"
+4:"/andreas/_next/static/chunks/1e48qiku8i0w6.js"
+5:"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js"
+6:I[40253,["$3","$4","$5"],"Shell"]
+7:I[39756,["$3","$4","$5"],"default"]
+8:I[37457,["$3","$4","$5"],"default"]
+9:I[22016,["$3","$4","$5"],""]
+10:I[97367,["$3","$4","$5"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$3","$4","$5"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$3","$4","$5"],"$16"]
+:HL["/andreas/_next/static/chunks/26ei8nxbpeg8l.css","style"]
+2:T55e,{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thewhitewitchtm.github.io/andreas/#website","name":"Andreas","url":"https://thewhitewitchtm.github.io/andreas/","inLanguage":["de","en"],"publisher":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"}},{"@type":"Person","@id":"https://thewhitewitchtm.github.io/andreas/#andreas","name":"Andreas","jobTitle":"Freelance software developer","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/andreas.jpg","address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"knowsLanguage":["de","en"],"knowsAbout":["Java","C++","C#","Visual Basic",".NET"]},{"@type":"ProfessionalService","@id":"https://thewhitewitchtm.github.io/andreas/#service","name":"Andreas — freelance software","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/og.jpg","founder":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"},"address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"areaServed":["Rheinland-Pfalz","Hessen","Germany","Worldwide"],"availableLanguage":["German","English"],"serviceType":["Java development","C++ development","C# development","Visual Basic development"]}]}b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/andreas/_next/static/chunks/26ei8nxbpeg8l.css","precedence":"next"}],["$","script","script-0",{"src":"/andreas/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/andreas/_next/static/chunks/1e48qiku8i0w6.js","async":true}],["$","script","script-2",{"src":"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js","async":true}]],["$","html",null,{"lang":"de","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-ink text-paper antialiased","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.lang=/\\/en(\\/|$)/.test(location.pathname)?\"en\":\"de\""}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],[]]}]}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Andreas — Freiberufliche Software aus Mainz"}],["$","meta","1",{"name":"description","content":"Andreas, freiberufliche Software aus Mainz. Java, C++, C# und Visual Basic. Remote in Deutschland und überall. Vor Ort in Rheinland-Pfalz und Hessen."}],["$","meta","2",{"name":"application-name","content":"Andreas"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/andreas"}],["$","meta","4",{"name":"author","content":"Andreas"}],["$","link","5",{"rel":"manifest","href":"/andreas/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Andreas,Freiberufler,freelance software,Java,C++,C#,Visual Basic,VB.NET,Mainz,Rheinland-Pfalz,Hessen,Germany"}],"$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34"]}]}],null]}],null]}],"p":"$@35","v":null,"s":"$b"}},"a":"$@36","u":"$@37","b":"ZKC1lmv8Z_fs9JKLe0pEF"}
+38:I[27201,["$3","$4","$5"],"IconMark"]
+12:null
+18:["$","meta","7",{"name":"creator","content":"Andreas"}]
+19:["$","meta","8",{"name":"publisher","content":"Andreas"}]
+1a:["$","meta","9",{"name":"robots","content":"noindex, nofollow"}]
+1b:["$","meta","10",{"name":"category","content":"technology"}]
+1c:["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/andreas/"}]
+1d:["$","link","12",{"rel":"alternate","hrefLang":"de","href":"https://thewhitewitchtm.github.io/andreas/"}]
+1e:["$","link","13",{"rel":"alternate","hrefLang":"en","href":"https://thewhitewitchtm.github.io/andreas/en/"}]
+1f:["$","link","14",{"rel":"alternate","hrefLang":"x-default","href":"https://thewhitewitchtm.github.io/andreas/"}]
+20:["$","meta","15",{"property":"og:title","content":"Andreas — Freiberufliche Software aus Mainz"}]
+21:["$","meta","16",{"property":"og:description","content":"Andreas, freiberufliche Software aus Mainz. Java, C++, C# und Visual Basic. Remote in Deutschland und überall. Vor Ort in Rheinland-Pfalz und Hessen."}]
+22:["$","meta","17",{"property":"og:url","content":"https://thewhitewitchtm.github.io/andreas/"}]
+23:["$","meta","18",{"property":"og:site_name","content":"Andreas"}]
+24:["$","meta","19",{"property":"og:locale","content":"de_DE"}]
+25:["$","meta","20",{"property":"og:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+26:["$","meta","21",{"property":"og:image:width","content":"1200"}]
+27:["$","meta","22",{"property":"og:image:height","content":"630"}]
+28:["$","meta","23",{"property":"og:image:alt","content":"Andreas. Java, C++, C# und Visual Basic. Mainz, Rheinland-Pfalz, Hessen."}]
+29:["$","meta","24",{"property":"og:locale:alternate","content":"en_US"}]
+2a:["$","meta","25",{"property":"og:type","content":"website"}]
+2b:["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}]
+2c:["$","meta","27",{"name":"twitter:title","content":"Andreas — Freiberufliche Software aus Mainz"}]
+2d:["$","meta","28",{"name":"twitter:description","content":"Andreas, freiberufliche Software aus Mainz. Java, C++, C# und Visual Basic. Remote in Deutschland und überall. Vor Ort in Rheinland-Pfalz und Hessen."}]
+2e:["$","meta","29",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+2f:["$","link","30",{"rel":"icon","href":"/andreas/favicon.ico","sizes":"32x32"}]
+30:["$","link","31",{"rel":"icon","href":"/andreas/icon.svg","type":"image/svg+xml"}]
+31:["$","link","32",{"rel":"icon","href":"/andreas/icon-192x192.png","sizes":"192x192","type":"image/png"}]
+32:["$","link","33",{"rel":"icon","href":"/andreas/icon-512x512.png","sizes":"512x512","type":"image/png"}]
+33:["$","link","34",{"rel":"apple-touch-icon","href":"/andreas/apple-touch-icon.png"}]
+34:["$","$L38","35",{}]
+b:300
+37:true
+b:C
+36:0
+d:"$undefined"
+a:"$undefined"
+35:"$undefined"
+13:"$undefined"

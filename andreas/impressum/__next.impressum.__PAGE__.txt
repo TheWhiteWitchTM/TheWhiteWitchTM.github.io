@@ -1,0 +1,61 @@
+1:"$Sreact.fragment"
+3:"/andreas/_next/static/chunks/0umf92h1sb77c.js"
+4:"/andreas/_next/static/chunks/1e48qiku8i0w6.js"
+5:"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js"
+6:I[40253,["$3","$4","$5"],"Shell"]
+7:I[39756,["$3","$4","$5"],"default"]
+8:I[37457,["$3","$4","$5"],"default"]
+9:I[22016,["$3","$4","$5"],""]
+14:"ViewportBoundary"
+15:I[97367,["$3","$4","$5"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$3","$4","$5"],"$16"]
+18:"$Sreact.suspense"
+:HL["/andreas/_next/static/chunks/26ei8nxbpeg8l.css","style"]
+2:T55e,{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thewhitewitchtm.github.io/andreas/#website","name":"Andreas","url":"https://thewhitewitchtm.github.io/andreas/","inLanguage":["de","en"],"publisher":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"}},{"@type":"Person","@id":"https://thewhitewitchtm.github.io/andreas/#andreas","name":"Andreas","jobTitle":"Freelance software developer","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/andreas.jpg","address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"knowsLanguage":["de","en"],"knowsAbout":["Java","C++","C#","Visual Basic",".NET"]},{"@type":"ProfessionalService","@id":"https://thewhitewitchtm.github.io/andreas/#service","name":"Andreas — freelance software","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/og.jpg","founder":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"},"address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"areaServed":["Rheinland-Pfalz","Hessen","Germany","Worldwide"],"availableLanguage":["German","English"],"serviceType":["Java development","C++ development","C# development","Visual Basic development"]}]}b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","article",null,{"className":"space-y-6","children":[["$","header",null,{"children":[["$","p",null,{"className":"kicker","children":"Impressum"}],["$","h1",null,{"className":"mt-1 text-4xl font-semibold tracking-tight text-white","children":"Impressum"}],["$","p",null,{"className":"mt-3 text-muted","children":"Angaben nach § 5 DDG."}]]}],["$","dl",null,{"className":"space-y-4","children":[["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Name"}],["$","dd",null,{"className":"mt-1","children":"Andreas"}]]}],["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Tätigkeit"}],["$","dd",null,{"className":"mt-1","children":"Freiberufliche Softwareentwicklung"}]]}],["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Ort"}],["$","dd",null,{"className":"mt-1","children":"Mainz, Rheinland-Pfalz, Deutschland"}]]}],null,null,null,["$","div",null,{"children":[["$","dt",null,{"className":"kicker","children":"Verantwortlich für den Inhalt"}],"$L10"]}]]}],"$L11"]}],null,"$L12"]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"impressum","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/andreas/_next/static/chunks/26ei8nxbpeg8l.css","precedence":"next"}],["$","script","script-0",{"src":"/andreas/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/andreas/_next/static/chunks/1e48qiku8i0w6.js","async":true}],["$","script","script-2",{"src":"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js","async":true}]],["$","html",null,{"lang":"de","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-ink text-paper antialiased","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.lang=/\\/en(\\/|$)/.test(location.pathname)?\"en\":\"de\""}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],[]]}]}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Impressum"}],["$","meta","1",{"name":"description","content":"Anbieterkennzeichnung für die Website von Andreas, freiberufliche Software aus Mainz."}],["$","meta","2",{"name":"application-name","content":"Andreas"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/andreas"}],["$","meta","4",{"name":"author","content":"Andreas"}],["$","link","5",{"rel":"manifest","href":"/andreas/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Andreas,Freiberufler,freelance software,Java,C++,C#,Visual Basic,VB.NET,Mainz,Rheinland-Pfalz,Hessen,Germany"}],["$","meta","7",{"name":"creator","content":"Andreas"}],["$","meta","8",{"name":"publisher","content":"Andreas"}],"$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33"]}]}],null]}],null]}],"p":"$@34","v":null,"s":"$b"}},"a":"$@35","u":"$@36","b":"ZKC1lmv8Z_fs9JKLe0pEF"}
+37:I[97367,["$3","$4","$5"],"OutletBoundary"]
+39:I[27201,["$3","$4","$5"],"IconMark"]
+10:["$","dd",null,{"className":"mt-1","children":["Andreas",", ","Mainz"]}]
+11:["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted space-y-2","children":[["$","p",null,{"children":"Für ein vollständiges Impressum fehlen noch:"}],["$","ul",null,{"className":"list-disc space-y-1 pl-5","children":[["$","li","der vollständige Name",{"children":"der vollständige Name"}],["$","li","eine ladungsfähige Anschrift mit Straße und Postleitzahl",{"children":"eine ladungsfähige Anschrift mit Straße und Postleitzahl"}],["$","li","eine schnelle elektronische Kontaktmöglichkeit, E-Mail oder Telefon",{"children":"eine schnelle elektronische Kontaktmöglichkeit, E-Mail oder Telefon"}]]}],["$","p",null,{"children":"Das ist eine Vorschau. Vollständiger Name, Anschrift und direkte Kontaktadresse kommen auf die eigene Domain. Eine Umsatzsteuer-ID steht dann hier, falls eine vorhanden ist."}]]}]}]
+12:["$","$L37",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@38"}]}]
+19:["$","meta","9",{"name":"robots","content":"noindex, nofollow"}]
+1a:["$","meta","10",{"name":"category","content":"technology"}]
+1b:["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/andreas/impressum/"}]
+1c:["$","link","12",{"rel":"alternate","hrefLang":"de","href":"https://thewhitewitchtm.github.io/andreas/impressum/"}]
+1d:["$","link","13",{"rel":"alternate","hrefLang":"en","href":"https://thewhitewitchtm.github.io/andreas/en/impressum/"}]
+1e:["$","link","14",{"rel":"alternate","hrefLang":"x-default","href":"https://thewhitewitchtm.github.io/andreas/impressum/"}]
+1f:["$","meta","15",{"property":"og:title","content":"Impressum"}]
+20:["$","meta","16",{"property":"og:description","content":"Anbieterkennzeichnung für die Website von Andreas, freiberufliche Software aus Mainz."}]
+21:["$","meta","17",{"property":"og:url","content":"https://thewhitewitchtm.github.io/andreas/impressum/"}]
+22:["$","meta","18",{"property":"og:site_name","content":"Andreas"}]
+23:["$","meta","19",{"property":"og:locale","content":"de_DE"}]
+24:["$","meta","20",{"property":"og:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+25:["$","meta","21",{"property":"og:image:width","content":"1200"}]
+26:["$","meta","22",{"property":"og:image:height","content":"630"}]
+27:["$","meta","23",{"property":"og:image:alt","content":"Andreas. Java, C++, C# und Visual Basic. Mainz, Rheinland-Pfalz, Hessen."}]
+28:["$","meta","24",{"property":"og:locale:alternate","content":"en_US"}]
+29:["$","meta","25",{"property":"og:type","content":"website"}]
+2a:["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}]
+2b:["$","meta","27",{"name":"twitter:title","content":"Impressum"}]
+2c:["$","meta","28",{"name":"twitter:description","content":"Anbieterkennzeichnung für die Website von Andreas, freiberufliche Software aus Mainz."}]
+2d:["$","meta","29",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+2e:["$","link","30",{"rel":"icon","href":"/andreas/favicon.ico","sizes":"32x32"}]
+2f:["$","link","31",{"rel":"icon","href":"/andreas/icon.svg","type":"image/svg+xml"}]
+30:["$","link","32",{"rel":"icon","href":"/andreas/icon-192x192.png","sizes":"192x192","type":"image/png"}]
+31:["$","link","33",{"rel":"icon","href":"/andreas/icon-512x512.png","sizes":"512x512","type":"image/png"}]
+32:["$","link","34",{"rel":"apple-touch-icon","href":"/andreas/apple-touch-icon.png"}]
+33:["$","$L39","35",{}]
+b:300
+38:null
+36:true
+b:C
+35:0
+d:"$undefined"
+a:"$undefined"
+34:"$undefined"
+13:"$undefined"

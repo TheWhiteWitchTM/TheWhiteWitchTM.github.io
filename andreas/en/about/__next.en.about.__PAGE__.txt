@@ -1,0 +1,64 @@
+1:"$Sreact.fragment"
+3:"/andreas/_next/static/chunks/0umf92h1sb77c.js"
+4:"/andreas/_next/static/chunks/1e48qiku8i0w6.js"
+5:"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js"
+6:I[40253,["$3","$4","$5"],"Shell"]
+7:I[39756,["$3","$4","$5"],"default"]
+8:I[37457,["$3","$4","$5"],"default"]
+9:I[22016,["$3","$4","$5"],""]
+16:"ViewportBoundary"
+17:I[97367,["$3","$4","$5"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$3","$4","$5"],"$18"]
+1a:"$Sreact.suspense"
+:HL["/andreas/_next/static/chunks/26ei8nxbpeg8l.css","style"]
+:HL["/andreas/andreas.jpg","image"]
+2:T55e,{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thewhitewitchtm.github.io/andreas/#website","name":"Andreas","url":"https://thewhitewitchtm.github.io/andreas/","inLanguage":["de","en"],"publisher":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"}},{"@type":"Person","@id":"https://thewhitewitchtm.github.io/andreas/#andreas","name":"Andreas","jobTitle":"Freelance software developer","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/andreas.jpg","address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"knowsLanguage":["de","en"],"knowsAbout":["Java","C++","C#","Visual Basic",".NET"]},{"@type":"ProfessionalService","@id":"https://thewhitewitchtm.github.io/andreas/#service","name":"Andreas — freelance software","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/og.jpg","founder":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"},"address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"areaServed":["Rheinland-Pfalz","Hessen","Germany","Worldwide"],"availableLanguage":["German","English"],"serviceType":["Java development","C++ development","C# development","Visual Basic development"]}]}b:X
+e:X
+e:C
+11:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","article",null,{"className":"space-y-6","children":[["$","p",null,{"className":"kicker","children":"About"}],["$","div",null,{"className":"grid items-start gap-6 sm:grid-cols-[minmax(0,11rem)_minmax(0,1fr)]","children":[["$","img",null,{"src":"/andreas/andreas.jpg","alt":"Andreas, short brown hair, glasses, black jacket, against a black background.","width":832,"height":1248,"className":"aspect-[3/4] w-full max-w-[14rem] rounded-lg object-cover object-top"}],["$","div",null,{"children":[["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Andreas"}],["$","div",null,{"className":"mt-4 space-y-3 text-paper","children":[["$","p","Andreas is a freelance software developer in Mainz, Rhineland-Palatinate. The work is Java, C++, C#, and Visual Basic.",{"children":"Andreas is a freelance software developer in Mainz, Rhineland-Palatinate. The work is Java, C++, C#, and Visual Basic."}],"$L12","$L13"]}]]}]]}]]}],null,"$L14"]}],"p":"$@15","v":null,"s":"$b"}}]]
+f:[["children",{"s":"about","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@10","v":"$e","s":"$b"},"c":"$Q11"}]]
+c:[["children",{"s":"en","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/andreas/_next/static/chunks/26ei8nxbpeg8l.css","precedence":"next"}],["$","script","script-0",{"src":"/andreas/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/andreas/_next/static/chunks/1e48qiku8i0w6.js","async":true}],["$","script","script-2",{"src":"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js","async":true}]],["$","html",null,{"lang":"de","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-ink text-paper antialiased","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.lang=/\\/en(\\/|$)/.test(location.pathname)?\"en\":\"de\""}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],[]]}]}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"About Andreas"}],["$","meta","1",{"name":"description","content":"Freelance software developer in Mainz. Java, C++, C#, and Visual Basic. German and English. Remote and on site."}],["$","meta","2",{"name":"application-name","content":"Andreas"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/andreas"}],["$","meta","4",{"name":"author","content":"Andreas"}],["$","link","5",{"rel":"manifest","href":"/andreas/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Andreas,Freiberufler,freelance software,Java,C++,C#,Visual Basic,VB.NET,Mainz,Rheinland-Pfalz,Hessen,Germany"}],["$","meta","7",{"name":"creator","content":"Andreas"}],["$","meta","8",{"name":"publisher","content":"Andreas"}],"$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35"]}]}],null]}],null]}],"p":"$@36","v":null,"s":"$b"}},"a":"$@37","u":"$@38","b":"ZKC1lmv8Z_fs9JKLe0pEF"}
+39:I[97367,["$3","$4","$5"],"OutletBoundary"]
+3b:I[27201,["$3","$4","$5"],"IconMark"]
+12:["$","p","The base is Mainz. Remote covers Germany and clients anywhere. On site, the regular area is Rhineland-Palatinate and Hessen. Travel is part of the offer when a project needs someone in the room.",{"children":"The base is Mainz. Remote covers Germany and clients anywhere. On site, the regular area is Rhineland-Palatinate and Hessen. Travel is part of the offer when a project needs someone in the room."}]
+13:["$","p","The work is done in German and in English.",{"children":"The work is done in German and in English."}]
+14:["$","$L39",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@3a"}]}]
+1b:["$","meta","9",{"name":"robots","content":"noindex, nofollow"}]
+1c:["$","meta","10",{"name":"category","content":"technology"}]
+1d:["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/andreas/en/about/"}]
+1e:["$","link","12",{"rel":"alternate","hrefLang":"de","href":"https://thewhitewitchtm.github.io/andreas/ueber/"}]
+1f:["$","link","13",{"rel":"alternate","hrefLang":"en","href":"https://thewhitewitchtm.github.io/andreas/en/about/"}]
+20:["$","link","14",{"rel":"alternate","hrefLang":"x-default","href":"https://thewhitewitchtm.github.io/andreas/ueber/"}]
+21:["$","meta","15",{"property":"og:title","content":"About Andreas"}]
+22:["$","meta","16",{"property":"og:description","content":"Freelance software developer in Mainz. Java, C++, C#, and Visual Basic. German and English. Remote and on site."}]
+23:["$","meta","17",{"property":"og:url","content":"https://thewhitewitchtm.github.io/andreas/en/about/"}]
+24:["$","meta","18",{"property":"og:site_name","content":"Andreas"}]
+25:["$","meta","19",{"property":"og:locale","content":"en_US"}]
+26:["$","meta","20",{"property":"og:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+27:["$","meta","21",{"property":"og:image:width","content":"1200"}]
+28:["$","meta","22",{"property":"og:image:height","content":"630"}]
+29:["$","meta","23",{"property":"og:image:alt","content":"Andreas. Java, C++, C#, and Visual Basic. Mainz, Rhineland-Palatinate, Hessen."}]
+2a:["$","meta","24",{"property":"og:locale:alternate","content":"de_DE"}]
+2b:["$","meta","25",{"property":"og:type","content":"website"}]
+2c:["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}]
+2d:["$","meta","27",{"name":"twitter:title","content":"About Andreas"}]
+2e:["$","meta","28",{"name":"twitter:description","content":"Freelance software developer in Mainz. Java, C++, C#, and Visual Basic. German and English. Remote and on site."}]
+2f:["$","meta","29",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+30:["$","link","30",{"rel":"icon","href":"/andreas/favicon.ico","sizes":"32x32"}]
+31:["$","link","31",{"rel":"icon","href":"/andreas/icon.svg","type":"image/svg+xml"}]
+32:["$","link","32",{"rel":"icon","href":"/andreas/icon-192x192.png","sizes":"192x192","type":"image/png"}]
+33:["$","link","33",{"rel":"icon","href":"/andreas/icon-512x512.png","sizes":"512x512","type":"image/png"}]
+34:["$","link","34",{"rel":"apple-touch-icon","href":"/andreas/apple-touch-icon.png"}]
+35:["$","$L3b","35",{}]
+b:300
+3a:null
+38:true
+b:C
+37:0
+10:"$undefined"
+d:"$undefined"
+a:"$undefined"
+36:"$undefined"
+15:"$undefined"

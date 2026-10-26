@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+3:"/andreas/_next/static/chunks/0umf92h1sb77c.js"
+4:"/andreas/_next/static/chunks/1e48qiku8i0w6.js"
+5:"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js"
+6:I[40253,["$3","$4","$5"],"Shell"]
+7:I[39756,["$3","$4","$5"],"default"]
+8:I[37457,["$3","$4","$5"],"default"]
+9:I[22016,["$3","$4","$5"],""]
+18:"ViewportBoundary"
+19:I[97367,["$3","$4","$5"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$3","$4","$5"],"$1a"]
+1c:"$Sreact.suspense"
+:HL["/andreas/_next/static/chunks/26ei8nxbpeg8l.css","style"]
+2:T55e,{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thewhitewitchtm.github.io/andreas/#website","name":"Andreas","url":"https://thewhitewitchtm.github.io/andreas/","inLanguage":["de","en"],"publisher":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"}},{"@type":"Person","@id":"https://thewhitewitchtm.github.io/andreas/#andreas","name":"Andreas","jobTitle":"Freelance software developer","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/andreas.jpg","address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"knowsLanguage":["de","en"],"knowsAbout":["Java","C++","C#","Visual Basic",".NET"]},{"@type":"ProfessionalService","@id":"https://thewhitewitchtm.github.io/andreas/#service","name":"Andreas — freelance software","url":"https://thewhitewitchtm.github.io/andreas/","image":"https://thewhitewitchtm.github.io/andreas/og.jpg","founder":{"@id":"https://thewhitewitchtm.github.io/andreas/#andreas"},"address":{"@type":"PostalAddress","addressLocality":"Mainz","addressRegion":"Rheinland-Pfalz","addressCountry":"DE"},"areaServed":["Rheinland-Pfalz","Hessen","Germany","Worldwide"],"availableLanguage":["German","English"],"serviceType":["Java development","C++ development","C# development","Visual Basic development"]}]}b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","article",null,{"className":"space-y-8","children":[["$","header",null,{"children":[["$","p",null,{"className":"kicker","children":"Leistungen"}],["$","h1",null,{"className":"mt-1 text-4xl font-semibold tracking-tight text-white","children":"Java, C++, C# und Visual Basic."}],["$","p",null,{"className":"mt-3 max-w-prose text-muted","children":"Freiberufliche Entwicklung, Wartung und Beratung. Vier Sprachen, eine Arbeitsweise: Software, die schon im Einsatz ist, sauber weiterführen, und neue Programme bauen, wenn sie einen klaren Job haben."}]]}],["$","ul",null,{"className":"grid gap-3","children":[["$","li","Java",{"children":["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":[["$","div",null,{"data-slot":"card-header","className":"flex flex-col gap-1","children":"$L10"}],"$L11"]}]}],"$L12","$L13","$L14"]}],"$L15"]}],null,"$L16"]}],"p":"$@17","v":null,"s":"$b"}}]]
+c:[["children",{"s":"leistungen","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/andreas/_next/static/chunks/26ei8nxbpeg8l.css","precedence":"next"}],["$","script","script-0",{"src":"/andreas/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/andreas/_next/static/chunks/1e48qiku8i0w6.js","async":true}],["$","script","script-2",{"src":"/andreas/_next/static/chunks/0ovg7zmdfw_5q.js","async":true}]],["$","html",null,{"lang":"de","suppressHydrationWarning":true,"children":["$","body",null,{"className":"bg-ink text-paper antialiased","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"document.documentElement.lang=/\\/en(\\/|$)/.test(location.pathname)?\"en\":\"de\""}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","div",null,{"className":"space-y-4","children":[["$","p",null,{"className":"kicker","children":"404"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight text-white","children":"Diese Seite gibt es nicht."}],["$","p",null,{"className":"max-w-prose text-muted","children":"That page is not here."}],["$","p",null,{"className":"flex gap-4","children":[["$","$L9",null,{"href":"/","className":"text-accent hover:text-accent-2","children":"Start"}],["$","$L9",null,{"href":"/en/","className":"text-accent hover:text-accent-2","children":"Home"}]]}]]}],[]]}]}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Leistungen — Java, C++, C# und Visual Basic"}],["$","meta","1",{"name":"description","content":"Freiberufliche Entwicklung, Wartung und Beratung in Java, C++, C# und Visual Basic. Remote, vor Ort in Rheinland-Pfalz und Hessen, und auf Reise."}],["$","meta","2",{"name":"application-name","content":"Andreas"}],["$","link","3",{"rel":"author","href":"https://thewhitewitchtm.github.io/andreas"}],["$","meta","4",{"name":"author","content":"Andreas"}],["$","link","5",{"rel":"manifest","href":"/andreas/manifest.webmanifest"}],["$","meta","6",{"name":"keywords","content":"Andreas,Freiberufler,freelance software,Java,C++,C#,Visual Basic,VB.NET,Mainz,Rheinland-Pfalz,Hessen,Germany"}],"$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36","$L37","$L38","$L39"]}]}],null]}],null]}],"p":"$@3a","v":null,"s":"$b"}},"a":"$@3b","u":"$@3c","b":"ZKC1lmv8Z_fs9JKLe0pEF"}
+3d:I[97367,["$3","$4","$5"],"OutletBoundary"]
+3f:I[27201,["$3","$4","$5"],"IconMark"]
+10:["$","h3",null,{"data-slot":"card-title","className":"font-semibold text-white","children":"Java"}]
+11:["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted","children":["$","p",null,{"children":"Server, Werkzeuge und die Schicht zwischen Systemen. Andreas übernimmt neue Java-Programme und die Pflege von Code, der schon in Betrieb ist."}]}]
+12:["$","li","C++",{"children":["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":[["$","div",null,{"data-slot":"card-header","className":"flex flex-col gap-1","children":["$","h3",null,{"data-slot":"card-title","className":"font-semibold text-white","children":"C++"}]}],["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted","children":["$","p",null,{"children":"Native Software, wenn die Laufzeit und die Nähe zur Maschine zählen. Kleine Programme mit einem klaren Job, und größere Codebasen, die jemand lesen muss, bevor er sie ändert."}]}]]}]}]
+13:["$","li","C#",{"children":["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":[["$","div",null,{"data-slot":"card-header","className":"flex flex-col gap-1","children":["$","h3",null,{"data-slot":"card-title","className":"font-semibold text-white","children":"C#"}]}],["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted","children":["$","p",null,{"children":"Anwendungen und Dienste auf der .NET-Plattform. Neubau und die Weiterentwicklung von C#-Systemen, die ein Team schon benutzt."}]}]]}]}]
+14:["$","li","Visual Basic",{"children":["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":[["$","div",null,{"data-slot":"card-header","className":"flex flex-col gap-1","children":["$","h3",null,{"data-slot":"card-title","className":"font-semibold text-white","children":"Visual Basic"}]}],["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted","children":["$","p",null,{"children":"Viele Betriebe haben Visual Basic noch im Alltag, klassisch oder als VB.NET. Andreas hält diese Programme lauffähig, erweitert sie und bindet sie an neuere Systeme an."}]}]]}]}]
+15:["$","div",null,{"data-slot":"card","className":"frame flex flex-col gap-2 p-4 text-paper","children":[["$","div",null,{"data-slot":"card-header","className":"flex flex-col gap-1","children":["$","h3",null,{"data-slot":"card-title","className":"font-semibold text-white","children":"Arbeitsweise"}]}],["$","div",null,{"data-slot":"card-content","className":"text-sm text-muted","children":["$","p",null,{"children":"Remote ist der Normalfall, in Deutschland und darüber hinaus. Vor Ort liegt der Schwerpunkt auf Rheinland-Pfalz und Hessen. Andere Orte sind eine Reise, kein Sonderfall."}]}]]}]
+16:["$","$L3d",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@3e"}]}]
+1d:["$","meta","7",{"name":"creator","content":"Andreas"}]
+1e:["$","meta","8",{"name":"publisher","content":"Andreas"}]
+1f:["$","meta","9",{"name":"robots","content":"noindex, nofollow"}]
+20:["$","meta","10",{"name":"category","content":"technology"}]
+21:["$","link","11",{"rel":"canonical","href":"https://thewhitewitchtm.github.io/andreas/leistungen/"}]
+22:["$","link","12",{"rel":"alternate","hrefLang":"de","href":"https://thewhitewitchtm.github.io/andreas/leistungen/"}]
+23:["$","link","13",{"rel":"alternate","hrefLang":"en","href":"https://thewhitewitchtm.github.io/andreas/en/services/"}]
+24:["$","link","14",{"rel":"alternate","hrefLang":"x-default","href":"https://thewhitewitchtm.github.io/andreas/leistungen/"}]
+25:["$","meta","15",{"property":"og:title","content":"Leistungen — Java, C++, C# und Visual Basic"}]
+26:["$","meta","16",{"property":"og:description","content":"Freiberufliche Entwicklung, Wartung und Beratung in Java, C++, C# und Visual Basic. Remote, vor Ort in Rheinland-Pfalz und Hessen, und auf Reise."}]
+27:["$","meta","17",{"property":"og:url","content":"https://thewhitewitchtm.github.io/andreas/leistungen/"}]
+28:["$","meta","18",{"property":"og:site_name","content":"Andreas"}]
+29:["$","meta","19",{"property":"og:locale","content":"de_DE"}]
+2a:["$","meta","20",{"property":"og:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+2b:["$","meta","21",{"property":"og:image:width","content":"1200"}]
+2c:["$","meta","22",{"property":"og:image:height","content":"630"}]
+2d:["$","meta","23",{"property":"og:image:alt","content":"Andreas. Java, C++, C# und Visual Basic. Mainz, Rheinland-Pfalz, Hessen."}]
+2e:["$","meta","24",{"property":"og:locale:alternate","content":"en_US"}]
+2f:["$","meta","25",{"property":"og:type","content":"website"}]
+30:["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}]
+31:["$","meta","27",{"name":"twitter:title","content":"Leistungen — Java, C++, C# und Visual Basic"}]
+32:["$","meta","28",{"name":"twitter:description","content":"Freiberufliche Entwicklung, Wartung und Beratung in Java, C++, C# und Visual Basic. Remote, vor Ort in Rheinland-Pfalz und Hessen, und auf Reise."}]
+33:["$","meta","29",{"name":"twitter:image","content":"https://thewhitewitchtm.github.io/andreas/og.jpg"}]
+34:["$","link","30",{"rel":"icon","href":"/andreas/favicon.ico","sizes":"32x32"}]
+35:["$","link","31",{"rel":"icon","href":"/andreas/icon.svg","type":"image/svg+xml"}]
+36:["$","link","32",{"rel":"icon","href":"/andreas/icon-192x192.png","sizes":"192x192","type":"image/png"}]
+37:["$","link","33",{"rel":"icon","href":"/andreas/icon-512x512.png","sizes":"512x512","type":"image/png"}]
+38:["$","link","34",{"rel":"apple-touch-icon","href":"/andreas/apple-touch-icon.png"}]
+39:["$","$L3f","35",{}]
+b:300
+3e:null
+3c:true
+b:C
+3b:0
+d:"$undefined"
+a:"$undefined"
+3a:"$undefined"
+17:"$undefined"

@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /
+
+Host: https://thewhitewitchtm.github.io/andreas
+Sitemap: https://thewhitewitchtm.github.io/andreas/sitemap.xml
