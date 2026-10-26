@@ -28,9 +28,12 @@
   {% assign share_w = page.image_width %}
   {% assign share_h = page.image_height %}
   {% if share_w == nil %}
-    {% if share == "/assets/images/og.jpg" or share contains "libresky" %}
+    {% if share == "/assets/images/og.jpg" or share contains "libresky" or share contains "/blogy." or share contains "/cinder." or share contains "/vesper." or share contains "/magic" or share contains "retro-center" or share contains "faux-news" %}
       {% assign share_w = 1200 %}
       {% assign share_h = 630 %}
+    {% elsif share contains "banner.jpg" %}
+      {% assign share_w = 1168 %}
+      {% assign share_h = 784 %}
     {% endif %}
   {% endif %}
   <meta property="og:type" content="website">
@@ -72,7 +75,7 @@
         "name": "The White Witch",
         "alternateName": "Mira",
         "jobTitle": "Software developer",
-        "description": "Builds LibreSky, Vesper, and RETRO Center. Games, a language, and a joke of a news desk sit beside them.",
+        "description": "Builds LibreSky, in two editions, and native Qt apps. Blogy, MAGIC Dock, Cinder, and Vesper sit on the desk. MAGIC Dock runs on Linux.",
         "url": {{ "/" | absolute_url | jsonify }},
         "email": "thewhitewitchtm@google.com",
         "sameAs": [
@@ -89,15 +92,18 @@
         "@type": "ItemList",
         "name": "Work",
         "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "The White Witch™", "url": "https://thewhitewitchtm.github.io/whitewitch/" },
+          { "@type": "ListItem", "position": 2, "name": "Mira's World™", "url": "https://thewhitewitchtm.github.io/mira/" },
+          { "@type": "ListItem", "position": 3, "name": "Emoji Games", "url": "https://thewhitewitchtm.github.io/emojigames/" },
           {
             "@type": "ListItem",
-            "position": 1,
+            "position": 4,
             "item": {
               "@type": "SoftwareApplication",
               "name": "LibreSky",
               "url": "https://thewhitewitchtm.github.io/LibreSky/",
               "applicationCategory": "SocialNetworkingApplication",
-              "operatingSystem": "Web, Linux, Windows, macOS",
+              "operatingSystem": "Web",
               "description": "A free Bluesky client in the browser. Edit posts, ask an AI, and start voice, video, and chat.",
               "featureList": ["Edit", "AI", "Voice", "Video", "Chat"],
               "image": {{ "/assets/images/libresky.png" | absolute_url | jsonify }},
@@ -105,90 +111,33 @@
               "isAccessibleForFree": true
             }
           },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@type": "SoftwareApplication",
-              "name": "Vesper",
-              "url": "https://github.com/TheWhiteWitchTM/vesper",
-              "applicationCategory": "MultimediaApplication",
-              "operatingSystem": "Linux",
-              "description": "Music and video for the quiet hours. A dark player that runs from its own folder.",
-              "image": {{ "/assets/images/vesper.jpg" | absolute_url | jsonify }}
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@type": "WebSite",
-              "name": "The White Witch™",
-              "url": "https://thewhitewitchtm.github.io/whitewitch/",
-              "description": "Politics, tools, and the long pages. Facts first."
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "item": {
-              "@type": "WebSite",
-              "name": "Mira's World™",
-              "url": "https://thewhitewitchtm.github.io/mira/",
-              "description": "Tools, projects, tutorials, and the dev blog."
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "name": "Emoji Games",
-            "url": "https://thewhitewitchtm.github.io/emojigames/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 6,
-            "name": "MAGIC",
-            "url": "https://thewhitewitchtm.github.io/whitewitch/magic/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 7,
-            "name": "RETRO MAGIC",
-            "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 8,
-            "name": "RETRO Toolchain",
-            "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 9,
-            "name": "RETRO Center",
-            "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 10,
-            "item": {
-              "@type": "WebSite",
-              "name": "FAUX NEWS",
-              "url": "https://thewhitewitchtm.github.io/FauxNews-/",
-              "description": "Satire. The right-wing wires, with a joke filed beside the headline they ran."
-            }
-          }
+          { "@type": "ListItem", "position": 5, "name": "LibreSky Corporate", "url": {{ "/corporate/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 6, "name": "Blogy", "url": {{ "/blogy/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 7, "name": "MAGIC Dock", "url": {{ "/magic-dock/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 8, "name": "Cinder", "url": {{ "/cinder/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 9, "name": "Vesper", "url": {{ "/vesper/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 10, "name": "RETRO Center", "url": {{ "/retro-center/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 11, "name": "MAGIC", "url": {{ "/magic/" | absolute_url | jsonify }} },
+          { "@type": "ListItem", "position": 12, "name": "FAUX NEWS", "url": {{ "/faux-news/" | absolute_url | jsonify }} }
         ]
-      }{% elsif page.url == "/corporate/" or page.url == "/corporate" %},
+      }{% elsif page.schema_type == "WebSite" %},
+      {
+        "@type": "WebSite",
+        "name": {{ page.software_name | jsonify }},
+        "url": {{ page.url | absolute_url | jsonify }},
+        "description": {{ page.description | jsonify }}
+      }{% elsif page.software_name %},
       {
         "@type": "SoftwareApplication",
-        "name": "LibreSky Corporate",
-        "url": {{ "/corporate/" | absolute_url | jsonify }},
-        "applicationCategory": "SocialNetworkingApplication",
-        "operatingSystem": "Linux",
+        "name": {{ page.software_name | jsonify }},
+        "url": {{ page.url | absolute_url | jsonify }},
+        "applicationCategory": {{ page.software_category | default: "DeveloperApplication" | jsonify }},
+        "operatingSystem": {{ page.software_os | default: "Linux" | jsonify }},
         "description": {{ page.description | jsonify }},
-        "featureList": ["Self-hosted", "Your Pi", "Your services"],
-        "image": {{ "/assets/images/libresky-corporate.png" | absolute_url | jsonify }}
+        "image": {{ share_url | jsonify }},
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }{% if page.software_features %},
+        "featureList": {{ page.software_features | jsonify }}{% endif %}
       }{% endif %}
     ]
   }
@@ -271,20 +220,111 @@
       transition: background 0.15s;
     }
     .coffee:hover { background: #c9a6ff22; }
-    .nav-links {
+    .site-nav {
+      position: relative;
       margin-left: auto;
       display: flex;
       align-items: center;
-      gap: 0.85rem;
+      min-width: 0;
     }
-    .nav-links a {
-      color: #8ec4ff;
+    .site-nav > ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.1rem;
+      margin: 0;
+      padding: 0;
+    }
+    .site-nav a {
+      color: #f2f2f2;
       text-decoration: none;
       font-weight: 650;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       white-space: nowrap;
+      padding: 0.32rem 0.5rem;
+      border-radius: 6px;
     }
-    .nav-links a:hover { color: #fff; }
+    .site-nav a:hover,
+    .site-nav a[aria-current="page"] {
+      color: #c9a6ff;
+      background: rgba(201, 166, 255, 0.1);
+    }
+    .dropdown { position: relative; }
+    .dropdown > a::after {
+      content: " ▾";
+      font-size: 0.72em;
+      opacity: 0.7;
+    }
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: calc(100% + 0.45rem);
+      left: 0;
+      z-index: 220;
+      min-width: 12.5rem;
+      margin: 0;
+      padding: 0.3rem 0;
+      list-style: none;
+      background: #111111;
+      border: 1px solid #c9a6ff;
+      border-radius: 8px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55);
+    }
+    .dropdown-menu.open { display: block; }
+    .site-nav > ul > li:nth-last-child(-n+2) .dropdown-menu {
+      left: auto;
+      right: 0;
+    }
+    .dropdown-menu a {
+      display: block;
+      padding: 0.38rem 0.85rem;
+      border-radius: 0;
+      color: #e8e8e8;
+    }
+    .dropdown-menu a:hover { background: #1a1a1a; }
+    .dropdown-separator {
+      height: 1px;
+      margin: 0.28rem 0.7rem;
+      background: rgba(201, 166, 255, 0.45);
+      list-style: none;
+    }
+    .nav-toggle {
+      display: none;
+      background: transparent;
+      color: #fff;
+      border: 1px solid #3a2a4a;
+      border-radius: 6px;
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.88rem;
+      padding: 0.28rem 0.6rem;
+      cursor: pointer;
+    }
+    .nav-toggle:hover { color: #c9a6ff; border-color: #c9a6ff; }
+    .footer-cols {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.8rem 1.5rem;
+      max-width: 880px;
+      margin: 0 auto 0.95rem;
+      text-align: left;
+    }
+    .footer-cols p {
+      margin: 0 0 0.25rem;
+      color: #9a93a8;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .footer-cols a {
+      display: block;
+      color: #c9a6ff;
+      text-decoration: none;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+    .footer-cols a:hover { color: #e8d5ff; }
     .site-banner-wrap {
       display: flex;
       justify-content: center;
@@ -334,13 +374,56 @@
       text-decoration: none;
     }
     .footer-links a:hover { color: #e8d5ff; }
-    @media (max-width: 860px) {
-      .nav-links { display: none; }
+    @media (max-width: 980px) {
+      .nav-toggle { display: inline-flex; }
+      .nav-inner,
+      .site-nav { position: static; }
+      .site-nav > ul {
+        display: none;
+        position: absolute;
+        top: calc(100% + 0.35rem);
+        right: 0.75rem;
+        left: auto;
+        width: min(18rem, calc(100vw - 1.5rem));
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.1rem;
+        padding: 0.4rem;
+        background: #0e0e0e;
+        border: 1px solid #241c30;
+        border-radius: 10px;
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.55);
+        max-height: calc(100vh - var(--chrome-h) - 1rem);
+        overflow: auto;
+      }
+      .site-nav > ul.open { display: flex; z-index: 230; }
+      .site-nav > ul a { white-space: normal; }
+      .site-nav > ul > li:nth-last-child(-n+2) .dropdown-menu {
+        left: 0;
+        right: auto;
+      }
+      .dropdown-menu {
+        position: static;
+        display: none;
+        min-width: 0;
+        margin: 0.1rem 0 0.2rem;
+        padding: 0.15rem 0 0.3rem 0.4rem;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .dropdown-menu.open { display: block; }
+      .dropdown-menu a { padding: 0.32rem 0.7rem; }
+    }
+    @media (max-width: 700px) {
+      .footer-cols { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 520px) {
       .nav-inner { padding: 0 0.7rem; gap: 0.45rem; }
       .site-title { font-size: 0.92rem; }
       .coffee { font-size: 0.78rem; padding: 0.34em 0.55em; }
+      .footer-cols { grid-template-columns: 1fr; }
     }
   </style>
   <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">

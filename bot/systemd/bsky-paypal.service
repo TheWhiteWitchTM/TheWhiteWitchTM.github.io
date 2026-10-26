@@ -1,0 +1,7 @@
+[Unit]
+Description=Bluesky weekly coffee ask
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/andreas/Projects/TheWhiteWitchTM.github.io/bot/bsky_grok.py paypal
+TimeoutStartSec=120

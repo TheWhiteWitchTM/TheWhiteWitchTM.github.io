@@ -1,0 +1,7 @@
+[Unit]
+Description=Bluesky LibreSky clip when the week is due
+
+[Service]
+Type=oneshot
+TimeoutStartSec=20h
+ExecStart=/usr/bin/python3 /home/andreas/Imagine/weekly.py

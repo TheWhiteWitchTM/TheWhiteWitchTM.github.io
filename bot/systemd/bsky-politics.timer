@@ -1,0 +1,12 @@
+[Unit]
+Description=Bluesky politics post, 17:15-18:50 Europe/Berlin
+
+[Timer]
+OnCalendar=*-*-* 17:15:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=95min
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,7 @@
+[Unit]
+Description=Mira's daily blog note
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/andreas/Projects/TheWhiteWitchTM.github.io/bot/mira_publish.py blog
+TimeoutStartSec=600

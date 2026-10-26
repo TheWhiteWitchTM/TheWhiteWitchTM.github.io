@@ -1,0 +1,7 @@
+[Unit]
+Description=Mira's weekly article
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/andreas/Projects/TheWhiteWitchTM.github.io/bot/mira_publish.py article
+TimeoutStartSec=600

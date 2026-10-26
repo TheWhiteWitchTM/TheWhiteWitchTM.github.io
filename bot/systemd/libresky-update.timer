@@ -1,0 +1,12 @@
+[Unit]
+Description=Check daily whether LibreSky is due for an update
+
+[Timer]
+OnCalendar=*-*-* 09:10:00
+Timezone=Europe/Berlin
+Persistent=true
+RandomizedDelaySec=8h
+AccuracySec=5min
+
+[Install]
+WantedBy=timers.target

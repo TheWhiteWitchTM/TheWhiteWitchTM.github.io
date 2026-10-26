@@ -1,42 +1,40 @@
 {
   "items": [
-    { "title": "🏠 Home", "url": "/" },
+    { "title": "Home", "url": "/" },
     {
-      "title": "🕹️ Emoji Games",
+      "title": "Doors",
       "dropdown": [
-        { "title": "🕹️ On this page", "url": "/#emoji-games" },
-        { "separator": true },
-        { "title": "📂 All games", "url": "https://thewhitewitchtm.github.io/emojigames/games/" },
-        { "title": "🚀 Galaxy Hunt", "url": "https://thewhitewitchtm.github.io/emojigames/games/galaxy-hunt/" },
-        { "title": "🐂 The Oregon Trail", "url": "https://thewhitewitchtm.github.io/emojigames/games/oregon-trail/" },
-        { "title": "🗡️ Hack", "url": "https://thewhitewitchtm.github.io/emojigames/games/hack/" }
+        { "title": "The White Witch™", "url": "https://thewhitewitchtm.github.io/whitewitch/" },
+        { "title": "Mira's World", "url": "https://thewhitewitchtm.github.io/mira/" },
+        { "title": "Emoji Games", "url": "https://thewhitewitchtm.github.io/emojigames/" }
       ]
     },
     {
-      "title": "🪄 MAGIC",
+      "title": "LibreSky",
       "dropdown": [
-        { "title": "🪄 On this page", "url": "/#magic" },
-        { "separator": true },
-        { "title": "✨ MAGIC Overview", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/overview/" },
-        { "title": "🪄 MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/" },
-        { "title": "🖥️ MAGIC Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/studio/" },
-        { "title": "📘 MAGIC Apprentice", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/" },
-        { "separator": true },
-        { "title": "📖 Language site", "url": "https://thewhitewitchtm.github.io/MAGIC/" }
+        { "title": "Open LibreSky", "url": "https://thewhitewitchtm.github.io/LibreSky/" },
+        { "title": "LibreSky Corporate", "url": "/corporate/" }
       ]
     },
     {
-      "title": "🕹️ RETRO MAGIC",
+      "title": "Apps",
       "dropdown": [
-        { "title": "🕹️ On this page", "url": "/#retro-magic" },
+        { "title": "Blogy", "url": "/blogy/" },
+        { "title": "MAGIC Dock", "url": "/magic-dock/" },
+        { "title": "Cinder", "url": "/cinder/" },
+        { "title": "Vesper", "url": "/vesper/" },
         { "separator": true },
-        { "title": "🕹️ RETRO MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/" },
-        { "title": "🖥️ RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" },
-        { "title": "🛠️ RETRO Toolchain", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/" },
-        { "title": "🗄️ RETRO Center", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/" }
+        { "title": "RETRO Center", "url": "/retro-center/" }
       ]
     },
-    { "title": "🧙‍♀️ The White Witch", "url": "https://thewhitewitchtm.github.io/whitewitch/" },
-    { "title": "☕ Mira's World", "url": "https://thewhitewitchtm.github.io/mira/" }
+    {
+      "title": "More",
+      "dropdown": [
+        { "title": "MAGIC", "url": "/magic/" },
+        { "title": "FAUX NEWS", "url": "/faux-news/" },
+        { "separator": true },
+        { "title": "GitHub", "url": "https://github.com/TheWhiteWitchTM" }
+      ]
+    }
   ]
 }

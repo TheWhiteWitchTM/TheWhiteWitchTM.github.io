@@ -1,11 +1,40 @@
 <header class="site-header">
   <div class="nav-inner">
     <a href="{{ '/' | relative_url }}" class="site-title">The White Witch™</a>
-    <nav class="nav-links" aria-label="Projects">
-      <a href="https://thewhitewitchtm.github.io/LibreSky/">LibreSky</a>
-      <a href="https://github.com/TheWhiteWitchTM/vesper">Vesper</a>
-      <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/">RETRO Center</a>
-      <a href="https://thewhitewitchtm.github.io/FauxNews-/">FAUX NEWS</a>
+    <nav class="site-nav" aria-label="Menu">
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">Menu</button>
+      <ul>
+        {% for item in site.data.nav.items %}
+          {% if item.dropdown %}
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle">{{ item.title }}</a>
+              <ul class="dropdown-menu">
+                {% for sub in item.dropdown %}
+                  {% if sub.separator %}
+                    <li class="dropdown-separator"></li>
+                  {% else %}
+                    <li>
+                      {% if sub.url contains '://' %}
+                        <a href="{{ sub.url }}" target="_blank" rel="noopener noreferrer">{{ sub.title }}</a>
+                      {% else %}
+                        <a href="{{ sub.url | relative_url }}"{% if page.url == sub.url %} aria-current="page"{% endif %}>{{ sub.title }}</a>
+                      {% endif %}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li>
+              {% if item.url contains '://' %}
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+              {% else %}
+                <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </nav>
     <a class="coffee" href="https://www.paypal.com/ncp/payment/4P85EQRES3RGU" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
   </div>

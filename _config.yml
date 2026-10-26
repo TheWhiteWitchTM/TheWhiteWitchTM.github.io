@@ -1,9 +1,9 @@
 title: The White Witch™
-description: Mira builds LibreSky, Vesper, and RETRO Center. A Bluesky client, a player for music and video, and a shelf for the old machines. Emoji games, MAGIC, and FAUX NEWS sit beside them.
-keywords: LibreSky, Vesper, RETRO Center, Bluesky client, The White Witch, Mira, emoji games, MAGIC, FAUX NEWS
+description: Three doors lead. LibreSky is second, in two editions. Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux.
+keywords: The White Witch, LibreSky, LibreSky Corporate, Blogy, MAGIC Dock, Cinder, Vesper, RETRO Center, MAGIC, FAUX NEWS
 url: "https://thewhitewitchtm.github.io"
 baseurl: ""
-image: /assets/images/og.jpg
+image: /assets/images/banner.jpg
 
 plugins:
   - jekyll-feed

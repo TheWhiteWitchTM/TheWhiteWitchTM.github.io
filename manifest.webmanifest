@@ -64,8 +64,8 @@ permalink: /manifest.webmanifest
       ]
     },
     {
-      "name": "Emoji Games",
-      "url": {{ '/#emoji-games' | relative_url | jsonify }},
+      "name": "Blogy",
+      "url": {{ '/blogy/' | relative_url | jsonify }},
       "icons": [
         {
           "src": {{ '/assets/icons/icon-192.png' | relative_url | jsonify }},
@@ -76,7 +76,7 @@ permalink: /manifest.webmanifest
     },
     {
       "name": "MAGIC",
-      "url": {{ '/#magic' | relative_url | jsonify }},
+      "url": {{ '/magic/' | relative_url | jsonify }},
       "icons": [
         {
           "src": {{ '/assets/icons/icon-192.png' | relative_url | jsonify }},
@@ -86,8 +86,8 @@ permalink: /manifest.webmanifest
       ]
     },
     {
-      "name": "RETRO MAGIC",
-      "url": {{ '/#retro-magic' | relative_url | jsonify }},
+      "name": "RETRO Center",
+      "url": {{ '/retro-center/' | relative_url | jsonify }},
       "icons": [
         {
           "src": {{ '/assets/icons/icon-192.png' | relative_url | jsonify }},

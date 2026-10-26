@@ -1,0 +1,6 @@
+[Unit]
+Description=Drop posted Bluesky clips and old posters
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/andreas/Projects/TheWhiteWitchTM.github.io/bot/housekeep.py

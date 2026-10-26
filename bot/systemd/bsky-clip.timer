@@ -1,0 +1,12 @@
+[Unit]
+Description=Look for a LibreSky clip each morning
+
+[Timer]
+OnCalendar=*-*-* 07:40:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=25min
+
+[Install]
+WantedBy=timers.target

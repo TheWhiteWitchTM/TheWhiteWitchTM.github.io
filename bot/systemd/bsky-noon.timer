@@ -1,0 +1,12 @@
+[Unit]
+Description=Bluesky noon post, 11:35-13:00 Europe/Berlin
+
+[Timer]
+OnCalendar=*-*-* 11:35:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=85min
+
+[Install]
+WantedBy=timers.target

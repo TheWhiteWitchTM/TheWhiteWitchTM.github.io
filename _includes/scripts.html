@@ -2,6 +2,9 @@
 <script>anchors.add();</script>
 
 <script>
+  const navToggle = document.querySelector('.nav-toggle');
+  const navMenu = document.querySelector('.site-nav > ul');
+
   // Dropdown toggles
   document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
     toggle.addEventListener('click', function(e) {
@@ -17,11 +20,12 @@
     if (!e.target.closest('.dropdown')) {
       document.querySelectorAll('.dropdown-menu.open').forEach(m => m.classList.remove('open'));
     }
+    if (navToggle && navMenu && !e.target.closest('.site-nav')) {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
   });
 
-  // Hamburger
-  const navToggle = document.querySelector('.nav-toggle');
-  const navMenu = document.querySelector('.site-nav > ul');
   if (navToggle && navMenu) {
     navToggle.addEventListener('click', () => {
       const isOpen = navMenu.classList.toggle('open');

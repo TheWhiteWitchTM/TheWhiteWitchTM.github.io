@@ -1,0 +1,12 @@
+[Unit]
+Description=Mira's blog note, 14:15-15:45 Europe/Berlin
+
+[Timer]
+OnCalendar=*-*-* 14:15:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=90min
+
+[Install]
+WantedBy=timers.target

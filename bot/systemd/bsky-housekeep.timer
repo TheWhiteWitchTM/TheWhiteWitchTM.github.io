@@ -1,0 +1,12 @@
+[Unit]
+Description=Clean posted clips and old posters Sunday morning
+
+[Timer]
+OnCalendar=Sun *-*-* 04:20:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=5min
+RandomizedDelaySec=90min
+
+[Install]
+WantedBy=timers.target

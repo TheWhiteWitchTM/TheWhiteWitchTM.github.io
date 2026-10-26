@@ -1,0 +1,12 @@
+[Unit]
+Description=Mira's article Sunday, 10:30-11:50 Europe/Berlin
+
+[Timer]
+OnCalendar=Sun *-*-* 10:30:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=80min
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Bluesky good night post
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/andreas/Projects/TheWhiteWitchTM.github.io/bot/bsky_grok.py night

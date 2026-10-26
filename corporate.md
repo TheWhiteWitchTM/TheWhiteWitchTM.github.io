@@ -8,12 +8,20 @@ hide_banner: true
 image: /assets/images/libresky-corporate.png
 image_width: 1200
 image_height: 630
+image_alt: LibreSky Corporate. Self-hosted, your Pi, and your services.
+software_name: LibreSky Corporate
+software_category: SocialNetworkingApplication
+software_os: Linux
+software_features:
+  - Self-hosted
+  - Your Pi
+  - Your services
 ---
 
 <header class="hero">
-  <p class="hero-kicker">Coming soon</p>
+  <p class="hero-kicker">The second LibreSky</p>
   <h1>LibreSky Corporate</h1>
-  <p class="hero-lead">You host the services. The client is small enough for a Pi.</p>
+  <p class="hero-lead">You host the services. The client is small enough for a Pi. The public client is the other edition, and it is open today.</p>
 </header>
 
 <figure class="plate">

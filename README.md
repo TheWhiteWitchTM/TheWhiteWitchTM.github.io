@@ -5,8 +5,8 @@
 <h1 align="center">🧙‍♀️ The White Witch™</h1>
 
 <p align="center">
-  <strong>LibreSky, Vesper, and RETRO Center.</strong><br>
-  A Bluesky client, a player, and a shelf of old machines.<br>
+  <strong>Three doors. Then LibreSky. Then the Qt apps.</strong><br>
+  Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux.<br>
   <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>
 </p>
 
@@ -16,19 +16,30 @@
 
 ---
 
-<h2 align="center">🌤️ LibreSky</h2>
+<h2 align="center">🚪 Three doors</h2>
+
+<p align="center">
+  <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a> ·
+  <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> ·
+  <a href="https://thewhitewitchtm.github.io/emojigames/">Emoji Games</a>
+</p>
+
+<h2 align="center">🌤️ LibreSky, twice</h2>
 
 <p align="center">
   A Bluesky client for the browser. Edit, AI, voice, video, and chat.<br>
   <a href="https://thewhitewitchtm.github.io/LibreSky/">LibreSky</a> ·
+  <a href="https://thewhitewitchtm.github.io/corporate/">Corporate</a> ·
   <a href="https://github.com/TheWhiteWitchTM/LibreSky">Repo</a>
 </p>
 
-<h2 align="center">🌙 Vesper</h2>
+<h2 align="center">🖥️ Native Qt</h2>
 
 <p align="center">
-  Music and video for the quiet hours. Albums, a queue, and the film you paused.<br>
-  <a href="https://github.com/TheWhiteWitchTM/vesper">Repo</a>
+  <a href="https://thewhitewitchtm.github.io/blogy/">Blogy</a> ·
+  <a href="https://thewhitewitchtm.github.io/magic-dock/">MAGIC Dock</a> (Linux only) ·
+  <a href="https://thewhitewitchtm.github.io/cinder/">Cinder</a> ·
+  <a href="https://thewhitewitchtm.github.io/vesper/">Vesper</a>
 </p>
 
 <h2 align="center">🕹️ Emoji Games</h2>

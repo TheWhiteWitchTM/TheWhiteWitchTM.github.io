@@ -1,0 +1,12 @@
+[Unit]
+Description=Bluesky daily joke, 19:40-21:20 Europe/Berlin
+
+[Timer]
+OnCalendar=*-*-* 19:40:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=100min
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Grok Bot tracks #LibreSky
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/andreas/Projects/TheWhiteWitchTM.github.io/bot/libresky_feed.py track

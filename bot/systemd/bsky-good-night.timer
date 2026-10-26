@@ -1,0 +1,12 @@
+[Unit]
+Description=Bluesky good night, 23:20-00:30 Europe/Berlin
+
+[Timer]
+OnCalendar=*-*-* 23:20:00
+Timezone=Europe/Berlin
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=70min
+
+[Install]
+WantedBy=timers.target
