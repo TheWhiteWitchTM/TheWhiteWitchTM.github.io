@@ -46,6 +46,7 @@ include:
   - __next.tutorials.$d$slug.__PAGE__.txt
   - __next.tutorials.__PAGE__.txt
   - __next.ueber.__PAGE__.txt
+  - __next.ukraine.__PAGE__.txt
   - _buildManifest.js
   - _clientMiddlewareManifest.js
   - _next
