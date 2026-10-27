@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"coffee-and-freelance","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"KIf13b_ZmYQf-0CemSSaB","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"DZ3YatEMMEWK1iYx4z9Zo","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
