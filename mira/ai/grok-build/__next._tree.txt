@@ -1,8 +1,8 @@
-:HL["/mira/_next/static/chunks/2gvo45x-3qveu.css","style"]
+:HL["/mira/_next/static/chunks/0maj34nv9yp75.css","style"]
 :HL["/mira/avatar.jpg","image"]
 :HL["/mira/witch.jpg","image"]
 :HL["/mira/mira.jpg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"grok-build","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"ai","h":64,"c":"$Q2"}]]
-0:{"b":"c6_E2hYOA6cT1Sjyd-fi0","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"KIf13b_ZmYQf-0CemSSaB","t":{"t":{"s":"","h":16,"c":"$Q1"}}}

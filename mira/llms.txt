@@ -22,8 +22,7 @@
 - [Post Meter](https://thewhitewitchtm.github.io/mira/tools/post-meter/)
 - [Tutorials](https://thewhitewitchtm.github.io/mira/tutorials/)
 - [Markdown](https://thewhitewitchtm.github.io/mira/tutorials/markdown/)
-- [Tailwind 4](https://thewhitewitchtm.github.io/mira/tutorials/tailwind/)
-- [TypeScript](https://thewhitewitchtm.github.io/mira/tutorials/typescript/)
+- [Tailwind](https://thewhitewitchtm.github.io/mira/tutorials/tailwind/)
 - [About](https://thewhitewitchtm.github.io/mira/about/): Bio and hire
 - [RSS](https://thewhitewitchtm.github.io/mira/feed.xml)
 
