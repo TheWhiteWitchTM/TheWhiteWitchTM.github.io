@@ -1,8 +1,8 @@
-:HL["/mira/_next/static/chunks/2ase5bdyp-vgh.css","style"]
+:HL["/mira/_next/static/chunks/3iubz-0hbvdr3.css","style"]
 :HL["/mira/avatar.jpg","image"]
 :HL["/mira/witch.jpg","image"]
 :HL["/mira/mira.jpg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"history","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"ai","h":64,"c":"$Q2"}]]
-0:{"b":"u65KA6NvUB0BQJ3BFnAy1","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"O4RDtB-Heayv_VZw9K9mK","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
