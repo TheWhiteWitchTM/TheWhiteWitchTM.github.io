@@ -21,8 +21,10 @@
 - [Calling Card](https://thewhitewitchtm.github.io/mira/tools/calling-card/)
 - [Post Meter](https://thewhitewitchtm.github.io/mira/tools/post-meter/)
 - [Tutorials](https://thewhitewitchtm.github.io/mira/tutorials/)
-- [Markdown](https://thewhitewitchtm.github.io/mira/tutorials/markdown/)
 - [Tailwind](https://thewhitewitchtm.github.io/mira/tutorials/tailwind/)
+- [Markdown](https://thewhitewitchtm.github.io/mira/tutorials/markdown/)
+- [JavaScript](https://thewhitewitchtm.github.io/mira/tutorials/javascript/)
+- [TypeScript](https://thewhitewitchtm.github.io/mira/tutorials/typescript/)
 - [About](https://thewhitewitchtm.github.io/mira/about/): Bio and hire
 - [RSS](https://thewhitewitchtm.github.io/mira/feed.xml)
 
