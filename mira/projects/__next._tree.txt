@@ -1,4 +1,4 @@
-:HL["/mira/_next/static/chunks/3iubz-0hbvdr3.css","style"]
+:HL["/mira/_next/static/chunks/0baa3net0xi7d.css","style"]
 :HL["/mira/avatar.jpg","image"]
 :HL["/mira/witch.jpg","image"]
 :HL["/mira/mira.jpg","image"]
@@ -22,4 +22,4 @@
 :HL["/mira/desk/faux-news.png","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"projects","h":64,"c":"$Q2"}]]
-0:{"b":"O4RDtB-Heayv_VZw9K9mK","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"qB6dWEWWXhSN0guX2Ddu7","t":{"t":{"s":"","h":16,"c":"$Q1"}}}

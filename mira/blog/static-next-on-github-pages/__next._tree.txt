@@ -1,8 +1,8 @@
-:HL["/mira/_next/static/chunks/3iubz-0hbvdr3.css","style"]
+:HL["/mira/_next/static/chunks/0baa3net0xi7d.css","style"]
 :HL["/mira/avatar.jpg","image"]
 :HL["/mira/witch.jpg","image"]
 :HL["/mira/mira.jpg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"static-next-on-github-pages","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"O4RDtB-Heayv_VZw9K9mK","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"qB6dWEWWXhSN0guX2Ddu7","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
