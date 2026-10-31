@@ -3,17 +3,13 @@
   const sides = document.querySelectorAll('.side-image');
 
   if (banner && sides.length) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        sides.forEach(side => {
-          side.classList.toggle('hidden', entry.isIntersecting);
-        });
-      });
-    }, { 
-      threshold: 0,
-      rootMargin: "0px 0px -180px 0px"
-    });
-
-    observer.observe(banner);
+    const place = () => {
+      const bottom = banner.getBoundingClientRect().bottom;
+      const gone = bottom < window.innerHeight * 0.42;
+      sides.forEach(side => side.classList.toggle('hidden', !gone));
+    };
+    place();
+    window.addEventListener('scroll', place, { passive: true });
+    window.addEventListener('resize', place);
   }
 </script>

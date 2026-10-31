@@ -611,11 +611,47 @@
       .coffee { font-size: 0.78rem; padding: 0.34em 0.55em; }
       .footer-cols { grid-template-columns: 1fr; }
     }
+    /* Mira on the left, the witch on the right. Wide windows only, so the
+       landing column keeps its width. They fade in as the banner scrolls up. */
+    .side-image { display: none; }
+    @media (min-width: 1400px) {
+      .side-image {
+        display: block;
+        position: fixed;
+        top: 6.5rem;
+        width: 120px;
+        z-index: 20;
+        opacity: 1;
+        transition: opacity 0.35s ease;
+      }
+      .side-image.left { left: max(0.6rem, calc(50% - 700px)); }
+      .side-image.right { right: max(0.6rem, calc(50% - 700px)); }
+      .side-image.hidden { opacity: 0; pointer-events: none; }
+      .side-image a { display: block; }
+      .side-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+      }
+    }
   </style>
   <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
 </head>
 <body>
   {% include nav.html %}
+
+  <aside class="side-image left{% unless page.hide_banner %} hidden{% endunless %}">
+    <a href="https://thewhitewitchtm.github.io/mira/" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/mira.jpg' | relative_url }}" alt="Mira, smiling, red hair in a ponytail, black jacket, pointing." width="1008" height="1792">
+    </a>
+  </aside>
+  <aside class="side-image right{% unless page.hide_banner %} hidden{% endunless %}">
+    <a href="https://thewhitewitchtm.github.io/whitewitch/" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/witch.jpg' | relative_url }}" alt="The White Witch. Green witch in a white hat, holding a book and a wand." width="1408" height="1408">
+    </a>
+  </aside>
 
   {% unless page.hide_banner %}
   <div class="site-banner-wrap">
@@ -631,5 +667,6 @@
 
   {% include footer.html %}
   {% include scripts.html %}
+  {% include home-scripts.html %}
 </body>
 </html>

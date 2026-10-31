@@ -1,7 +1,7 @@
-:HL["/mira/_next/static/chunks/0baa3net0xi7d.css","style"]
+:HL["/mira/_next/static/chunks/2en60pjzo3hx9.css","style"]
 :HL["/mira/avatar.jpg","image"]
-:HL["/mira/witch.jpg","image"]
 :HL["/mira/mira.jpg","image"]
+:HL["/mira/witch.jpg","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"ukraine","h":64,"c":"$Q2"}]]
-0:{"b":"qB6dWEWWXhSN0guX2Ddu7","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"8Z-A0l75aFEKgbeSSF8NQ","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
