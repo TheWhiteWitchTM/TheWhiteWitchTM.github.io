@@ -5,8 +5,7 @@
 <h1 align="center">🧙‍♀️ The White Witch™</h1>
 
 <p align="center">
-  <strong>Three doors. Then LibreSky. Then the Qt apps. Client work is the showcase at the end.</strong><br>
-  <a href="https://thewhitewitchtm.github.io/andreas/">Andreas</a> is a freelance site. Java, C++, C#, Visual Basic. Mainz.<br>
+  <strong>Three doors. Then LibreSky. Then the Qt apps.</strong><br>
   Blogy, MAGIC Dock, Cinder, and Vesper are native Qt. MAGIC Dock runs on Linux.<br>
   <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>
 </p>
