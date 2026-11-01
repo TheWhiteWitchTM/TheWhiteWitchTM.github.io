@@ -48,6 +48,7 @@ The same language, pointed at the C64, the Apple II, and the TI-99/4A.
 - [MAGIC Dock](https://thewhitewitchtm.github.io/magic-dock/): a dock for Pop!_OS COSMIC. Linux only. Stacks.
 - [Cinder](https://thewhitewitchtm.github.io/cinder/): an editor for bash and sh.
 - [Vesper](https://thewhitewitchtm.github.io/vesper/): music and video for the quiet hours.
+- [Releases](https://thewhitewitchtm.github.io/Releases/): the binaries, on one shelf. The page reads the Releases repository, so a new folder shows up on its own.
 
 ## Also
 

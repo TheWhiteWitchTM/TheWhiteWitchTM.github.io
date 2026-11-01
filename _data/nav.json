@@ -30,7 +30,9 @@
         { "title": "Blogy", "url": "/blogy/" },
         { "title": "MAGIC Dock", "url": "/magic-dock/" },
         { "title": "Cinder", "url": "/cinder/" },
-        { "title": "Vesper", "url": "/vesper/" }
+        { "title": "Vesper", "url": "/vesper/" },
+        { "separator": true },
+        { "title": "Releases", "url": "https://thewhitewitchtm.github.io/Releases/" }
       ]
     },
     {

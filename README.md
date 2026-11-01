@@ -56,6 +56,10 @@
   <a href="https://thewhitewitchtm.github.io/vesper/">Vesper</a>
 </p>
 
+<p align="center">
+  Every binary is on <a href="https://thewhitewitchtm.github.io/Releases/">the releases shelf</a>. A new folder shows up there on its own.
+</p>
+
 <h2 align="center">🕹️ Emoji Games</h2>
 
 <p align="center">

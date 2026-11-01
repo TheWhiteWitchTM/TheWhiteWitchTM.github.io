@@ -12,7 +12,7 @@ Slots, Europe/Berlin. The clock is the start of a window, not the minute:
   night     23:20-00:30  LibreSky, the witch in the window
 
 The voice is dark humor and sarcasm. Every post starts with one emoji.
-Morning, noon, and night promote LibreSky and include the link.
+Morning, noon, and night promote LibreSky and include the link and #LibreSky.
 They do not carry the PayPal link. The Saturday ask is the only one,
 about once a week, and it can miss a week. Hosting is free. The time is not.
 The politics post is the joke and a matching meme. No product line.
@@ -33,6 +33,9 @@ A clip is a separate command, not one of the daily slots:
   bsky_grok.py video --file clip.mp4 --text-file caption.txt --alt-file alt.txt
 
 The weekly rotation lives in ~/Imagine/weekly.py. It is not in this repo.
+One Mira clip, thirty-five seconds, once a week. Fifteen, then two extensions
+of ten. A shorter file is refused. The Bluesky caption carries the LibreSky
+link and #LibreSky. X does not. The app password is the one above.
 A Sunday job drops clips that already posted, and posters older than two weeks.
 Nothing that goes out names the writer.
 """
@@ -62,6 +65,7 @@ from pathlib import Path
 
 HANDLE_DEFAULT = "thewhitewitchtm.sociallydead.me"
 LINK = "https://thewhitewitchtm.github.io/LibreSky/"
+TAG = "LibreSky"
 PAYPAL = "https://www.paypal.com/ncp/payment/4P85EQRES3RGU"
 GAMES = "https://thewhitewitchtm.github.io/emojigames/"
 TIP_GAP = timedelta(days=6)
@@ -96,11 +100,12 @@ TRUMP_RE = re.compile(r"\b(trump|white house)\b", re.I)
 MUSK_RE = re.compile(r"\b(musk|spacex|starlink)\b", re.I)
 MAGA_RE = re.compile(r"\b(maga|make america great again)\b", re.I)
 POLITICS_ORDER = ("trump", "musk", "maga")
+# "pro genocide" is Mira's weekly closer. Any other use of the word still fails.
 THREAT_RE = re.compile(
     r"\b("
     r"assassinate\w*|assassin|should die|hope (?:he|she|they) dies|"
     r"kill (?:him|her|them|trump|musk)|shoot (?:him|her|them)|"
-    r"hang (?:him|her|them)|lynch\w*|genocide"
+    r"hang (?:him|her|them)|lynch\w*|(?<!pro )(?<!pro-)genocide"
     r")\b",
     re.I,
 )
@@ -276,7 +281,7 @@ def load_env() -> dict[str, str]:
 
 
 def compose(line: str) -> str:
-    text = f"{line}\n{LINK}"
+    text = f"{line}\n{LINK}\n#{TAG}"
     if len(text) > LIMIT:
         raise SystemExit(f"Post is {len(text)} characters, over the {LIMIT} limit.")
     return text
@@ -1239,6 +1244,39 @@ def link_facets(text: str) -> list[dict]:
     return facets
 
 
+def facet_tag(text: str, tag: str = TAG) -> dict | None:
+    needle = "#" + tag
+    start = text.find(needle)
+    if start < 0:
+        return None
+    end = start + len(needle)
+    if end < len(text) and (text[end].isalnum() or text[end] == "_"):
+        return None
+    byte_start = len(text[:start].encode("utf-8"))
+    return {
+        "index": {"byteStart": byte_start, "byteEnd": byte_start + len(needle.encode("utf-8"))},
+        "features": [{"$type": "app.bsky.richtext.facet#tag", "tag": tag}],
+    }
+
+
+def attach_facets(record: dict, text: str, link: str | None = None) -> None:
+    facets = link_facets(text)
+    linked = {
+        feat.get("uri")
+        for item in facets
+        for feat in item.get("features") or []
+    }
+    if link and link in text and link not in linked:
+        facets.append(facet_for(text, link))
+    tag = facet_tag(text)
+    if tag:
+        facets.append(tag)
+    if not facets:
+        return
+    facets.sort(key=lambda item: item["index"]["byteStart"])
+    record["facets"] = facets
+
+
 def publish(session: dict, token: str, text: str, image: Path, alt: str, link: str | None = LINK, width: int = W, height: int = H) -> str:
     did = session["did"]
     base = pds_of(session)
@@ -1263,11 +1301,7 @@ def publish(session: dict, token: str, text: str, image: Path, alt: str, link: s
             ],
         },
     }
-    facets = link_facets(text)
-    if not facets and link and link in text:
-        facets = [facet_for(text, link)]
-    if facets:
-        record["facets"] = facets
+    attach_facets(record, text, link)
     created = request(
         f"{base}/xrpc/com.atproto.repo.createRecord",
         token,
@@ -1425,6 +1459,20 @@ def read_text_file(path: str, label: str, limit: int) -> str:
     return text
 
 
+def video_duration(path: Path) -> float:
+    try:
+        out = subprocess.check_output(
+            [
+                "ffprobe", "-v", "error", "-show_entries", "format=duration",
+                "-of", "csv=p=0", str(path),
+            ],
+            text=True,
+        ).strip()
+        return float(out)
+    except (OSError, subprocess.CalledProcessError, ValueError) as err:
+        raise SystemExit(f"Could not read the length of {path.name}.") from err
+
+
 def video_aspect(path: Path) -> dict[str, int]:
     try:
         out = subprocess.check_output(
@@ -1522,8 +1570,7 @@ def publish_video(session: dict, token: str, text: str, path: Path, alt: str) ->
             "aspectRatio": video_aspect(path),
         },
     }
-    if LINK in text:
-        record["facets"] = [facet_for(text, LINK)]
+    attach_facets(record, text, LINK if LINK in text else None)
     base = pds_of(session)
     try:
         created = request(
@@ -1562,7 +1609,14 @@ def post_video(force: bool, dry_run: bool, file_path: str | None, text_file: str
         raise SystemExit(f"No video at {path}")
     if path.suffix.lower() != ".mp4":
         raise SystemExit("The video needs to be an mp4.")
+    length = video_duration(path)
+    if length < 32 or length > 39:
+        raise SystemExit(
+            f"Video is {length:.1f}s. A clip is fifteen seconds plus two extensions of ten."
+        )
     text = read_text_file(text_file, "caption", LIMIT)
+    if LINK not in text or f"#{TAG}" not in text:
+        raise SystemExit("The caption needs the LibreSky link and #LibreSky.")
     alt = read_text_file(alt_file, "alt text", 1000)
     now = berlin_now()
     state = load_state()
@@ -1612,9 +1666,7 @@ def publish_text(session: dict, token: str, text: str) -> str:
         "createdAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z",
         "langs": ["en"],
     }
-    facets = link_facets(text)
-    if facets:
-        record["facets"] = facets
+    attach_facets(record, text)
     created = request(
         f"{base}/xrpc/com.atproto.repo.createRecord",
         token,
@@ -1786,7 +1838,8 @@ def blurb_of(body: str) -> str:
 def release_text(item: dict) -> str:
     fact = blurb_of(item["body"]) or item["heading"]
     prefix = f"{item['emoji']} {item['name']} updated. "
-    suffix = f" The rest of the file can wait.\n{item['link']}"
+    tag = f"\n#{TAG}" if item["link"] == LINK else ""
+    suffix = f" The rest of the file can wait.\n{item['link']}{tag}"
     sentences = [part.strip() for part in re.split(r"(?<=[.!?])\s+", fact) if part.strip()]
     kept: list[str] = []
     for sentence in sentences:
