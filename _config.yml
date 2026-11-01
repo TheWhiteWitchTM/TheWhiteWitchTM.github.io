@@ -13,6 +13,7 @@ plugins:
 # starts with "_" or ".", including /mira/_next, unless it is listed here.
 include:
   - .nojekyll
+  - _SX5YzwGS5XW4Bh-wvOMy
   - __next.__PAGE__.txt
   - __next._full.txt
   - __next._index.txt
