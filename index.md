@@ -20,11 +20,11 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
   <p class="hero-lead">The long pages, the lab, and the games open straight in. LibreSky is the second stop, in two editions, with <a href="https://thewhitewitchtm.github.io/sociallydead/">SociallyDead</a> beside them. MAGIC and RETRO MAGIC have shelves of their own. The Qt apps each have a page.</p>
   <p class="hero-actions">
     <a class="btn btn-line" href="#showcase">Showcase</a>
-    <a class="btn btn-line" href="https://thewhitewitchtm.github.io/Releases/">Releases</a>
+    <a class="btn btn-line" href="https://thewhitewitchtm.github.io/Releases/" target="_blank" rel="noopener noreferrer">Releases</a>
     <a class="btn btn-line" href="https://thewhitewitchtm.github.io/whitewitch/" target="_blank" rel="noopener noreferrer">The White Witch™</a>
     <a class="btn" href="https://thewhitewitchtm.github.io/LibreSky/" target="_blank" rel="noopener noreferrer">Open LibreSky</a>
   </p>
-  <p class="hero-note">The menu up top and the footer below carry the rest. Downloads are on the <a href="https://thewhitewitchtm.github.io/Releases/">releases shelf</a>. Paid work is the <a href="#showcase">showcase</a> at the end. Mail is <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>.</p>
+  <p class="hero-note">The menu up top and the footer below carry the rest. Downloads are on the <a href="https://thewhitewitchtm.github.io/Releases/" target="_blank" rel="noopener noreferrer">releases shelf</a>. Paid work is the <a href="#showcase">showcase</a> at the end. Mail is <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>.</p>
 </header>
 
 <section class="band" id="doors">
@@ -140,7 +140,7 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
     <h2>Releases</h2>
     <p>The binaries, on one shelf. A new folder in the repository shows up there on its own.</p>
   </div>
-  <a class="feature feature-work" href="https://thewhitewitchtm.github.io/Releases/">
+  <a class="feature feature-work" href="https://thewhitewitchtm.github.io/Releases/" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/releases.jpg' | relative_url }}" alt="The White Witch Releases. A green-haired witch in white beside a cauldron, and the word Releases." width="1168" height="784">
     <span class="feature-copy">
       <span class="kicker">The shelf</span>
