@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://thewhitewitchtm.github.io/andreas/</loc>
+<xhtml:link rel="alternate" hreflang="de" href="https://thewhitewitchtm.github.io/andreas/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://thewhitewitchtm.github.io/andreas/en/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/andreas/leistungen/</loc>
+<xhtml:link rel="alternate" hreflang="de" href="https://thewhitewitchtm.github.io/andreas/leistungen/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://thewhitewitchtm.github.io/andreas/en/services/" />
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/andreas/ueber/</loc>
+<xhtml:link rel="alternate" hreflang="de" href="https://thewhitewitchtm.github.io/andreas/ueber/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://thewhitewitchtm.github.io/andreas/en/about/" />
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/andreas/kontakt/</loc>
+<xhtml:link rel="alternate" hreflang="de" href="https://thewhitewitchtm.github.io/andreas/kontakt/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://thewhitewitchtm.github.io/andreas/en/contact/" />
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/andreas/impressum/</loc>
+<xhtml:link rel="alternate" hreflang="de" href="https://thewhitewitchtm.github.io/andreas/impressum/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://thewhitewitchtm.github.io/andreas/en/impressum/" />
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://thewhitewitchtm.github.io/andreas/datenschutz/</loc>
+<xhtml:link rel="alternate" hreflang="de" href="https://thewhitewitchtm.github.io/andreas/datenschutz/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://thewhitewitchtm.github.io/andreas/en/privacy/" />
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+</urlset>
