@@ -25,7 +25,7 @@ software_features:
   <h1>RETRO Center</h1>
   <p class="hero-lead">Five machines, one shelf. Power on, or drop a disk you own. The classics are cards you bring. The shelf is the power button.</p>
   <p class="hero-actions">
-    <a class="btn" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/" target="_blank" rel="noopener noreferrer">Open the shelf</a>
+    <a class="btn" href="https://thewhitewitchtm.sociallydead.me/magic/retro/center/" target="_blank" rel="noopener noreferrer">Open the shelf</a>
     <a class="btn btn-line" href="https://github.com/TheWhiteWitchTM/RETRO-Center" target="_blank" rel="noopener noreferrer">Source</a>
   </p>
 </header>
@@ -50,4 +50,4 @@ software_features:
 
 <p class="beat">The language and the toolchain live with <a href="{{ '/magic/' | relative_url }}">MAGIC</a>.</p>
 
-<p class="close-note">The longer page is on <a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/center/">The White Witch</a>. The source is <a href="https://github.com/TheWhiteWitchTM/RETRO-Center">on GitHub</a>, under the MIT license. <a href="{{ '/' | relative_url }}">Back to the card</a>.</p>
+<p class="close-note">The longer page is on <a href="https://thewhitewitchtm.sociallydead.me/magic/retro/center/">The White Witch</a>. The source is <a href="https://github.com/TheWhiteWitchTM/RETRO-Center">on GitHub</a>, under the MIT license. <a href="{{ '/' | relative_url }}">Back to the card</a>.</p>

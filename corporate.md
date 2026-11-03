@@ -48,7 +48,7 @@ software_features:
 <p class="beat">The public sky is open today.</p>
 
 <section class="band">
-  <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/">
+  <a class="feature" href="https://libresky.sociallydead.me/">
     <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. Highlighted features: Edit, AI, Voice, Video, and Chat." width="1200" height="630">
     <span class="feature-copy">
       <span class="feature-text">Home, Discover, search, chat, and calls. Your account, in this browser. The password stays with Bluesky.</span>

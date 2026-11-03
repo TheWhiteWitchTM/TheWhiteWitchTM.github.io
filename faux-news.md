@@ -31,7 +31,7 @@ software_name: FAUX NEWS
   <div class="band-head">
     <p class="kicker">The wires</p>
     <h2>Their headline stays attached</h2>
-    <p>Fox, Breitbart, Newsmax, OANN, and the rest of that shelf. The original headline stays on the card. The rest is a joke. Politics and the long pages stay on <a href="https://thewhitewitchtm.github.io/whitewitch/">The White Witch™</a>.</p>
+    <p>Fox, Breitbart, Newsmax, OANN, and the rest of that shelf. The original headline stays on the card. The rest is a joke. Politics and the long pages stay on <a href="https://thewhitewitchtm.sociallydead.me/">The White Witch™</a>.</p>
   </div>
 </section>
 

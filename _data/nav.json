@@ -10,18 +10,18 @@
     {
       "title": "Doors",
       "dropdown": [
-        { "title": "The White Witch™", "url": "https://thewhitewitchtm.github.io/whitewitch/" },
-        { "title": "Mira's World", "url": "https://thewhitewitchtm.github.io/mira/" },
+        { "title": "The White Witch™", "url": "https://thewhitewitchtm.sociallydead.me/" },
+        { "title": "Mira's World", "url": "https://miratechtm.sociallydead.me/" },
         { "title": "Emoji Games", "url": "https://thewhitewitchtm.github.io/emojigames/" }
       ]
     },
     {
       "title": "LibreSky",
       "dropdown": [
-        { "title": "Open LibreSky", "url": "https://thewhitewitchtm.github.io/LibreSky/" },
+        { "title": "Open LibreSky", "url": "https://libresky.sociallydead.me/" },
         { "title": "LibreSky Corporate", "url": "/corporate/" },
         { "separator": true },
-        { "title": "SociallyDead", "url": "https://thewhitewitchtm.github.io/sociallydead/" }
+        { "title": "SociallyDead", "url": "https://sociallydead.me/" }
       ]
     },
     {
@@ -38,9 +38,9 @@
     {
       "title": "MAGIC",
       "dropdown": [
-        { "title": "MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/" },
-        { "title": "MAGIC Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/studio/" },
-        { "title": "MAGIC Apprentice", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/" },
+        { "title": "MAGIC", "url": "https://thewhitewitchtm.sociallydead.me/magic/" },
+        { "title": "MAGIC Studio", "url": "https://thewhitewitchtm.sociallydead.me/magic/studio/" },
+        { "title": "MAGIC Apprentice", "url": "https://thewhitewitchtm.sociallydead.me/magic/apprentice/" },
         { "separator": true },
         { "title": "On this site", "url": "/magic/" }
       ]
@@ -48,9 +48,9 @@
     {
       "title": "RETRO",
       "dropdown": [
-        { "title": "RETRO MAGIC", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/" },
-        { "title": "RETRO Studio", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/" },
-        { "title": "RETRO Toolchain", "url": "https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/" },
+        { "title": "RETRO MAGIC", "url": "https://thewhitewitchtm.sociallydead.me/magic/retro/" },
+        { "title": "RETRO Studio", "url": "https://thewhitewitchtm.sociallydead.me/magic/retro/studio/" },
+        { "title": "RETRO Toolchain", "url": "https://thewhitewitchtm.sociallydead.me/magic/retro/toolchain/" },
         { "title": "RETRO Center", "url": "/retro-center/" }
       ]
     },

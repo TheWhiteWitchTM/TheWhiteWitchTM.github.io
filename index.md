@@ -17,14 +17,14 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
 <header class="hero">
   <p class="hero-kicker">Mira · The White Witch™</p>
   <h1>Three doors. Then the sky.</h1>
-  <p class="hero-lead">The long pages, the lab, and the games open straight in. LibreSky is the second stop, in two editions, with <a href="https://thewhitewitchtm.github.io/sociallydead/">SociallyDead</a> beside them. MAGIC and RETRO MAGIC have shelves of their own. The Qt apps each have a page.</p>
+  <p class="hero-lead">The long pages, the lab, and the games open straight in. LibreSky is the second stop, in two editions, with <a href="https://sociallydead.me/">SociallyDead</a> beside them. MAGIC and RETRO MAGIC have shelves of their own. The Qt apps each have a page.</p>
   <p class="hero-actions">
     <a class="btn btn-line" href="#showcase">Showcase</a>
     <a class="btn btn-line" href="https://thewhitewitchtm.github.io/Releases/" target="_blank" rel="noopener noreferrer">Releases</a>
-    <a class="btn btn-line" href="https://thewhitewitchtm.github.io/whitewitch/" target="_blank" rel="noopener noreferrer">The White Witch™</a>
-    <a class="btn" href="https://thewhitewitchtm.github.io/LibreSky/" target="_blank" rel="noopener noreferrer">Open LibreSky</a>
+    <a class="btn btn-line" href="https://thewhitewitchtm.sociallydead.me/" target="_blank" rel="noopener noreferrer">The White Witch™</a>
+    <a class="btn" href="https://libresky.sociallydead.me/" target="_blank" rel="noopener noreferrer">Open LibreSky</a>
   </p>
-  <p class="hero-note">The menu up top and the footer below carry the rest. Downloads are on the <a href="https://thewhitewitchtm.github.io/Releases/" target="_blank" rel="noopener noreferrer">releases shelf</a>. Paid work is the <a href="#showcase">showcase</a> at the end. Mail is <a href="mailto:thewhitewitchtm@google.com">thewhitewitchtm@google.com</a>.</p>
+  <p class="hero-note">The menu up top and the footer below carry the rest. Downloads are on the <a href="https://thewhitewitchtm.github.io/Releases/" target="_blank" rel="noopener noreferrer">releases shelf</a>. Paid work is the <a href="#showcase">showcase</a> at the end. Mail is <a href="mailto:thewhitewitchtm@sociallydead.me">thewhitewitchtm@sociallydead.me</a>.</p>
 </header>
 
 <section class="band" id="doors">
@@ -34,14 +34,14 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
     <p>Politics, the lab, and the games. A click opens that site.</p>
   </div>
   <div class="shelf shelf-3">
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/" target="_blank" rel="noopener noreferrer">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="The White Witch. Pixel art, green circuits, and the site name." width="1168" height="784">
       <span class="card-body">
         <span class="card-title">The White Witch™ <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">Politics, tools, and the long pages. Facts first.</span>
       </span>
     </a>
-    <a class="card card-mira" id="miras-world" href="https://thewhitewitchtm.github.io/mira/" target="_blank" rel="noopener noreferrer">
+    <a class="card card-mira" id="miras-world" href="https://miratechtm.sociallydead.me/" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/images/mira.jpg' | relative_url }}" alt="Mira, smiling, in a black jacket." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">Mira's World™ <span class="card-go" aria-hidden="true">↗</span></span>
@@ -65,7 +65,7 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
     <p>Two editions of the client, and a directory of social media. The public client opens in the browser. Corporate is the one you host. SociallyDead lists websites, YouTube, X, and Bluesky.</p>
   </div>
   <div class="sky-pair">
-    <a class="feature" href="https://thewhitewitchtm.github.io/LibreSky/" target="_blank" rel="noopener noreferrer">
+    <a class="feature" href="https://libresky.sociallydead.me/" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/images/libresky.png' | relative_url }}" alt="LibreSky. A Bluesky client. Edit, AI, Voice, Video, and Chat." width="1200" height="630">
       <span class="feature-copy">
         <span class="kicker">Open now</span>
@@ -83,7 +83,7 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
         <span class="feature-go">Read the page →</span>
       </span>
     </a>
-    <a class="feature feature-social" id="sociallydead" href="https://thewhitewitchtm.github.io/sociallydead/" target="_blank" rel="noopener noreferrer">
+    <a class="feature feature-social" id="sociallydead" href="https://sociallydead.me/" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/images/sociallydead.jpg' | relative_url }}" alt="SociallyDead. A directory of social media. Websites, YouTube, X, and Bluesky." width="1200" height="630">
       <span class="feature-copy">
         <span class="kicker">Directory</span>
@@ -158,21 +158,21 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
     <p>Lua and BASIC, compiled to JavaScript. Sprites, a terminal, games. The emoji games needed a language. This is that language. The <a href="{{ '/magic/' | relative_url }}">card on this site</a> collects the three desks.</p>
   </div>
   <div class="shelf shelf-3">
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/magic/">
       <img src="{{ '/assets/images/magic.jpg' | relative_url }}" alt="MAGIC. A brass star on a book of constellations and circuit traces." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">MAGIC <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">Lua and BASIC, compiled to JavaScript. Sprites, a terminal, games.</span>
       </span>
     </a>
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/magic/studio/">
       <img src="{{ '/assets/images/studio.jpg' | relative_url }}" alt="MAGIC Studio. The dark IDE for the MAGIC language." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">MAGIC Studio <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">The dark IDE. Write it, run it, and see the sprite.</span>
       </span>
     </a>
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/magic/apprentice/">
       <img src="{{ '/assets/images/apprentice.jpg' | relative_url }}" alt="MAGIC Apprentice. A simpler desk for ages 8 to 16." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">MAGIC Apprentice <span class="card-go" aria-hidden="true">↗</span></span>
@@ -189,21 +189,21 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
     <p>The same language, pointed at hardware that cannot show a notification. BASIC and assembly for the C64, the Apple II, and the TI-99/4A. The shelf that powers the machines on is <a href="{{ '/retro-center/' | relative_url }}">RETRO Center</a>.</p>
   </div>
   <div class="shelf shelf-4up">
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/magic/retro/">
       <img src="{{ '/assets/images/retro-magic.jpg' | relative_url }}" alt="RETRO MAGIC. BASIC and assembly for the C64, the Apple II, and the TI-99/4A." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">RETRO MAGIC <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">BASIC and assembly for the C64, the Apple II, and the TI-99/4A.</span>
       </span>
     </a>
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/magic/retro/studio/">
       <img src="{{ '/assets/images/retro-studio.jpg' | relative_url }}" alt="RETRO Studio. BASIC, assembly, yours." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">RETRO Studio <span class="card-go" aria-hidden="true">↗</span></span>
         <span class="card-copy">The window for the three machines.</span>
       </span>
     </a>
-    <a class="card" href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/">
+    <a class="card" href="https://thewhitewitchtm.sociallydead.me/magic/retro/toolchain/">
       <img src="{{ '/assets/images/retro-toolchain.jpg' | relative_url }}" alt="RETRO Toolchain. Assembler, C, Pascal, and BASIC." width="1200" height="630">
       <span class="card-body">
         <span class="card-title">RETRO Toolchain <span class="card-go" aria-hidden="true">↗</span></span>
@@ -237,7 +237,7 @@ image_alt: The White Witch. Pixel witch, green circuits, and the site name.
   </div>
 </section>
 
-<p class="close-note">FAUX NEWS is satire. The witch on X, Bluesky, and <a href="https://thewhitewitchtm.github.io/mira/">Mira's World</a> can be loud. This page is the card.</p>
+<p class="close-note">FAUX NEWS is satire. The witch on X, Bluesky, and <a href="https://miratechtm.sociallydead.me/">Mira's World</a> can be loud. This page is the card.</p>
 
 <section class="band" id="showcase">
   <div class="band-head">

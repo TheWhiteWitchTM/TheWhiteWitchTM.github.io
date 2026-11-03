@@ -24,7 +24,7 @@ software_features:
   <h1>MAGIC</h1>
   <p class="hero-lead">Lua and BASIC, compiled to JavaScript. Sprites, a terminal, games. The emoji games needed a language. This is that language.</p>
   <p class="hero-actions">
-    <a class="btn" href="https://thewhitewitchtm.github.io/whitewitch/magic/" target="_blank" rel="noopener noreferrer">Open MAGIC</a>
+    <a class="btn" href="https://thewhitewitchtm.sociallydead.me/magic/" target="_blank" rel="noopener noreferrer">Open MAGIC</a>
     <a class="btn btn-line" href="https://github.com/TheWhiteWitchTM/MAGIC" target="_blank" rel="noopener noreferrer">Source</a>
   </p>
 </header>
@@ -40,9 +40,9 @@ software_features:
     <p>The language, a dark IDE, and a simpler desk for ages 8 to 16. They open on The White Witch.</p>
   </div>
   <ol class="dial" aria-label="MAGIC desks">
-    <li><strong><a href="https://thewhitewitchtm.github.io/whitewitch/magic/">MAGIC</a></strong><span>Lua + BASIC → JavaScript.</span></li>
-    <li><strong><a href="https://thewhitewitchtm.github.io/whitewitch/magic/studio/">Studio</a></strong><span>The dark IDE.</span></li>
-    <li><strong><a href="https://thewhitewitchtm.github.io/whitewitch/magic/apprentice/">Apprentice</a></strong><span>A simple desk for ages 8–16.</span></li>
+    <li><strong><a href="https://thewhitewitchtm.sociallydead.me/magic/">MAGIC</a></strong><span>Lua + BASIC → JavaScript.</span></li>
+    <li><strong><a href="https://thewhitewitchtm.sociallydead.me/magic/studio/">Studio</a></strong><span>The dark IDE.</span></li>
+    <li><strong><a href="https://thewhitewitchtm.sociallydead.me/magic/apprentice/">Apprentice</a></strong><span>A simple desk for ages 8–16.</span></li>
     <li><strong><a href="https://thewhitewitchtm.github.io/MAGIC/">Language site</a></strong><span>The longer tour.</span></li>
   </ol>
 </section>
@@ -54,9 +54,9 @@ software_features:
     <p>The same language, pointed at hardware that cannot show a notification. BASIC and assembly for the C64, the Apple II, and the TI-99/4A. The shelf that powers those machines on is <a href="{{ '/retro-center/' | relative_url }}">RETRO Center</a>.</p>
   </div>
   <ol class="dial" aria-label="RETRO MAGIC">
-    <li><strong><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/">RETRO MAGIC</a></strong><span>The language for the three machines.</span></li>
-    <li><strong><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/studio/">RETRO Studio</a></strong><span>The window.</span></li>
-    <li><strong><a href="https://thewhitewitchtm.github.io/whitewitch/magic/retro/toolchain/">Toolchain</a></strong><span>6510 assembler. C, Pascal, and BASIC, out as a PRG.</span></li>
+    <li><strong><a href="https://thewhitewitchtm.sociallydead.me/magic/retro/">RETRO MAGIC</a></strong><span>The language for the three machines.</span></li>
+    <li><strong><a href="https://thewhitewitchtm.sociallydead.me/magic/retro/studio/">RETRO Studio</a></strong><span>The window.</span></li>
+    <li><strong><a href="https://thewhitewitchtm.sociallydead.me/magic/retro/toolchain/">Toolchain</a></strong><span>6510 assembler. C, Pascal, and BASIC, out as a PRG.</span></li>
     <li><strong><a href="{{ '/retro-center/' | relative_url }}">RETRO Center</a></strong><span>The power button. Five machines.</span></li>
   </ol>
 </section>
